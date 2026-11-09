@@ -495,10 +495,10 @@ body.is-playing .onair {
   font-family: var(--font-cute);
   font-size: 2.2cqw;
   box-shadow: 0 .7cqw 0 rgba(120,30,70,.3);
-  transition: transform .12s, box-shadow .12s;
+  transition: filter .12s, box-shadow .12s;
 }
-.btn-sing:hover { transform: translateY(-.3cqw) rotate(-1deg); }
-.btn-sing:active { transform: translateY(.5cqw); box-shadow: 0 .2cqw 0 rgba(120,30,70,.3); }
+.btn-sing:hover { filter: brightness(1.08); box-shadow: 0 .7cqw 0 rgba(120,30,70,.3), 0 0 0 .5cqw rgba(236,79,134,.2); }
+.btn-sing:active { filter: brightness(.95); box-shadow: 0 .2cqw 0 rgba(120,30,70,.3); }
 .btn-sing svg { width: 2.6cqw; height: 2.6cqw; }
 .soon { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
 .soon p { margin: 0; font-family: var(--font-cute); font-size: 2.4cqw; color: #B5648B; line-height: 1.5; }
@@ -674,8 +674,8 @@ body.is-playing .onair {
 <div class="loader" id="loader">
   <div class="loader-inner">
     <div class="notes" aria-hidden="true"><span>♪</span><span>♫</span><span>♪</span></div>
-    <p>Sakiyo is getting ready</p>
-    <small id="loaderInfo">Loading sprites</small>
+    <p>SakiyoSong</p>
+    <small id="loaderInfo">Sakiyo is getting ready</small>
   </div>
 </div>
 
@@ -784,7 +784,7 @@ function loadSprites() {
     });
     function done() {
       settled++;
-      $('#loaderInfo').textContent = `Loading sprites ${settled} of ${keys.length}`;
+      $('#loaderInfo').textContent = `Sakiyo is getting ready (${settled} of ${keys.length})`;
       if (settled === keys.length) resolve();
     }
   });
@@ -1204,17 +1204,29 @@ function buildBook() {
       const pageNo = (k >= 1 && k < pages.length - 1 && p.type !== 'endpaper') ? k : 0;
       face.innerHTML = pageHTML(p, pageNo);
       face.addEventListener('click', (e) => {
-        if (e.target.closest('button')) return;
-        if (side === 'front' && cur === li) go(li + 1);
-        if (side === 'back' && cur === li + 1) go(li);
+        const visible = (side === 'front' && cur === li) || (side === 'back' && cur === li + 1);
+        if (!visible) return;
+        // The 3D book can confuse the browser about what was clicked,
+        // so check what's really under the pointer before turning the page.
+        const under = (e.target.closest && e.target.closest('button')) ||
+          document.elementsFromPoint(e.clientX, e.clientY)
+            .map((el) => el.closest && el.closest('button'))
+            .find((b) => b && face.contains(b));
+        if (under) {
+          if (under !== e.target.closest('button')) pressBookButton(under);
+          return;
+        }
+        go(side === 'front' ? li + 1 : li);
       });
       leaf.appendChild(face);
     });
     bookEl.appendChild(leaf);
     leaves.push(leaf);
   }
-  bookEl.querySelectorAll('[data-sing]').forEach((b) => b.addEventListener('click', () => sing(+b.dataset.sing)));
-  bookEl.querySelectorAll('[data-goto]').forEach((b) => b.addEventListener('click', () => go(Math.ceil(+b.dataset.goto / 2))));
+  bookEl.querySelectorAll('[data-sing], [data-goto]').forEach((b) => b.addEventListener('click', (e) => {
+    e.stopPropagation();
+    pressBookButton(b);
+  }));
   layoutBook(true);
 }
 
@@ -1232,6 +1244,10 @@ function whereText() {
   return narrowBook.matches ? `Page ${2 * cur}` : `Pages ${2 * cur - 1}–${2 * cur}`;
 }
 narrowBook.addEventListener && narrowBook.addEventListener('change', () => { if (leaves.length) layoutBook(); });
+function pressBookButton(b) {
+  if (b.dataset.sing !== undefined) sing(+b.dataset.sing);
+  else if (b.dataset.goto !== undefined) go(Math.ceil(+b.dataset.goto / 2));
+}
 function leafTransform(i, flipped) {
   const L = leaves.length;
   const z = flipped ? -(i + 1) * 0.7 : (L - i) * 0.7;
