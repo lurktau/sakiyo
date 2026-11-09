@@ -12,7 +12,7 @@ NoteNum=60
 PreUtterance=
 [#0001]
 Length=476
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -24,7 +24,7 @@ PBY=0.03662556464412603,0.03662556464412603,-0.048834086192144355,-0.63484312049
 PBM=,,,
 [#0002]
 Length=479
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -36,7 +36,7 @@ PBY=0.061042607740233734,-0.08545965083627038
 PBM=
 [#0003]
 Length=483
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -48,7 +48,7 @@ PBY=-0.09766817238428871,-0.10987669393230703,1.1964351117079275,1.1231839824196
 PBM=,,,
 [#0004]
 Length=476
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -60,7 +60,7 @@ PBY=-0.1342937370284858,0.061042607740233734
 PBM=
 [#0005]
 Length=482
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -72,7 +72,7 @@ PBY=0.07325112928825206,0.14650225857650412,0.7569283359785572,0.195336344768719
 PBM=,,
 [#0006]
 Length=480
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -84,7 +84,7 @@ PBY=0.1831278232205591,0.17091930167254077,-1.1842265901599092,-1.19643511170792
 PBM=,,,
 [#0007]
 Length=240
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -96,7 +96,7 @@ PBY=-0.012208521548018325,0,0.6470516420461081
 PBM=,
 [#0008]
 Length=721
-Lyric=Ç—Ç„
+Lyric=„Å≥„ÇÖ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -108,7 +108,7 @@ PBY=0.6348431204980898,0.036625564644054975,-1.2941032840923583,-0.2563789525088
 PBM=,,
 [#0009]
 Length=483
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -120,7 +120,7 @@ PBY=-0.24417043096079283,-0.2075448663166668,0.41508973263340465,0.0244170430961
 PBM=,,
 [#0010]
 Length=542
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -132,7 +132,7 @@ PBY=0.03662556464412603,0.03662556464412603
 PBM=
 [#0011]
 Length=419
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -144,7 +144,7 @@ PBY=0.02441704309603665,0.5371749481138011,-0.20754486631673785
 PBM=,
 [#0012]
 Length=480
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -156,7 +156,7 @@ PBY=-0.21975338786475618,-0.3174215602490449
 PBM=
 [#0013]
 Length=477
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -168,7 +168,7 @@ PBY=-0.30521303870102656,-0.14650225857650412
 PBM=
 [#0014]
 Length=481
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -180,7 +180,7 @@ PBY=-0.15871078012452244,-0.17091930167254077,-1.1476010255158542,-1.18422659015
 PBM=,,,
 [#0015]
 Length=233
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -192,7 +192,7 @@ PBY=-0.07325112928825206,-0.036625564644054975,0.7203027713343602
 PBM=,
 [#0016]
 Length=729
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -204,7 +204,7 @@ PBY=0.7080942497863418,0.6470516420461081,-1.2208521548041062,-0.024417043096036
 PBM=,,
 [#0017]
 Length=474
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -216,7 +216,7 @@ PBY=-0.012208521548018325,-0.3296300817970632
 PBM=
 [#0018]
 Length=540
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -228,7 +228,7 @@ PBY=-0.3174215602490449,-0.26858747405690053
 PBM=
 [#0019]
 Length=426
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -240,7 +240,7 @@ PBY=-0.2807959956049899,-0.9888902453913317,0.08545965083627038
 PBM=,
 [#0020]
 Length=472
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -252,7 +252,7 @@ PBY=0.07325112928825206,-0.08545965083627038
 PBM=
 [#0021]
 Length=484
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -264,7 +264,7 @@ PBY=-0.07325112928825206,-0.19533634476871953,-1.110975460871657,-1.074349896227
 PBM=,,,
 [#0022]
 Length=238
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -276,7 +276,7 @@ PBY=-0.10987669393230703,-1.0987669393236388
 PBM=
 [#0023]
 Length=243
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -288,7 +288,7 @@ PBY=-1.110975460871657,-1.0621413746795838,-1.00109876693935,-0.0610426077402337
 PBM=,,,
 [#0024]
 Length=246
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -300,7 +300,7 @@ PBY=-0.08545965083627038,-0.09766817238428871,-0.7447198144305389,-0.75692833597
 PBM=,,
 [#0025]
 Length=721
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -312,7 +312,7 @@ PBY=-0.7691368575265756,-0.25637895250881115
 PBM=
 [#0026]
 Length=476
-Lyric=Ç⁄
+Lyric=„Åº
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -324,7 +324,7 @@ PBY=-0.24417043096079283,-0.2319619094127745,-1.1720180686118908,-1.147601025515
 PBM=,,,
 [#0027]
 Length=475
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -336,7 +336,7 @@ PBY=-0.17091930167254077,-0.18312782322063015
 PBM=
 [#0028]
 Length=482
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -348,7 +348,7 @@ PBY=-0.19533634476871953,0.02441704309603665
 PBM=
 [#0029]
 Length=478
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -360,7 +360,7 @@ PBY=0.036625564644054975,0.012208521548018325,-1.1842265901599092,-1.11097546087
 PBM=,,,
 [#0030]
 Length=246
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -372,7 +372,7 @@ PBY=-0.17091930167254077,0.08545965083627038
 PBM=
 [#0031]
 Length=235
-Lyric=Ç∂
+Lyric=„Åò
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -384,7 +384,7 @@ PBY=0.07325112928825206,0.2807959956049899,-0.5615919912098377
 PBM=,
 [#0032]
 Length=487
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -396,7 +396,7 @@ PBY=-0.573800512757856,-0.14650225857650412
 PBM=
 [#0033]
 Length=959
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -408,7 +408,7 @@ PBY=-0.15871078012452244,-0.3296300817970632
 PBM=
 [#0034]
 Length=481
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -420,7 +420,7 @@ PBY=-0.3174215602490449,0.14650225857650412
 PBM=
 [#0035]
 Length=674
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -437,7 +437,7 @@ NoteNum=60
 PreUtterance=
 [#0037]
 Length=474
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -449,7 +449,7 @@ PBY=-0.02441704309603665,0
 PBM=
 [#0038]
 Length=484
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -461,7 +461,7 @@ PBY=0.012208521548018325,0.7691368575265756,-0.012208521548018325
 PBM=,
 [#0039]
 Length=474
-Lyric=Ç‚
+Lyric=„ÇÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -473,7 +473,7 @@ PBY=0,0.47613234037356733,-0.2319619094127745
 PBM=,
 [#0040]
 Length=245
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -485,7 +485,7 @@ PBY=-0.24417043096079283,-0.25637895250881115,0.3662556464412603,1.0010987669393
 PBM=,,,
 [#0041]
 Length=718
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -497,7 +497,7 @@ PBY=0.964473202295153,0.7569283359785572,-0.6836772066903052,-0.2441704309607928
 PBM=,,
 [#0042]
 Length=484
-Lyric=ÇµÇ„
+Lyric=„Åó„ÇÖ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -509,7 +509,7 @@ PBY=-0.2319619094127745,-0.6714686851422158,0.2075448663166668
 PBM=,
 [#0043]
 Length=476
-Lyric=ÇµÇÂ
+Lyric=„Åó„Çá
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -521,7 +521,7 @@ PBY=0.21975338786475618,0
 PBM=
 [#0044]
 Length=477
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -533,7 +533,7 @@ PBY=-0.012208521548018325,-0.2685874740568295
 PBM=
 [#0045]
 Length=488
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -545,7 +545,7 @@ PBY=-0.2807959956049899,-0.10987669393230703
 PBM=
 [#0046]
 Length=475
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -557,7 +557,7 @@ PBY=-0.09766817238428871,-0.2319619094127745
 PBM=
 [#0047]
 Length=485
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -569,7 +569,7 @@ PBY=-0.21975338786475618,0.15871078012452244
 PBM=
 [#0048]
 Length=242
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -581,7 +581,7 @@ PBY=0.14650225857650412,-0.9766817238433134
 PBM=
 [#0049]
 Length=720
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -593,7 +593,7 @@ PBY=-0.9888902453913317,-0.8668050299108643,-0.34183860334508154,0.2930045171530
 PBM=,,,
 [#0050]
 Length=480
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -605,7 +605,7 @@ PBY=0.012208521548018325,0.2563789525088822
 PBM=
 [#0051]
 Length=476
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -617,7 +617,7 @@ PBY=0.24417043096079283,-0.09766817238435976
 PBM=
 [#0052]
 Length=473
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -629,7 +629,7 @@ PBY=-0.10987669393230703,0.15871078012452244
 PBM=
 [#0053]
 Length=489
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -641,7 +641,7 @@ PBY=0.17091930167254077,-0.24417043096079283
 PBM=
 [#0054]
 Length=480
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -653,7 +653,7 @@ PBY=-0.2319619094127745,-0.7447198144305389,0.07325112928825206
 PBM=,
 [#0055]
 Length=480
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -665,7 +665,7 @@ PBY=0.061042607740233734,-0.5127579050177644,-0.30521303870102656
 PBM=,
 [#0056]
 Length=239
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -677,7 +677,7 @@ PBY=-0.3174215602490449,-0.3662556464412603,-1.2086436332559458,-1.2208521548041
 PBM=,,
 [#0057]
 Length=722
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -689,7 +689,7 @@ PBY=-1.2330606763521246,-1.110975460871657,-0.6958857282383235,0.061042607740233
 PBM=,,,
 [#0058]
 Length=476
-Lyric=ÇøÇ·
+Lyric=„Å°„ÇÉ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -701,7 +701,7 @@ PBY=-0.17091930167254077,0.21975338786475618
 PBM=
 [#0059]
 Length=482
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -713,7 +713,7 @@ PBY=0.2319619094127745,0.15871078012452244
 PBM=
 [#0060]
 Length=480
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -725,7 +725,7 @@ PBY=0.14650225857650412,-0.4150897326333336
 PBM=
 [#0061]
 Length=722
-Lyric=Ç⁄
+Lyric=„Åº
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -737,7 +737,7 @@ PBY=-0.40288121108531527,0.2319619094127745,-0.20754486631673785
 PBM=,
 [#0062]
 Length=236
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -749,7 +749,7 @@ PBY=-0.19533634476864847,-0.927847637651098
 PBM=
 [#0063]
 Length=425
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -766,7 +766,7 @@ NoteNum=60
 PreUtterance=
 [#0065]
 Length=958
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -778,7 +778,7 @@ PBY=-0.21975338786475618,-0.19533634476871953,0.6348431204980898,-0.024417043096
 PBM=,,
 [#0066]
 Length=244
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -790,7 +790,7 @@ PBY=-0.012208521548018325,-1.1476010255157831
 PBM=
 [#0067]
 Length=240
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -802,7 +802,7 @@ PBY=-1.1353925039677648,-1.0743498962276021,-0.9766817238432424,0.01220852154801
 PBM=,,,
 [#0068]
 Length=959
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=62
 PreUtterance=
 PBType=5
@@ -814,7 +814,7 @@ PBY=0.024417043096107705,0.9766817238432424,0.061042607740233734
 PBM=,
 [#0069]
 Length=956
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -831,7 +831,7 @@ NoteNum=60
 PreUtterance=
 [#0071]
 Length=912
-Lyric=Ç∏
+Lyric=„Åö
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -848,7 +848,7 @@ NoteNum=60
 PreUtterance=
 [#0073]
 Length=485
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -860,7 +860,7 @@ PBY=-0.5127579050176934,-0.09766817238435976
 PBM=
 [#0074]
 Length=917
-Lyric=Çª
+Lyric=„Åù
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -877,7 +877,7 @@ NoteNum=60
 PreUtterance=
 [#0076]
 Length=483
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -889,7 +889,7 @@ PBY=-0.6958857282383235,-0.8423879868148276,-0.10987669393237809
 PBM=,
 [#0077]
 Length=479
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -901,7 +901,7 @@ PBY=-0.061042607740233734,0.15871078012452244
 PBM=
 [#0078]
 Length=474
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -913,7 +913,7 @@ PBY=0.17091930167254077,0.1831278232205591,-0.8179709437187199,-0.29300451715300
 PBM=,,
 [#0079]
 Length=478
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -925,7 +925,7 @@ PBY=0.927847637651098,0.8912220730069009,-0.1831278232205591
 PBM=,
 [#0080]
 Length=477
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -937,7 +937,7 @@ PBY=-0.19533634476864847,-0.964473202295224,-0.427298254181423
 PBM=,
 [#0081]
 Length=927
-Lyric=ÇÊ
+Lyric=„Çà
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -954,7 +954,7 @@ NoteNum=60
 PreUtterance=
 [#0083]
 Length=912
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -971,7 +971,7 @@ NoteNum=60
 PreUtterance=
 [#0085]
 Length=241
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -988,7 +988,7 @@ NoteNum=60
 PreUtterance=
 [#0087]
 Length=955
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1005,7 +1005,7 @@ NoteNum=60
 PreUtterance=
 [#0089]
 Length=487
-Lyric=Ç’
+Lyric=„Å∑
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1017,7 +1017,7 @@ PBY=0.09766817238428871,-0.2319619094127745
 PBM=
 [#0090]
 Length=477
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1029,7 +1029,7 @@ PBY=-0.21975338786475618,0
 PBM=
 [#0091]
 Length=477
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1041,7 +1041,7 @@ PBY=-0.14650225857650412,-0.09766817238435976
 PBM=
 [#0092]
 Length=484
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1053,7 +1053,7 @@ PBY=-0.10987669393230703,0.15871078012452244
 PBM=
 [#0093]
 Length=480
-Lyric=Çπ
+Lyric=„Åõ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1065,7 +1065,7 @@ PBY=0.14650225857650412,0.12208521548046747,-0.9522646807471347,-0.2807959956049
 PBM=,,
 [#0094]
 Length=918
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -1082,7 +1082,7 @@ NoteNum=60
 PreUtterance=
 [#0096]
 Length=928
-Lyric=Ç–
+Lyric=„Å≤
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1099,7 +1099,7 @@ NoteNum=60
 PreUtterance=
 [#0098]
 Length=475
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1111,7 +1111,7 @@ PBY=-0.7691368575265756,-0.3174215602490449
 PBM=
 [#0099]
 Length=927
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1128,7 +1128,7 @@ NoteNum=60
 PreUtterance=
 [#0101]
 Length=485
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1140,7 +1140,7 @@ PBY=-0.7203027713343602,-0.28079599560491886
 PBM=
 [#0102]
 Length=478
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1152,7 +1152,7 @@ PBY=-1.037724331583405,-0.9888902453913317,0.14650225857650412
 PBM=,
 [#0103]
 Length=477
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1164,7 +1164,7 @@ PBY=0.15871078012452244,0.12208521548046747
 PBM=
 [#0104]
 Length=485
-Lyric=Ç¨
+Lyric=„Åé
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1176,7 +1176,7 @@ PBY=0.10987669393230703,-0.48834086192158566,-0.48834086192158566,0.207544866316
 PBM=,,
 [#0105]
 Length=478
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1188,7 +1188,7 @@ PBY=0.19533634476871953,-0.012208521548018325
 PBM=
 [#0106]
 Length=916
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -1205,7 +1205,7 @@ NoteNum=60
 PreUtterance=
 [#0108]
 Length=918
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1222,7 +1222,7 @@ NoteNum=60
 PreUtterance=
 [#0110]
 Length=478
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1234,7 +1234,7 @@ PBY=0.3784641679892786,-0.024417043096107705
 PBM=
 [#0111]
 Length=918
-Lyric=Ç≤
+Lyric=„Åî
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1251,7 +1251,7 @@ NoteNum=60
 PreUtterance=
 [#0113]
 Length=487
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1263,7 +1263,7 @@ PBY=-0.7447198144304679,-0.9522646807471347,-0.048834086192144355
 PBM=,
 [#0114]
 Length=353
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1280,7 +1280,7 @@ NoteNum=60
 PreUtterance=
 [#0116]
 Length=486
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=60
 PreUtterance=
 PBType=5
@@ -1292,7 +1292,7 @@ PBY=-0.03662556464412603,-0.2319619094127745
 PBM=
 [#0117]
 Length=481
-Lyric=Çø
+Lyric=„Å°
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1304,7 +1304,7 @@ PBY=-0.24417043096079283,-0.28079599560491886,0.8668050299108643,0.0610426077402
 PBM=,,
 [#0118]
 Length=352
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -1321,7 +1321,7 @@ NoteNum=60
 PreUtterance=
 [#0120]
 Length=482
-Lyric=Çø
+Lyric=„Å°
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -1333,7 +1333,7 @@ PBY=-0.04883408619221541,0.3296300817970632
 PBM=
 [#0121]
 Length=484
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1345,7 +1345,7 @@ PBY=0.34183860334508154,0.012208521548018325
 PBM=
 [#0122]
 Length=672
-Lyric=Çø
+Lyric=„Å°
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -1362,7 +1362,7 @@ NoteNum=60
 PreUtterance=
 [#0124]
 Length=925
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1379,7 +1379,7 @@ NoteNum=60
 PreUtterance=
 [#0126]
 Length=488
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1391,7 +1391,7 @@ PBY=-1.0499328531314944,-1.2696862409962506,-0.500549383469675
 PBM=,
 [#0127]
 Length=915
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1408,7 +1408,7 @@ NoteNum=60
 PreUtterance=
 [#0129]
 Length=487
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1420,7 +1420,7 @@ PBY=-0.5249664265657117,-0.7569283359784862,0.04883408619221541
 PBM=,
 [#0130]
 Length=482
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1432,7 +1432,7 @@ PBY=0.061042607740233734,0.09766817238428871
 PBM=
 [#0131]
 Length=480
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1444,7 +1444,7 @@ PBY=0.10987669393230703,-0.39067268953729695,0.29300451715300824
 PBM=,
 [#0132]
 Length=480
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1456,7 +1456,7 @@ PBY=0.2807959956049899,-0.12208521548046747
 PBM=
 [#0133]
 Length=476
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1468,7 +1468,7 @@ PBY=-0.13429373702841474,-0.28079599560491886,-1.2696862409962506,-1.26968624099
 PBM=,,,
 [#0134]
 Length=915
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -1485,7 +1485,7 @@ NoteNum=60
 PreUtterance=
 [#0136]
 Length=925
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1502,7 +1502,7 @@ NoteNum=60
 PreUtterance=
 [#0138]
 Length=249
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1519,7 +1519,7 @@ NoteNum=60
 PreUtterance=
 [#0140]
 Length=958
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1536,7 +1536,7 @@ NoteNum=60
 PreUtterance=
 [#0142]
 Length=474
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1548,7 +1548,7 @@ PBY=-0.10987669393237809,-0.24417043096079283
 PBM=
 [#0143]
 Length=483
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1560,7 +1560,7 @@ PBY=-0.2319619094127745,-0.061042607740233734
 PBM=
 [#0144]
 Length=480
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1572,7 +1572,7 @@ PBY=-0.048834086192144355,0.5493834696618194,-0.15871078012452244
 PBM=,
 [#0145]
 Length=485
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1584,7 +1584,7 @@ PBY=-0.17091930167254077,-0.012208521548018325
 PBM=
 [#0146]
 Length=478
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1596,7 +1596,7 @@ PBY=-0.024417043096107705,0.14650225857650412
 PBM=
 [#0147]
 Length=913
-Lyric=ÇµÇÂ
+Lyric=„Åó„Çá
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -1613,7 +1613,7 @@ NoteNum=60
 PreUtterance=
 [#0149]
 Length=924
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1630,7 +1630,7 @@ NoteNum=60
 PreUtterance=
 [#0151]
 Length=482
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1642,7 +1642,7 @@ PBY=0.6836772066903052,0.15871078012452244
 PBM=
 [#0152]
 Length=950
-Lyric=Ç∞
+Lyric=„Åí
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1654,7 +1654,7 @@ PBY=0.17091930167254077,-0.2807959956049899
 PBM=
 [#0153]
 Length=487
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1666,7 +1666,7 @@ PBY=-0.061042607740233734,-0.34183860334508154
 PBM=
 [#0154]
 Length=479
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1678,7 +1678,7 @@ PBY=-0.3540471248931709,-0.36625564644118924,-1.1964351117079985,-1.233060676352
 PBM=,,,
 [#0155]
 Length=481
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1690,7 +1690,7 @@ PBY=-0.2685874740568295,-0.25637895250881115,0.5493834696618194,-0.0976681723842
 PBM=,,
 [#0156]
 Length=480
-Lyric=Ç‰
+Lyric=„ÇÜ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1702,7 +1702,7 @@ PBY=-0.08545965083627038,-0.07325112928825206,1.0133072884873684,1.0255158100353
 PBM=,,,,
 [#0157]
 Length=480
-Lyric=Ç—
+Lyric=„Å≥
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1714,7 +1714,7 @@ PBY=-0.036625564644054975,-0.09766817238428871
 PBM=
 [#0158]
 Length=483
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1726,7 +1726,7 @@ PBY=-0.10987669393237809,-0.21975338786475618,-1.2330606763521246,-1.25747771944
 PBM=,,,
 [#0159]
 Length=919
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -1743,7 +1743,7 @@ NoteNum=60
 PreUtterance=
 [#0161]
 Length=918
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1760,7 +1760,7 @@ NoteNum=60
 PreUtterance=
 [#0163]
 Length=478
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1772,7 +1772,7 @@ PBY=-0.4517152972775307,0.09766817238428871
 PBM=
 [#0164]
 Length=1438
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1784,7 +1784,7 @@ PBY=0.10987669393230703,0.30521303870102656
 PBM=
 [#0165]
 Length=486
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1796,7 +1796,7 @@ PBY=0.29300451715300824,0.854596508362846,0.20754486631673785
 PBM=,
 [#0166]
 Length=194
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1813,7 +1813,7 @@ NoteNum=60
 PreUtterance=
 [#0168]
 Length=475
-Lyric=ÇµÇ„
+Lyric=„Åó„ÇÖ
 NoteNum=60
 PreUtterance=
 PBType=5
@@ -1825,7 +1825,7 @@ PBY=-0.4883408619216567,-0.927847637651098,-0.3296300817970632
 PBM=,
 [#0169]
 Length=480
-Lyric=ÇøÇÂ
+Lyric=„Å°„Çá
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1837,7 +1837,7 @@ PBY=-0.3418386033451526,-0.13429373702841474
 PBM=
 [#0170]
 Length=197
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -1854,7 +1854,7 @@ NoteNum=60
 PreUtterance=
 [#0172]
 Length=480
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -1866,7 +1866,7 @@ PBY=-0.21975338786475618,-1.0255158100353867,-1.0255158100353867,0.1098766939323
 PBM=,,
 [#0173]
 Length=477
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -1878,7 +1878,7 @@ PBY=0.12208521548046747,0.08545965083627038,-0.964473202295153,-0.91563911610307
 PBM=,,,
 [#0174]
 Length=486
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -1895,7 +1895,7 @@ NoteNum=60
 PreUtterance=
 [#0176]
 Length=491
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1907,7 +1907,7 @@ PBY=1.1231839824196754,1.1842265901599092,0.43950677572951236
 PBM=,
 [#0177]
 Length=236
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1919,7 +1919,7 @@ PBY=0.4272982541813519,-0.03662556464412603
 PBM=
 [#0178]
 Length=236
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1931,7 +1931,7 @@ PBY=-0.048834086192144355,-0.012208521548018325
 PBM=
 [#0179]
 Length=483
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1943,7 +1943,7 @@ PBY=-0.024417043096107705,-0.2319619094127745
 PBM=
 [#0180]
 Length=239
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1955,7 +1955,7 @@ PBY=-0.21975338786475618,-0.10987669393237809
 PBM=
 [#0181]
 Length=240
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1967,7 +1967,7 @@ PBY=-0.09766817238435976,-0.12208521548039641
 PBM=
 [#0182]
 Length=479
-Lyric=Çº
+Lyric=„Åû
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1979,7 +1979,7 @@ PBY=-0.10987669393237809,-0.10987669393237809
 PBM=
 [#0183]
 Length=476
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -1991,7 +1991,7 @@ PBY=-0.12208521548039641,0.21975338786475618
 PBM=
 [#0184]
 Length=246
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=63
 PreUtterance=
 PBType=5
@@ -2003,7 +2003,7 @@ PBY=0.2075448663166668,1.1231839824197465
 PBM=
 [#0185]
 Length=234
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2020,7 +2020,7 @@ NoteNum=60
 PreUtterance=
 [#0187]
 Length=247
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -2032,7 +2032,7 @@ PBY=-0.5615919912098377,-0.4517152972775307
 PBM=
 [#0188]
 Length=239
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2044,7 +2044,7 @@ PBY=-0.4395067757294413,0.3784641679892786
 PBM=
 [#0189]
 Length=241
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2056,7 +2056,7 @@ PBY=0.3662556464412603,0.061042607740233734
 PBM=
 [#0190]
 Length=476
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2068,7 +2068,7 @@ PBY=0.04883408619221541,0.07325112928825206
 PBM=
 [#0191]
 Length=478
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2080,7 +2080,7 @@ PBY=0.061042607740233734,-0.19533634476864847
 PBM=
 [#0192]
 Length=486
-Lyric=Ç≤
+Lyric=„Åî
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2092,7 +2092,7 @@ PBY=-0.18312782322063015,0.21975338786475618
 PBM=
 [#0193]
 Length=427
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2109,7 +2109,7 @@ NoteNum=60
 PreUtterance=
 [#0195]
 Length=243
-Lyric=ÇµÇ·
+Lyric=„Åó„ÇÉ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2121,7 +2121,7 @@ PBY=-0.061042607740233734,-0.09766817238435976
 PBM=
 [#0196]
 Length=237
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2133,7 +2133,7 @@ PBY=-0.10987669393237809,-0.19533634476864847
 PBM=
 [#0197]
 Length=476
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2145,7 +2145,7 @@ PBY=-0.18312782322063015,0.12208521548046747
 PBM=
 [#0198]
 Length=486
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2157,7 +2157,7 @@ PBY=0.1342937370284858,0.21975338786475618
 PBM=
 [#0199]
 Length=478
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2169,7 +2169,7 @@ PBY=0.20754486631673785,-0.10987669393237809
 PBM=
 [#0200]
 Length=475
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2181,7 +2181,7 @@ PBY=-0.12208521548039641,-0.30521303870102656
 PBM=
 [#0201]
 Length=242
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2193,7 +2193,7 @@ PBY=-0.29300451715300824,-0.061042607740233734
 PBM=
 [#0202]
 Length=244
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2205,7 +2205,7 @@ PBY=-0.048834086192144355,0.07325112928825206
 PBM=
 [#0203]
 Length=479
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -2217,7 +2217,7 @@ PBY=0.08545965083627038,-0.5127579050177644,0.2319619094127745
 PBM=,
 [#0204]
 Length=241
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -2229,7 +2229,7 @@ PBY=0.21975338786475618,0.17091930167254077,-0.7813453790745939,-0.7935539006226
 PBM=,,
 [#0205]
 Length=235
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -2241,7 +2241,7 @@ PBY=-0.8057624221707016,-0.03662556464412603
 PBM=
 [#0206]
 Length=242
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2253,7 +2253,7 @@ PBY=-0.048834086192144355,-0.24417043096079283
 PBM=
 [#0207]
 Length=248
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2265,7 +2265,7 @@ PBY=-0.2563789525088822,-0.17091930167254077
 PBM=
 [#0208]
 Length=479
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2277,7 +2277,7 @@ PBY=-0.15871078012452244,0.2319619094127745
 PBM=
 [#0209]
 Length=237
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2289,7 +2289,7 @@ PBY=0.24417043096079283,0.07325112928825206
 PBM=
 [#0210]
 Length=237
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2301,7 +2301,7 @@ PBY=0.08545965083627038,0.1342937370284858
 PBM=
 [#0211]
 Length=238
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2313,7 +2313,7 @@ PBY=0.12208521548046747,-0.012208521548018325
 PBM=
 [#0212]
 Length=242
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2325,7 +2325,7 @@ PBY=-0.024417043096107705,0
 PBM=
 [#0213]
 Length=479
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2337,7 +2337,7 @@ PBY=-0.012208521548018325,-0.21975338786475618
 PBM=
 [#0214]
 Length=243
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -2349,7 +2349,7 @@ PBY=-0.20754486631673785,-1.0133072884873684,-1.00109876693935
 PBM=,
 [#0215]
 Length=242
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2361,7 +2361,7 @@ PBY=-0.9888902453912607,-0.9400561591991163
 PBM=
 [#0216]
 Length=521
-Lyric=Ç∂Ç·
+Lyric=„Åò„ÇÉ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2373,7 +2373,7 @@ PBY=-0.927847637651098,-0.8301794652667382,0.012208521548018325,-0.0488340861921
 PBM=,,
 [#0217]
 Length=200
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=63
 PreUtterance=
 PBType=5
@@ -2390,7 +2390,7 @@ NoteNum=60
 PreUtterance=
 [#0219]
 Length=241
-Lyric=Çª
+Lyric=„Åù
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2402,7 +2402,7 @@ PBY=0.1342937370284858,-1.00109876693935
 PBM=
 [#0220]
 Length=243
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2414,7 +2414,7 @@ PBY=-1.0133072884873684,-0.21975338786475618
 PBM=
 [#0221]
 Length=238
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2426,7 +2426,7 @@ PBY=-0.2075448663166668,-0.048834086192144355
 PBM=
 [#0222]
 Length=242
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2438,7 +2438,7 @@ PBY=-0.03662556464412603,0.036625564644054975
 PBM=
 [#0223]
 Length=232
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2450,7 +2450,7 @@ PBY=0.04883408619221541,0.036625564644054975
 PBM=
 [#0224]
 Length=248
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2462,7 +2462,7 @@ PBY=0.04883408619221541,-0.03662556464412603
 PBM=
 [#0225]
 Length=485
-Lyric=Ç∂
+Lyric=„Åò
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2474,7 +2474,7 @@ PBY=-0.024417043096107705,0.14650225857650412
 PBM=
 [#0226]
 Length=233
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2486,7 +2486,7 @@ PBY=0.1342937370284858,-0.10987669393237809
 PBM=
 [#0227]
 Length=243
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -2498,7 +2498,7 @@ PBY=-0.12208521548039641,-1.0255158100353867
 PBM=
 [#0228]
 Length=241
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2510,7 +2510,7 @@ PBY=-1.0133072884873684,-0.8790135514589537,-0.3784641679892786,0.73251129288237
 PBM=,,,
 [#0229]
 Length=241
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2522,7 +2522,7 @@ PBY=0.7569283359785572,0.061042607740233734
 PBM=
 [#0230]
 Length=235
-Lyric=Çπ
+Lyric=„Åõ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2534,7 +2534,7 @@ PBY=0.07325112928825206,0.07325112928825206
 PBM=
 [#0231]
 Length=204
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2551,7 +2551,7 @@ NoteNum=60
 PreUtterance=
 [#0233]
 Length=248
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2563,7 +2563,7 @@ PBY=0.02441704309603665,0
 PBM=
 [#0234]
 Length=238
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2575,7 +2575,7 @@ PBY=-0.012208521548018325,-0.012208521548018325
 PBM=
 [#0235]
 Length=477
-Lyric=ÇÊ
+Lyric=„Çà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2587,7 +2587,7 @@ PBY=0,0.12208521548046747
 PBM=
 [#0236]
 Length=486
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2599,7 +2599,7 @@ PBY=0.1342937370284858,0.061042607740233734
 PBM=
 [#0237]
 Length=240
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2611,7 +2611,7 @@ PBY=0.04883408619221541,-0.12208521548039641
 PBM=
 [#0238]
 Length=238
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2623,7 +2623,7 @@ PBY=-0.13429373702841474,-0.13429373702841474
 PBM=
 [#0239]
 Length=241
-Lyric=Ç¨
+Lyric=„Åé
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2635,7 +2635,7 @@ PBY=-0.14650225857650412,-0.048834086192144355
 PBM=
 [#0240]
 Length=239
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2647,7 +2647,7 @@ PBY=-0.061042607740233734,-0.09766817238435976
 PBM=
 [#0241]
 Length=241
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2659,7 +2659,7 @@ PBY=-0.08545965083627038,0.07325112928825206
 PBM=
 [#0242]
 Length=241
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2671,7 +2671,7 @@ PBY=0.08545965083627038,-0.061042607740233734
 PBM=
 [#0243]
 Length=476
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -2688,7 +2688,7 @@ NoteNum=60
 PreUtterance=
 [#0245]
 Length=249
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2700,7 +2700,7 @@ PBY=-0.8423879868148276,-1.0499328531314944
 PBM=
 [#0246]
 Length=236
-Lyric=Ç∏
+Lyric=„Åö
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2712,7 +2712,7 @@ PBY=-1.037724331583476,-0.10987669393237809
 PBM=
 [#0247]
 Length=241
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2724,7 +2724,7 @@ PBY=-0.09766817238435976,0.04883408619221541,-0.5738005127579271,0
 PBM=,,
 [#0248]
 Length=239
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2736,7 +2736,7 @@ PBY=0.012208521548018325,-0.024417043096107705
 PBM=
 [#0249]
 Length=239
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2748,7 +2748,7 @@ PBY=-0.012208521548018325,-0.12208521548039641
 PBM=
 [#0250]
 Length=237
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2760,7 +2760,7 @@ PBY=-0.10987669393237809,0.012208521548018325
 PBM=
 [#0251]
 Length=483
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -2772,7 +2772,7 @@ PBY=0,0.3174215602490449
 PBM=
 [#0252]
 Length=232
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2784,7 +2784,7 @@ PBY=0.30521303870102656,-0.19533634476864847
 PBM=
 [#0253]
 Length=253
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2796,7 +2796,7 @@ PBY=-0.2075448663166668,-0.12208521548039641
 PBM=
 [#0254]
 Length=241
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2808,7 +2808,7 @@ PBY=-0.10987669393237809,0
 PBM=
 [#0255]
 Length=240
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2820,7 +2820,7 @@ PBY=0.09766817238428871,0.09766817238428871
 PBM=
 [#0256]
 Length=239
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2832,7 +2832,7 @@ PBY=0.10987669393230703,0.12208521548046747
 PBM=
 [#0257]
 Length=237
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2844,7 +2844,7 @@ PBY=0.10987669393230703,0.07325112928825206
 PBM=
 [#0258]
 Length=234
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -2856,7 +2856,7 @@ PBY=0.061042607740233734,-0.1831278232205591,0.7813453790745939,0.76913685752657
 PBM=,,
 [#0259]
 Length=207
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -2885,7 +2885,7 @@ PBY=-0.7569283359785572,-0.8057624221706305,0
 PBM=,
 [#0262]
 Length=234
-Lyric=Ç‰
+Lyric=„ÇÜ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -2897,7 +2897,7 @@ PBY=0.012208521548018325,-0.10987669393237809
 PBM=
 [#0263]
 Length=722
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -2921,7 +2921,7 @@ PBY=-0.35404712489324197,
 PBM=
 [#0265]
 Length=419
-Lyric=Ç≈Ç°
+Lyric=„Åß„ÅÉ
 NoteNum=72
 PreUtterance=
 PBType=5
@@ -2938,7 +2938,7 @@ NoteNum=60
 PreUtterance=
 [#0267]
 Length=481
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -2950,7 +2950,7 @@ PBY=0.28079599560491886,0.061042607740233734
 PBM=
 [#0268]
 Length=479
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -2962,7 +2962,7 @@ PBY=0.048834086192144355,-0.2563789525088822
 PBM=
 [#0269]
 Length=478
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -2974,7 +2974,7 @@ PBY=-0.2685874740568295,-0.2319619094127745,0.7691368575265756,0.720302771334360
 PBM=,,,
 [#0270]
 Length=487
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -2986,7 +2986,7 @@ PBY=-0.08545965083627038,-0.02441704309603665
 PBM=
 [#0271]
 Length=477
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -2998,7 +2998,7 @@ PBY=-0.012208521548018325,0,1.1598095470638725,1.1842265901599092,-0.06104260774
 PBM=,,,
 [#0272]
 Length=483
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3010,7 +3010,7 @@ PBY=-0.07325112928825206,0.036625564644054975,0.927847637651098,0.87901355145888
 PBM=,,,
 [#0273]
 Length=233
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3022,7 +3022,7 @@ PBY=0.1342937370284858,0.6470516420461081
 PBM=
 [#0274]
 Length=720
-Lyric=Ç—Ç„
+Lyric=„Å≥„ÇÖ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3034,7 +3034,7 @@ PBY=0.6348431204980898,-0.012208521548018325,-1.2818947625441979,-0.427298254181
 PBM=,,
 [#0275]
 Length=479
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -3046,7 +3046,7 @@ PBY=-0.41508973263340465,-0.13429373702841474
 PBM=
 [#0276]
 Length=487
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -3058,7 +3058,7 @@ PBY=-0.14650225857650412,0.07325112928825206
 PBM=
 [#0277]
 Length=473
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3070,7 +3070,7 @@ PBY=0.061042607740233734,-0.3296300817970632
 PBM=
 [#0278]
 Length=487
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3082,7 +3082,7 @@ PBY=-0.3174215602490449,-0.07325112928825206
 PBM=
 [#0279]
 Length=472
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3094,7 +3094,7 @@ PBY=-0.061042607740233734,-0.04883408619221541,0.573800512757856,0.2319619094127
 PBM=,,
 [#0280]
 Length=490
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3106,7 +3106,7 @@ PBY=0.21975338786475618,0.7935539006226122,-0.15871078012452244
 PBM=,
 [#0281]
 Length=240
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3118,7 +3118,7 @@ PBY=-0.17091930167254077,-0.964473202295153
 PBM=
 [#0282]
 Length=718
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3130,7 +3130,7 @@ PBY=-0.9766817238433134,0.07325112928825206,0.14650225857650412
 PBM=,
 [#0283]
 Length=480
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -3142,7 +3142,7 @@ PBY=0.15871078012452244,-0.09766817238435976,-1.0255158100353867,-0.390672689537
 PBM=,,
 [#0284]
 Length=540
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -3154,7 +3154,7 @@ PBY=-0.40288121108531527,-0.048834086192144355
 PBM=
 [#0285]
 Length=418
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3166,7 +3166,7 @@ PBY=-0.061042607740233734,-0.3662556464412603
 PBM=
 [#0286]
 Length=480
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3178,7 +3178,7 @@ PBY=-0.35404712489324197,-0.09766817238428871
 PBM=
 [#0287]
 Length=480
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3190,7 +3190,7 @@ PBY=-0.08545965083627038,-1.0743498962276021,-0.12208521548046747
 PBM=,
 [#0288]
 Length=241
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3202,7 +3202,7 @@ PBY=-0.1342937370284858,-0.15871078012452244,0.8912220730069009,0.86680502991086
 PBM=,,
 [#0289]
 Length=240
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3214,7 +3214,7 @@ PBY=0.854596508362846,-0.15871078012452244
 PBM=
 [#0290]
 Length=237
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3226,7 +3226,7 @@ PBY=-0.17091930167254077,0
 PBM=
 [#0291]
 Length=717
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3238,7 +3238,7 @@ PBY=-0.012208521548018325,0.7080942497863418,-0.12208521548046747,-0.07325112928
 PBM=,,
 [#0292]
 Length=491
-Lyric=Ç⁄
+Lyric=„Åº
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3250,7 +3250,7 @@ PBY=-0.061042607740233734,0.5371749481138011,-0.19533634476864847
 PBM=,
 [#0293]
 Length=474
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3262,7 +3262,7 @@ PBY=-0.2075448663166668,0.036625564644054975
 PBM=
 [#0294]
 Length=485
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -3274,7 +3274,7 @@ PBY=0.02441704309603665,-0.09766817238428871
 PBM=
 [#0295]
 Length=477
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -3286,7 +3286,7 @@ PBY=-0.08545965083627038,-0.6470516420461081,-0.19533634476871953
 PBM=,
 [#0296]
 Length=243
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -3298,7 +3298,7 @@ PBY=-0.1831278232205591,0.04883408619221541
 PBM=
 [#0297]
 Length=235
-Lyric=Ç∂
+Lyric=„Åò
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3310,7 +3310,7 @@ PBY=0.061042607740233734,0.6348431204980898
 PBM=
 [#0298]
 Length=481
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3322,7 +3322,7 @@ PBY=0.6226345989500714,-0.35404712489324197
 PBM=
 [#0299]
 Length=960
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3334,7 +3334,7 @@ PBY=-0.3662556464412603,-1.1353925039678359,0.036625564644054975,0.0976681723842
 PBM=,,
 [#0300]
 Length=478
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3346,7 +3346,7 @@ PBY=0.10987669393230703,0.10987669393230703,-0.7691368575265756,-0.6958857282383
 PBM=,,,
 [#0301]
 Length=673
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3363,7 +3363,7 @@ NoteNum=60
 PreUtterance=
 [#0303]
 Length=484
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3375,7 +3375,7 @@ PBY=-0.1831278232205591,0.25637895250881115
 PBM=
 [#0304]
 Length=489
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3387,7 +3387,7 @@ PBY=0.2685874740568295,0.02441704309603665,-0.8668050299108643,-0.80576242217063
 PBM=,,,
 [#0305]
 Length=479
-Lyric=Ç‚
+Lyric=„ÇÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3399,7 +3399,7 @@ PBY=0.10987669393230703,0
 PBM=
 [#0306]
 Length=236
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3411,7 +3411,7 @@ PBY=-0.012208521548018325,-0.036625564644054975,-0.964473202295153,-0.9888902453
 PBM=,,
 [#0307]
 Length=722
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3423,7 +3423,7 @@ PBY=-1.00109876693935,-0.2685874740568295
 PBM=
 [#0308]
 Length=484
-Lyric=ÇµÇ„
+Lyric=„Åó„ÇÖ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -3435,7 +3435,7 @@ PBY=-0.2563789525088822,-0.13429373702841474
 PBM=
 [#0309]
 Length=474
-Lyric=ÇµÇÂ
+Lyric=„Åó„Çá
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -3447,7 +3447,7 @@ PBY=-0.14650225857650412,-0.18312782322063015
 PBM=
 [#0310]
 Length=478
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3459,7 +3459,7 @@ PBY=-0.19533634476871953,0.3174215602490449,-0.2319619094127745
 PBM=,
 [#0311]
 Length=483
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3471,7 +3471,7 @@ PBY=-0.21975338786475618,-0.29300451715300824
 PBM=
 [#0312]
 Length=479
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3483,7 +3483,7 @@ PBY=-0.2807959956049899,-0.2685874740568295,0.3296300817970632,0.036625564644054
 PBM=,,
 [#0313]
 Length=479
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3495,7 +3495,7 @@ PBY=0.02441704309603665,0.012208521548018325,-1.1353925039678359,-0.390672689537
 PBM=,,
 [#0314]
 Length=241
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3507,7 +3507,7 @@ PBY=-0.40288121108531527,1.037724331583405,1.0133072884873684
 PBM=,
 [#0315]
 Length=715
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3519,7 +3519,7 @@ PBY=1.00109876693935,0.12208521548046747,0.08545965083627038
 PBM=,
 [#0316]
 Length=479
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -3531,7 +3531,7 @@ PBY=0.09766817238435976,0.28079599560491886
 PBM=
 [#0317]
 Length=487
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -3543,7 +3543,7 @@ PBY=0.26858747405690053,0.28079599560491886
 PBM=
 [#0318]
 Length=484
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3555,7 +3555,7 @@ PBY=0.2685874740568295,0.24417043096079283,-0.7691368575265756,-0.26858747405682
 PBM=,,
 [#0319]
 Length=480
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3567,7 +3567,7 @@ PBY=-0.15871078012452244,-0.1831278232205591
 PBM=
 [#0320]
 Length=480
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3579,7 +3579,7 @@ PBY=-0.17091930167254077,0.35404712489324197
 PBM=
 [#0321]
 Length=475
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3591,7 +3591,7 @@ PBY=0.34183860334508154,-0.07325112928825206
 PBM=
 [#0322]
 Length=235
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3603,7 +3603,7 @@ PBY=-0.08545965083627038,-0.8912220730069009
 PBM=
 [#0323]
 Length=723
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3615,7 +3615,7 @@ PBY=-0.9034305945550614,-0.6226345989500714,-0.14650225857650412,0.8423879868148
 PBM=,,,
 [#0324]
 Length=484
-Lyric=ÇøÇ·
+Lyric=„Å°„ÇÉ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3627,7 +3627,7 @@ PBY=0.036625564644054975,-0.14650225857650412
 PBM=
 [#0325]
 Length=478
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3639,7 +3639,7 @@ PBY=-0.15871078012452244,0.04883408619221541
 PBM=
 [#0326]
 Length=478
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -3651,7 +3651,7 @@ PBY=0.036625564644054975,-0.1831278232205591
 PBM=
 [#0327]
 Length=718
-Lyric=Ç⁄
+Lyric=„Åº
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -3663,7 +3663,7 @@ PBY=-0.17091930167254077,-0.15871078012452244,0.40288121108531527,0.976681723843
 PBM=,,,
 [#0328]
 Length=243
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3675,7 +3675,7 @@ PBY=0.3296300817970632,-0.29300451715300824
 PBM=
 [#0329]
 Length=359
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3692,7 +3692,7 @@ NoteNum=60
 PreUtterance=
 [#0331]
 Length=966
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3704,7 +3704,7 @@ PBY=-0.17091930167254077,1.0133072884873684,0.35404712489324197
 PBM=,
 [#0332]
 Length=245
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -3716,7 +3716,7 @@ PBY=0.3662556464412603,0.35404712489324197,-0.7691368575265756,-0.74471981443053
 PBM=,,
 [#0333]
 Length=235
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3728,7 +3728,7 @@ PBY=-0.7325112928824495,-0.6470516420461792,-0.30521303870102656,0.6592601635941
 PBM=,,,
 [#0334]
 Length=962
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=62
 PreUtterance=
 PBType=5
@@ -3740,7 +3740,7 @@ PBY=0.6348431204980898,-0.24417043096079283
 PBM=
 [#0335]
 Length=922
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3757,7 +3757,7 @@ NoteNum=60
 PreUtterance=
 [#0337]
 Length=250
-Lyric=Ç‰
+Lyric=„ÇÜ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3769,7 +3769,7 @@ PBY=0.7447198144305389,0.927847637651098
 PBM=
 [#0338]
 Length=234
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3781,7 +3781,7 @@ PBY=0.9156391161030797,-0.061042607740233734
 PBM=
 [#0339]
 Length=486
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3793,7 +3793,7 @@ PBY=-0.04883408619221541,0.07325112928825206
 PBM=
 [#0340]
 Length=482
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3805,7 +3805,7 @@ PBY=0.08545965083627038,0.07325112928825206,-1.1476010255157831,-1.0865584177756
 PBM=,,,
 [#0341]
 Length=241
-Lyric=Ç“
+Lyric=„Å¥
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3817,7 +3817,7 @@ PBY=-0.061042607740233734,-0.10987669393237809
 PBM=
 [#0342]
 Length=235
-Lyric=Ç“
+Lyric=„Å¥
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3829,7 +3829,7 @@ PBY=-0.12208521548039641,-0.15871078012452244
 PBM=
 [#0343]
 Length=475
-Lyric=Ç“
+Lyric=„Å¥
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -3841,7 +3841,7 @@ PBY=-0.17091930167254077,-0.8301794652668093,-0.4517152972775307
 PBM=,
 [#0344]
 Length=485
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -3853,7 +3853,7 @@ PBY=-0.43950677572951236,-0.07325112928825206
 PBM=
 [#0345]
 Length=482
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -3865,7 +3865,7 @@ PBY=-0.061042607740233734,0.25637895250881115
 PBM=
 [#0346]
 Length=237
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3877,7 +3877,7 @@ PBY=0.24417043096079283,0.02441704309603665
 PBM=
 [#0347]
 Length=243
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -3889,7 +3889,7 @@ PBY=0.012208521548018325,-0.10987669393230703
 PBM=
 [#0348]
 Length=476
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3901,7 +3901,7 @@ PBY=-0.12208521548046747,-0.04883408619221541,0.8301794652668093,0.8057624221706
 PBM=,,,
 [#0349]
 Length=483
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3913,7 +3913,7 @@ PBY=-0.19533634476871953,0.07325112928825206
 PBM=
 [#0350]
 Length=480
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -3925,7 +3925,7 @@ PBY=0.08545965083627038,0.21975338786475618
 PBM=
 [#0351]
 Length=233
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3937,7 +3937,7 @@ PBY=0.20754486631673785,-1.110975460871657
 PBM=
 [#0352]
 Length=238
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3949,7 +3949,7 @@ PBY=-1.1231839824197465,-1.0865584177756205,-0.9888902453912607,0.04883408619221
 PBM=,,,
 [#0353]
 Length=2357
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -3966,7 +3966,7 @@ NoteNum=60
 PreUtterance=
 [#0355]
 Length=488
-Lyric=Ç 
+Lyric=„Å¨
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3978,7 +3978,7 @@ PBY=0.35404712489324197,0.1342937370284858
 PBM=
 [#0356]
 Length=475
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -3990,7 +3990,7 @@ PBY=0.12208521548046747,0.02441704309603665
 PBM=
 [#0357]
 Length=477
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4002,7 +4002,7 @@ PBY=0.012208521548018325,-0.854596508362846,-0.012208521548018325
 PBM=,
 [#0358]
 Length=491
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4014,7 +4014,7 @@ PBY=0,-0.2685874740568295
 PBM=
 [#0359]
 Length=478
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4026,7 +4026,7 @@ PBY=-0.2563789525088822,0.854596508362846,-0.19533634476864847
 PBM=,
 [#0360]
 Length=479
-Lyric=Ç∞
+Lyric=„Åí
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4038,7 +4038,7 @@ PBY=-0.20754486631673785,-0.6714686851422869,0.17091930167254077
 PBM=,
 [#0361]
 Length=476
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4050,7 +4050,7 @@ PBY=0.15871078012452244,-0.2319619094127745
 PBM=
 [#0362]
 Length=482
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4062,7 +4062,7 @@ PBY=-0.21975338786475618,-0.25637895250881115
 PBM=
 [#0363]
 Length=432
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4079,7 +4079,7 @@ NoteNum=60
 PreUtterance=
 [#0365]
 Length=250
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4091,7 +4091,7 @@ PBY=0.9400561591991163,1.0865584177756205
 PBM=
 [#0366]
 Length=237
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4103,7 +4103,7 @@ PBY=1.0743498962276021,-0.08545965083627038
 PBM=
 [#0367]
 Length=479
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4115,7 +4115,7 @@ PBY=-0.07325112928825206,0.17091930167254077
 PBM=
 [#0368]
 Length=481
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -4127,7 +4127,7 @@ PBY=0.1831278232205591,-0.2319619094127745
 PBM=
 [#0369]
 Length=964
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -4144,7 +4144,7 @@ NoteNum=60
 PreUtterance=
 [#0371]
 Length=490
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4156,7 +4156,7 @@ PBY=-0.7325112928824495,-0.8179709437187199,-0.19533634476864847
 PBM=,
 [#0372]
 Length=476
-Lyric=Ç’
+Lyric=„Å∑
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4168,7 +4168,7 @@ PBY=-0.2075448663166668,0.19533634476864847
 PBM=
 [#0373]
 Length=479
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4180,7 +4180,7 @@ PBY=0.18312782322063015,-0.15871078012452244
 PBM=
 [#0374]
 Length=474
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4192,7 +4192,7 @@ PBY=-0.13429373702841474,0.26858747405690053
 PBM=
 [#0375]
 Length=485
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4204,7 +4204,7 @@ PBY=0.28079599560491886,0.26858747405690053
 PBM=
 [#0376]
 Length=478
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4216,7 +4216,7 @@ PBY=0.25637895250881115,0.1342937370284858
 PBM=
 [#0377]
 Length=684
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4233,7 +4233,7 @@ NoteNum=60
 PreUtterance=
 [#0379]
 Length=489
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4245,7 +4245,7 @@ PBY=0.10987669393237809,0.30521303870102656
 PBM=
 [#0380]
 Length=477
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4257,7 +4257,7 @@ PBY=0.29300451715300824,-0.36625564644118924
 PBM=
 [#0381]
 Length=957
-Lyric=Ç≤
+Lyric=„Åî
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4269,7 +4269,7 @@ PBY=-0.3784641679892786,-0.061042607740233734
 PBM=
 [#0382]
 Length=483
-Lyric=Ç”
+Lyric=„Åµ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4281,7 +4281,7 @@ PBY=-0.048834086192144355,-0.024417043096107705,0.7935539006226122,0.17091930167
 PBM=,,
 [#0383]
 Length=950
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4298,7 +4298,7 @@ NoteNum=60
 PreUtterance=
 [#0385]
 Length=244
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4310,7 +4310,7 @@ PBY=-0.012208521548018325,-0.048834086192144355
 PBM=
 [#0386]
 Length=242
-Lyric=Ç‚
+Lyric=„ÇÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4322,7 +4322,7 @@ PBY=-0.061042607740233734,-0.2075448663166668
 PBM=
 [#0387]
 Length=204
-Lyric=Ç∂Ç„
+Lyric=„Åò„ÇÖ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -4339,7 +4339,7 @@ NoteNum=60
 PreUtterance=
 [#0389]
 Length=232
-Lyric=Ç’
+Lyric=„Å∑
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -4351,7 +4351,7 @@ PBY=0.09766817238428871,0.21975338786475618
 PBM=
 [#0390]
 Length=243
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -4363,7 +4363,7 @@ PBY=0.2319619094127745,-0.09766817238428871
 PBM=
 [#0391]
 Length=487
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -4375,7 +4375,7 @@ PBY=-0.10987669393230703,0.1831278232205591,-1.110975460871657,-0.42729825418135
 PBM=,,
 [#0392]
 Length=960
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -4387,7 +4387,7 @@ PBY=-0.43950677572951236,-0.1342937370284858
 PBM=
 [#0393]
 Length=477
-Lyric=Çπ
+Lyric=„Åõ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -4399,7 +4399,7 @@ PBY=-0.12208521548046747,-0.15871078012452244,-0.7203027713343602,-0.25637895250
 PBM=,,
 [#0394]
 Length=953
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4416,7 +4416,7 @@ NoteNum=60
 PreUtterance=
 [#0396]
 Length=917
-Lyric=Ç‚
+Lyric=„ÇÑ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4433,7 +4433,7 @@ NoteNum=60
 PreUtterance=
 [#0398]
 Length=486
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4445,7 +4445,7 @@ PBY=-0.47613234037356733,-0.6104260774020531,0.036625564644054975
 PBM=,
 [#0399]
 Length=956
-Lyric=ÇÀ
+Lyric=„Å≠
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4457,7 +4457,7 @@ PBY=0.04883408619221541,0.5982175558540348,-0.04883408619221541,0.03662556464405
 PBM=,,
 [#0400]
 Length=480
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4469,7 +4469,7 @@ PBY=0.02441704309603665,-0.17091930167254077
 PBM=
 [#0401]
 Length=482
-Lyric=Ç≤
+Lyric=„Åî
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4481,7 +4481,7 @@ PBY=-0.18312782322063015,0.08545965083627038
 PBM=
 [#0402]
 Length=474
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4493,7 +4493,7 @@ PBY=0.09766817238428871,-0.2807959956049899
 PBM=
 [#0403]
 Length=485
-Lyric=Ç∏
+Lyric=„Åö
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4505,7 +4505,7 @@ PBY=-0.26858747405690053,-0.10987669393237809,0.8790135514588826,0.3052130387010
 PBM=,,
 [#0404]
 Length=478
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4517,7 +4517,7 @@ PBY=0.29300451715300824,0.7203027713343602,-0.20754486631673785
 PBM=,
 [#0405]
 Length=488
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4529,7 +4529,7 @@ PBY=-0.21975338786475618,0.500549383469604,-3.638139421316069,-6.751312416066426
 PBM=,,
 [#0406]
 Length=920
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4546,7 +4546,7 @@ NoteNum=60
 PreUtterance=
 [#0408]
 Length=928
-Lyric=Ç‚
+Lyric=„ÇÑ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4563,7 +4563,7 @@ NoteNum=60
 PreUtterance=
 [#0410]
 Length=487
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4575,7 +4575,7 @@ PBY=0.08545965083627038,-0.12208521548039641
 PBM=
 [#0411]
 Length=915
-Lyric=Çª
+Lyric=„Åù
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4592,7 +4592,7 @@ NoteNum=60
 PreUtterance=
 [#0413]
 Length=360
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4609,7 +4609,7 @@ NoteNum=60
 PreUtterance=
 [#0415]
 Length=479
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4621,7 +4621,7 @@ PBY=-0.463923818825549,-1.0499328531314234,-0.3662556464412603
 PBM=,
 [#0416]
 Length=478
-Lyric=ÇµÇ„
+Lyric=„Åó„ÇÖ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4633,7 +4633,7 @@ PBY=-0.3540471248931709,0.08545965083627038
 PBM=
 [#0417]
 Length=476
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4645,7 +4645,7 @@ PBY=0.07325112928825206,0.19533634476871953,1.0865584177756205,1.049932853131423
 PBM=,,,,
 [#0418]
 Length=480
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4657,7 +4657,7 @@ PBY=-0.19533634476864847,0.3662556464412603,0.9400561591991163,0.879013551458882
 PBM=,,,
 [#0419]
 Length=913
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4674,7 +4674,7 @@ NoteNum=60
 PreUtterance=
 [#0421]
 Length=923
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4691,7 +4691,7 @@ NoteNum=60
 PreUtterance=
 [#0423]
 Length=484
-Lyric=Çø
+Lyric=„Å°
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4703,7 +4703,7 @@ PBY=0.34183860334508154,0
 PBM=
 [#0424]
 Length=907
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4720,7 +4720,7 @@ NoteNum=60
 PreUtterance=
 [#0426]
 Length=490
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4732,7 +4732,7 @@ PBY=0.7935539006226122,0.8423879868148276,0.12208521548046747
 PBM=,
 [#0427]
 Length=478
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4744,7 +4744,7 @@ PBY=0.1342937370284858,0.15871078012452244
 PBM=
 [#0428]
 Length=474
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4756,7 +4756,7 @@ PBY=0.17091930167254077,0.9522646807471347,0.061042607740233734
 PBM=,
 [#0429]
 Length=481
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4768,7 +4768,7 @@ PBY=0.04883408619221541,-0.8057624221706305,-0.4517152972775307
 PBM=,
 [#0430]
 Length=487
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4780,7 +4780,7 @@ PBY=-0.463923818825549,-0.28079599560491886
 PBM=
 [#0431]
 Length=914
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4797,7 +4797,7 @@ NoteNum=60
 PreUtterance=
 [#0433]
 Length=956
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4809,7 +4809,7 @@ PBY=-0.6592601635941264,-0.30521303870102656
 PBM=
 [#0434]
 Length=486
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4821,7 +4821,7 @@ PBY=-0.3174215602490449,-0.3174215602490449
 PBM=
 [#0435]
 Length=479
-Lyric=Çø
+Lyric=„Å°
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4833,7 +4833,7 @@ PBY=-0.3296300817970632,-0.3418386033451526,0.7691368575265756,0.756928335978557
 PBM=,,,
 [#0436]
 Length=1436
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4845,7 +4845,7 @@ PBY=-0.061042607740233734,0.061042607740233734
 PBM=
 [#0437]
 Length=484
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4857,7 +4857,7 @@ PBY=0.04883408619221541,-0.5860090343059454,-0.012208521548018325
 PBM=,
 [#0438]
 Length=190
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4874,7 +4874,7 @@ NoteNum=60
 PreUtterance=
 [#0440]
 Length=485
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=60
 PreUtterance=
 PBType=5
@@ -4886,7 +4886,7 @@ PBY=0.39067268953729695,-0.29300451715300824
 PBM=
 [#0441]
 Length=479
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4898,7 +4898,7 @@ PBY=-0.30521303870102656,-0.024417043096107705
 PBM=
 [#0442]
 Length=195
-Lyric=Çœ
+Lyric=„Å±
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -4915,7 +4915,7 @@ NoteNum=60
 PreUtterance=
 [#0444]
 Length=478
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -4927,7 +4927,7 @@ PBY=0.9888902453913317,0.40288121108531527
 PBM=
 [#0445]
 Length=475
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4939,7 +4939,7 @@ PBY=0.4150897326333336,0.7935539006226122,-0.17091930167254077
 PBM=,
 [#0446]
 Length=675
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -4956,7 +4956,7 @@ NoteNum=60
 PreUtterance=
 [#0448]
 Length=928
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4973,7 +4973,7 @@ NoteNum=60
 PreUtterance=
 [#0450]
 Length=484
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -4985,7 +4985,7 @@ PBY=0.7691368575265756,0.7935539006226122,0.12208521548046747
 PBM=,
 [#0451]
 Length=1435
-Lyric=ÇÎ
+Lyric=„Çç
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -4997,7 +4997,7 @@ PBY=0.1342937370284858,-1.110975460871657,-1.0621413746795838,0.0854596508362703
 PBM=,,,
 [#0452]
 Length=476
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5009,7 +5009,7 @@ PBY=0.08545965083627038,0.25637895250881115
 PBM=
 [#0453]
 Length=485
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5021,7 +5021,7 @@ PBY=0.2685874740568295,-0.3662556464412603
 PBM=
 [#0454]
 Length=485
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5033,7 +5033,7 @@ PBY=-0.3540471248931709,-0.5982175558539637,0.21975338786475618
 PBM=,
 [#0455]
 Length=193
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5050,7 +5050,7 @@ NoteNum=60
 PreUtterance=
 [#0457]
 Length=489
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5062,7 +5062,7 @@ PBY=-0.5249664265657117,-0.9156391161030086,-0.3418386033451526
 PBM=,
 [#0458]
 Length=919
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -5079,7 +5079,7 @@ NoteNum=60
 PreUtterance=
 [#0460]
 Length=928
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5096,7 +5096,7 @@ NoteNum=60
 PreUtterance=
 [#0462]
 Length=486
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5108,7 +5108,7 @@ PBY=-0.10987669393237809,-0.061042607740233734
 PBM=
 [#0463]
 Length=918
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5125,7 +5125,7 @@ NoteNum=60
 PreUtterance=
 [#0465]
 Length=483
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5137,7 +5137,7 @@ PBY=-0.427298254181423,0
 PBM=
 [#0466]
 Length=484
-Lyric=Çø
+Lyric=„Å°
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5149,7 +5149,7 @@ PBY=0.012208521548018325,0.1831278232205591
 PBM=
 [#0467]
 Length=481
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5161,7 +5161,7 @@ PBY=0.19533634476871953,0.20754486631673785,-0.9888902453912607,-0.9644732022952
 PBM=,,,
 [#0468]
 Length=480
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5173,7 +5173,7 @@ PBY=0.1831278232205591,0.08545965083627038
 PBM=
 [#0469]
 Length=480
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5185,7 +5185,7 @@ PBY=0.07325112928825206,0.09766817238428871,0.8790135514588826,0.207544866316737
 PBM=,,
 [#0470]
 Length=913
-Lyric=ÇµÇÂ
+Lyric=„Åó„Çá
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -5202,7 +5202,7 @@ NoteNum=60
 PreUtterance=
 [#0472]
 Length=915
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5219,7 +5219,7 @@ NoteNum=60
 PreUtterance=
 [#0474]
 Length=487
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5231,7 +5231,7 @@ PBY=-0.7203027713343602,-0.24417043096079283
 PBM=
 [#0475]
 Length=1435
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5243,7 +5243,7 @@ PBY=-0.2319619094127745,-1.1598095470638725,-0.30521303870102656,-0.366255646441
 PBM=,,
 [#0476]
 Length=485
-Lyric=Ç 
+Lyric=„Å¨
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5255,7 +5255,7 @@ PBY=-0.3784641679892786,0.17091930167254077
 PBM=
 [#0477]
 Length=479
-Lyric=Ç”
+Lyric=„Åµ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5267,7 +5267,7 @@ PBY=0.1831278232205591,0.7569283359785572,0.20754486631673785
 PBM=,
 [#0478]
 Length=475
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5279,7 +5279,7 @@ PBY=0.21975338786475618,0.19533634476871953
 PBM=
 [#0479]
 Length=478
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5291,7 +5291,7 @@ PBY=0.1831278232205591,0.15871078012452244,-0.8057624221706305,-0.21975338786475
 PBM=,,
 [#0480]
 Length=482
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5303,7 +5303,7 @@ PBY=-0.2319619094127745,1.0987669393236388,0.20754486631673785
 PBM=,
 [#0481]
 Length=926
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -5320,7 +5320,7 @@ NoteNum=60
 PreUtterance=
 [#0483]
 Length=919
-Lyric=Çπ
+Lyric=„Åõ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5337,7 +5337,7 @@ NoteNum=60
 PreUtterance=
 [#0485]
 Length=478
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5349,7 +5349,7 @@ PBY=-0.6348431204980898,-0.28079599560491886
 PBM=
 [#0486]
 Length=1434
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5361,7 +5361,7 @@ PBY=-0.2685874740568295,0.3784641679892786,0.40288121108531527,-0.17091930167254
 PBM=,,,
 [#0487]
 Length=485
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5373,7 +5373,7 @@ PBY=-0.17091930167254077,0
 PBM=
 [#0488]
 Length=360
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5390,7 +5390,7 @@ NoteNum=60
 PreUtterance=
 [#0490]
 Length=481
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=60
 PreUtterance=
 PBType=5
@@ -5402,7 +5402,7 @@ PBY=0.8301794652667382,0.09766817238435976
 PBM=
 [#0491]
 Length=475
-Lyric=ÇÕ
+Lyric=„ÅØ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5414,7 +5414,7 @@ PBY=0.08545965083627038,0.09766817238428871
 PBM=
 [#0492]
 Length=206
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -5431,7 +5431,7 @@ NoteNum=60
 PreUtterance=
 [#0494]
 Length=480
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -5443,7 +5443,7 @@ PBY=0.48834086192158566,0.3662556464412603
 PBM=
 [#0495]
 Length=474
-Lyric=ÇøÇ·
+Lyric=„Å°„ÇÉ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5455,7 +5455,7 @@ PBY=0.3784641679892786,0.30521303870102656
 PBM=
 [#0496]
 Length=440
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -5472,7 +5472,7 @@ NoteNum=60
 PreUtterance=
 [#0498]
 Length=474
-Lyric=ÇøÇÂ
+Lyric=„Å°„Çá
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -5484,7 +5484,7 @@ PBY=-0.24417043096079283,0.20754486631673785
 PBM=
 [#0499]
 Length=494
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -5496,7 +5496,7 @@ PBY=0.19533634476871953,-0.30521303870102656
 PBM=
 [#0500]
 Length=474
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -5508,7 +5508,7 @@ PBY=-0.3174215602490449,-1.2208521548041062,-0.39067268953729695
 PBM=,
 [#0501]
 Length=474
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -5520,7 +5520,7 @@ PBY=-0.3784641679892786,0.04883408619221541
 PBM=
 [#0502]
 Length=248
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5532,7 +5532,7 @@ PBY=0.061042607740233734,0.29300451715300824
 PBM=
 [#0503]
 Length=719
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -5544,7 +5544,7 @@ PBY=0.28079599560491886,0.2075448663166668,-0.964473202295224,-0.329630081797063
 PBM=,,
 [#0504]
 Length=679
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5561,7 +5561,7 @@ NoteNum=60
 PreUtterance=
 [#0506]
 Length=484
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -5573,7 +5573,7 @@ PBY=0.17091930167254077,-0.10987669393230703
 PBM=
 [#0507]
 Length=475
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -5585,7 +5585,7 @@ PBY=-0.12208521548046747,0.5249664265657827,-0.25637895250881115
 PBM=,
 [#0508]
 Length=488
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -5597,7 +5597,7 @@ PBY=-0.2685874740568295,-0.4517152972775307
 PBM=
 [#0509]
 Length=484
-Lyric=ÇÆ
+Lyric=„Åê
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -5609,7 +5609,7 @@ PBY=-0.43950677572951236,-0.7691368575265756,0.02441704309603665
 PBM=,
 [#0510]
 Length=238
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5621,7 +5621,7 @@ PBY=0.036625564644054975,0.061042607740233734,1.110975460871657,1.13539250396783
 PBM=,,
 [#0511]
 Length=718
-Lyric=Ç÷
+Lyric=„Å∏
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -5633,7 +5633,7 @@ PBY=1.1476010255157831,1.0987669393236388,0.28079599560491886,-0.231961909412774
 PBM=,,
 [#0512]
 Length=480
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5645,7 +5645,7 @@ PBY=-0.24417043096079283,-0.26858747405690053,-1.0987669393236388,-0.45171529727
 PBM=,,
 [#0513]
 Length=480
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -5657,7 +5657,7 @@ PBY=-0.43950677572951236,0.1831278232205591
 PBM=
 [#0514]
 Length=244
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=63
 PreUtterance=
 PBType=5
@@ -5669,7 +5669,7 @@ PBY=0.19533634476864847,0.15871078012452244,-1.0743498962276021,-1.0499328531314
 PBM=,,
 [#0515]
 Length=439
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5686,7 +5686,7 @@ NoteNum=60
 PreUtterance=
 [#0517]
 Length=476
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5698,7 +5698,7 @@ PBY=-0.061042607740233734,0.20754486631673785
 PBM=
 [#0518]
 Length=240
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5710,7 +5710,7 @@ PBY=0.19533634476871953,-0.061042607740233734
 PBM=
 [#0519]
 Length=241
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5722,7 +5722,7 @@ PBY=-0.07325112928825206,-0.03662556464412603
 PBM=
 [#0520]
 Length=486
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5734,7 +5734,7 @@ PBY=-0.048834086192144355,-0.07325112928825206
 PBM=
 [#0521]
 Length=479
-Lyric=Ç⁄
+Lyric=„Åº
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5746,7 +5746,7 @@ PBY=-0.061042607740233734,-0.12208521548039641
 PBM=
 [#0522]
 Length=237
-Lyric=Çª
+Lyric=„Åù
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -5758,7 +5758,7 @@ PBY=-1.0987669393236388,
 PBM=
 [#0523]
 Length=239
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5770,7 +5770,7 @@ PBY=-1.110975460871657,-0.40288121108531527
 PBM=
 [#0524]
 Length=241
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5782,7 +5782,7 @@ PBY=-0.41508973263340465,-0.012208521548018325
 PBM=
 [#0525]
 Length=242
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5794,7 +5794,7 @@ PBY=-0.024417043096107705,-0.19533634476864847
 PBM=
 [#0526]
 Length=235
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5806,7 +5806,7 @@ PBY=-0.18312782322063015,-0.12208521548039641
 PBM=
 [#0527]
 Length=243
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5818,7 +5818,7 @@ PBY=-0.10987669393237809,-0.09766817238435976
 PBM=
 [#0528]
 Length=236
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5830,7 +5830,7 @@ PBY=-0.08545965083627038,-0.14650225857650412
 PBM=
 [#0529]
 Length=245
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5842,7 +5842,7 @@ PBY=-0.13429373702841474,-0.08545965083627038
 PBM=
 [#0530]
 Length=241
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5854,7 +5854,7 @@ PBY=-0.07325112928825206,-0.012208521548018325
 PBM=
 [#0531]
 Length=237
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5866,7 +5866,7 @@ PBY=-0.024417043096107705,0.012208521548018325
 PBM=
 [#0532]
 Length=245
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5878,7 +5878,7 @@ PBY=0,0.012208521548018325
 PBM=
 [#0533]
 Length=235
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5890,7 +5890,7 @@ PBY=0,-0.048834086192144355
 PBM=
 [#0534]
 Length=479
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -5902,7 +5902,7 @@ PBY=-0.061042607740233734,0.1831278232205591
 PBM=
 [#0535]
 Length=239
-Lyric=Ç◊
+Lyric=„Åπ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -5914,7 +5914,7 @@ PBY=0.19533634476871953,0.47613234037356733
 PBM=
 [#0536]
 Length=242
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5926,7 +5926,7 @@ PBY=0.48834086192158566,0.17091930167254077
 PBM=
 [#0537]
 Length=674
-Lyric=Ç◊
+Lyric=„Åπ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -5943,7 +5943,7 @@ NoteNum=60
 PreUtterance=
 [#0539]
 Length=241
-Lyric=Ç‘
+Lyric=„Å∂
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5955,7 +5955,7 @@ PBY=0.30521303870102656,0.34183860334508154
 PBM=
 [#0540]
 Length=241
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5967,7 +5967,7 @@ PBY=0.35404712489324197,0.09766817238428871
 PBM=
 [#0541]
 Length=240
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5979,7 +5979,7 @@ PBY=0.10987669393230703,0.012208521548018325
 PBM=
 [#0542]
 Length=240
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -5991,7 +5991,7 @@ PBY=0,-0.03662556464412603
 PBM=
 [#0543]
 Length=473
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6003,7 +6003,7 @@ PBY=-0.048834086192144355,-0.39067268953729695
 PBM=
 [#0544]
 Length=241
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6015,7 +6015,7 @@ PBY=-0.40288121108531527,-0.4517152972775307,-1.0987669393236388
 PBM=,
 [#0545]
 Length=198
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6032,7 +6032,7 @@ NoteNum=60
 PreUtterance=
 [#0547]
 Length=248
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6044,7 +6044,7 @@ PBY=0.5371749481138011,0.25637895250881115
 PBM=
 [#0548]
 Length=240
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6056,7 +6056,7 @@ PBY=0.2685874740568295,0.14650225857650412
 PBM=
 [#0549]
 Length=237
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6068,7 +6068,7 @@ PBY=0.1342937370284858,-0.03662556464412603
 PBM=
 [#0550]
 Length=474
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6080,7 +6080,7 @@ PBY=-0.048834086192144355,0.2319619094127745
 PBM=
 [#0551]
 Length=241
-Lyric=Çø
+Lyric=„Å°
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6092,7 +6092,7 @@ PBY=0.21975338786475618,0.1831278232205591
 PBM=
 [#0552]
 Length=243
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6104,7 +6104,7 @@ PBY=0.17091930167254077,0.463923818825549
 PBM=
 [#0553]
 Length=241
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6116,7 +6116,7 @@ PBY=0.47613234037356733,-0.500549383469675
 PBM=
 [#0554]
 Length=199
-Lyric=ÇÕ
+Lyric=„ÅØ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6133,7 +6133,7 @@ NoteNum=60
 PreUtterance=
 [#0556]
 Length=247
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6145,7 +6145,7 @@ PBY=-0.012208521548018325,-0.07325112928825206
 PBM=
 [#0557]
 Length=199
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6162,7 +6162,7 @@ NoteNum=60
 PreUtterance=
 [#0559]
 Length=237
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6174,7 +6174,7 @@ PBY=-0.08545965083627038,-0.12208521548039641
 PBM=
 [#0560]
 Length=244
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6186,7 +6186,7 @@ PBY=-0.13429373702841474,0
 PBM=
 [#0561]
 Length=234
-Lyric=Çø
+Lyric=„Å°
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6198,7 +6198,7 @@ PBY=0.012208521548018325,-0.024417043096107705,1.110975460871657
 PBM=,
 [#0562]
 Length=246
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6210,7 +6210,7 @@ PBY=1.1231839824196754,1.0133072884873684,-0.19533634476864847
 PBM=,
 [#0563]
 Length=243
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6222,7 +6222,7 @@ PBY=-0.18312782322063015,0.061042607740233734
 PBM=
 [#0564]
 Length=239
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6234,7 +6234,7 @@ PBY=0.04883408619221541,0.07325112928825206
 PBM=
 [#0565]
 Length=237
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6246,7 +6246,7 @@ PBY=0.061042607740233734,-0.17091930167254077
 PBM=
 [#0566]
 Length=241
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6258,7 +6258,7 @@ PBY=-0.18312782322063015,-0.061042607740233734
 PBM=
 [#0567]
 Length=232
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6270,7 +6270,7 @@ PBY=-0.07325112928825206,-0.21975338786475618
 PBM=
 [#0568]
 Length=250
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6282,7 +6282,7 @@ PBY=-0.2075448663166668,-0.012208521548018325
 PBM=
 [#0569]
 Length=239
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6294,7 +6294,7 @@ PBY=-0.024417043096107705,-0.061042607740233734
 PBM=
 [#0570]
 Length=236
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6306,7 +6306,7 @@ PBY=-0.048834086192144355,-0.048834086192144355
 PBM=
 [#0571]
 Length=240
-Lyric=Çª
+Lyric=„Åù
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6318,7 +6318,7 @@ PBY=-0.03662556464412603,-0.012208521548018325
 PBM=
 [#0572]
 Length=237
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6330,7 +6330,7 @@ PBY=0,0.04883408619221541
 PBM=
 [#0573]
 Length=239
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6342,7 +6342,7 @@ PBY=0.036625564644054975,-0.6226345989500714
 PBM=
 [#0574]
 Length=240
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6359,7 +6359,7 @@ NoteNum=60
 PreUtterance=
 [#0576]
 Length=242
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=72
 PreUtterance=
 PBType=5
@@ -6371,7 +6371,7 @@ PBY=-0.1342937370284858,-0.15871078012452244
 PBM=
 [#0577]
 Length=478
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6383,7 +6383,7 @@ PBY=-0.14650225857650412,-0.30521303870102656
 PBM=
 [#0578]
 Length=242
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6395,7 +6395,7 @@ PBY=0.26858747405690053,0.854596508362846
 PBM=
 [#0579]
 Length=235
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6407,7 +6407,7 @@ PBY=0.8423879868148276,0.7203027713343602
 PBM=
 [#0580]
 Length=238
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -6419,7 +6419,7 @@ PBY=0.7080942497863418,-0.1342937370284858
 PBM=
 [#0581]
 Length=479
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=83
 PreUtterance=
 PBType=5
@@ -6431,7 +6431,7 @@ PBY=-0.14650225857650412,-1.245269197900143,0.500549383469604,6.7268953729703185
 PBM=,,,,,,,,,
 [#0582]
 Length=57
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -6448,7 +6448,7 @@ NoteNum=60
 PreUtterance=
 [#0584]
 Length=488
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6460,7 +6460,7 @@ PBY=-0.08545965083627038,-0.3174215602490449
 PBM=
 [#0585]
 Length=475
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6472,7 +6472,7 @@ PBY=-0.3296300817970632,-0.19533634476864847
 PBM=
 [#0586]
 Length=486
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6484,7 +6484,7 @@ PBY=-0.20754486631673785,-0.25637895250881115
 PBM=
 [#0587]
 Length=478
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6496,7 +6496,7 @@ PBY=-0.24417043096079283,-0.07325112928825206
 PBM=
 [#0588]
 Length=476
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6508,7 +6508,7 @@ PBY=-0.061042607740233734,-0.036625564644054975,-0.9156391161030797,-0.244170430
 PBM=,,
 [#0589]
 Length=484
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6520,7 +6520,7 @@ PBY=-0.25637895250881115,-0.2685874740568295,0.8423879868148276,0.25637895250881
 PBM=,,
 [#0590]
 Length=237
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6532,7 +6532,7 @@ PBY=0.24417043096079283,0.30521303870102656
 PBM=
 [#0591]
 Length=718
-Lyric=Ç—Ç„
+Lyric=„Å≥„ÇÖ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6544,7 +6544,7 @@ PBY=0.3174215602490449,0.10987669393230703,-1.2208521548041062,-0.36625564644126
 PBM=,,
 [#0592]
 Length=485
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6556,7 +6556,7 @@ PBY=-0.3540471248931709,-0.24417043096079283
 PBM=
 [#0593]
 Length=482
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6568,7 +6568,7 @@ PBY=-0.2563789525088822,-0.19533634476864847
 PBM=
 [#0594]
 Length=477
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6580,7 +6580,7 @@ PBY=0.5249664265657827,-0.12208521548046747
 PBM=
 [#0595]
 Length=477
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6592,7 +6592,7 @@ PBY=-0.10987669393230703,0.14650225857650412
 PBM=
 [#0596]
 Length=483
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6604,7 +6604,7 @@ PBY=0.15871078012452244,0.036625564644054975
 PBM=
 [#0597]
 Length=483
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6616,7 +6616,7 @@ PBY=0.02441704309603665,0.5615919912098377,0.07325112928825206
 PBM=,
 [#0598]
 Length=238
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6628,7 +6628,7 @@ PBY=0.061042607740233734,-0.43950677572951236
 PBM=
 [#0599]
 Length=713
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6640,7 +6640,7 @@ PBY=-0.4272982541813519,-0.3296300817970632,0.35404712489324197,0.30521303870102
 PBM=,,
 [#0600]
 Length=478
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6652,7 +6652,7 @@ PBY=0.3174215602490449,0.9400561591991163,0.13429373702841474
 PBM=,
 [#0601]
 Length=491
-Lyric=ÇŸ
+Lyric=„Åª
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6664,7 +6664,7 @@ PBY=0.12208521548039641,-0.3540471248931709
 PBM=
 [#0602]
 Length=478
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6676,7 +6676,7 @@ PBY=-0.3662556464412603,0.34183860334508154,-0.29300451715300824
 PBM=,
 [#0603]
 Length=473
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6688,7 +6688,7 @@ PBY=-0.2807959956049899,-0.2807959956049899
 PBM=
 [#0604]
 Length=492
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6700,7 +6700,7 @@ PBY=-0.2685874740568295,-0.1831278232205591,0.5982175558540348,0.158710780124522
 PBM=,,
 [#0605]
 Length=476
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6712,7 +6712,7 @@ PBY=0.14650225857650412,0.1342937370284858,-1.0621413746795838,-1.06214137467958
 PBM=,,,
 [#0606]
 Length=241
-Lyric=ÇÀ
+Lyric=„Å≠
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6724,7 +6724,7 @@ PBY=0,-1.0865584177756205
 PBM=
 [#0607]
 Length=716
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6736,7 +6736,7 @@ PBY=-1.0743498962276021,-0.061042607740233734,-1.2818947625441979,-0.31742156024
 PBM=,,
 [#0608]
 Length=479
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6748,7 +6748,7 @@ PBY=-0.30521303870102656,0.25637895250881115,-0.09766817238435976
 PBM=,
 [#0609]
 Length=480
-Lyric=Ç≤
+Lyric=„Åî
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6760,7 +6760,7 @@ PBY=-0.10987669393237809,-0.30521303870102656
 PBM=
 [#0610]
 Length=479
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -6772,7 +6772,7 @@ PBY=-0.3174215602490449,-0.3296300817970632,-1.2330606763521246,-0.4028812110853
 PBM=,,
 [#0611]
 Length=484
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -6784,7 +6784,7 @@ PBY=-0.39067268953729695,-0.3296300817970632
 PBM=
 [#0612]
 Length=236
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -6796,7 +6796,7 @@ PBY=-0.3174215602490449,0.1342937370284858
 PBM=
 [#0613]
 Length=241
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -6808,7 +6808,7 @@ PBY=0.12208521548046747,0.463923818825549
 PBM=
 [#0614]
 Length=485
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6820,7 +6820,7 @@ PBY=0.4517152972775307,-0.3174215602490449
 PBM=
 [#0615]
 Length=720
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6832,7 +6832,7 @@ PBY=-0.3296300817970632,0.14650225857650412
 PBM=
 [#0616]
 Length=238
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6844,7 +6844,7 @@ PBY=0.15871078012452244,-0.12208521548046747
 PBM=
 [#0617]
 Length=237
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6856,7 +6856,7 @@ PBY=-0.10987669393230703,-0.6226345989500714
 PBM=
 [#0618]
 Length=236
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6868,7 +6868,7 @@ PBY=-0.6104260774020531,-0.061042607740233734
 PBM=
 [#0619]
 Length=677
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6885,7 +6885,7 @@ NoteNum=60
 PreUtterance=
 [#0621]
 Length=487
-Lyric=Çø
+Lyric=„Å°
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6897,7 +6897,7 @@ PBY=-0.20754486631673785,0.09766817238428871
 PBM=
 [#0622]
 Length=478
-Lyric=Ç´Ç„
+Lyric=„Åç„ÇÖ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6909,7 +6909,7 @@ PBY=0.35404712489324197,-0.08545965083627038
 PBM=
 [#0623]
 Length=479
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6921,7 +6921,7 @@ PBY=-0.09766817238428871,0.02441704309603665
 PBM=
 [#0624]
 Length=234
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -6933,7 +6933,7 @@ PBY=0.012208521548018325,-0.25637895250881115
 PBM=
 [#0625]
 Length=728
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -6945,7 +6945,7 @@ PBY=-0.24417043096079283,0.8668050299108643,0.036625564644054975
 PBM=,
 [#0626]
 Length=476
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6957,7 +6957,7 @@ PBY=0.048834086192144355,0.08545965083627038
 PBM=
 [#0627]
 Length=481
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -6969,7 +6969,7 @@ PBY=0.07325112928825206,-0.024417043096107705
 PBM=
 [#0628]
 Length=479
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6981,7 +6981,7 @@ PBY=-0.036625564644054975,-0.04883408619221541,0.964473202295153,0.9400561591991
 PBM=,,,
 [#0629]
 Length=477
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -6993,7 +6993,7 @@ PBY=-0.20754486631673785,0.2807959956049899
 PBM=
 [#0630]
 Length=486
-Lyric=Ç⁄
+Lyric=„Åº
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -7005,7 +7005,7 @@ PBY=0.29300451715300824,-0.15871078012452244
 PBM=
 [#0631]
 Length=486
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7017,7 +7017,7 @@ PBY=-0.17091930167254077,-0.6348431204980898,0.15871078012452244
 PBM=,
 [#0632]
 Length=241
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -7029,7 +7029,7 @@ PBY=0.14650225857650412,0.10987669393230703
 PBM=
 [#0633]
 Length=435
-Lyric=ÇÕ
+Lyric=„ÅØ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7046,7 +7046,7 @@ NoteNum=60
 PreUtterance=
 [#0635]
 Length=490
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -7058,7 +7058,7 @@ PBY=0.41508973263340465,0.927847637651098,0.24417043096079283
 PBM=,
 [#0636]
 Length=478
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -7070,7 +7070,7 @@ PBY=0.2319619094127745,0.08545965083627038
 PBM=
 [#0637]
 Length=475
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -7082,7 +7082,7 @@ PBY=0.07325112928825206,0.7325112928823785,-0.21975338786475618
 PBM=,
 [#0638]
 Length=478
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -7094,7 +7094,7 @@ PBY=-0.20754486631673785,-0.1831278232205591
 PBM=
 [#0639]
 Length=477
-Lyric=Çø
+Lyric=„Å°
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -7106,7 +7106,7 @@ PBY=-0.17091930167254077,-0.5127579050177644,0.1831278232205591
 PBM=,
 [#0640]
 Length=491
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7118,7 +7118,7 @@ PBY=0.17091930167254077,-0.04883408619221541
 PBM=
 [#0641]
 Length=240
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -7130,7 +7130,7 @@ PBY=-0.061042607740233734,0.7569283359785572
 PBM=
 [#0642]
 Length=714
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7142,7 +7142,7 @@ PBY=0.7691368575265756,0.6470516420461081,0.25637895250881115,-0.586009034306016
 PBM=,,,
 [#0643]
 Length=479
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7154,7 +7154,7 @@ PBY=-0.18312782322063015,-0.061042607740233734
 PBM=
 [#0644]
 Length=478
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7166,7 +7166,7 @@ PBY=-0.07325112928825206,0.04883408619221541
 PBM=
 [#0645]
 Length=483
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7178,7 +7178,7 @@ PBY=-0.07325112928825206,-0.12208521548046747
 PBM=
 [#0646]
 Length=488
-Lyric=ÇÕ
+Lyric=„ÅØ
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -7190,7 +7190,7 @@ PBY=-0.10987669393230703,-0.08545965083627038,1.0621413746795838,0.0854596508362
 PBM=,,
 [#0647]
 Length=239
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -7202,7 +7202,7 @@ PBY=0.09766817238428871,0.09766817238428871
 PBM=
 [#0648]
 Length=240
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7214,7 +7214,7 @@ PBY=0.08545965083627038,0
 PBM=
 [#0649]
 Length=478
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -7226,7 +7226,7 @@ PBY=0.012208521548018325,1.0255158100353867,0.964473202295153,0
 PBM=,,
 [#0650]
 Length=960
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -7238,7 +7238,7 @@ PBY=-0.012208521548018325,0.20754486631673785
 PBM=
 [#0651]
 Length=240
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -7250,7 +7250,7 @@ PBY=0.21975338786475618,0.8912220730069009
 PBM=
 [#0652]
 Length=240
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7262,7 +7262,7 @@ PBY=0.8790135514588826,-0.09766817238435976,1.110975460871657,1.0987669393236388
 PBM=,,
 [#0653]
 Length=717
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=62
 PreUtterance=
 PBType=5
@@ -7274,7 +7274,7 @@ PBY=1.0865584177756205,0.17091930167254077,-0.6104260774020531,0
 PBM=,,
 [#0654]
 Length=238
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=62
 PreUtterance=
 PBType=5
@@ -7286,7 +7286,7 @@ PBY=0.012208521548018325,-0.10987669393237809
 PBM=
 [#0655]
 Length=952
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7303,7 +7303,7 @@ NoteNum=60
 PreUtterance=
 [#0657]
 Length=249
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -7315,7 +7315,7 @@ PBY=0.08545965083627038,0.09766817238428871
 PBM=
 [#0658]
 Length=235
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -7327,7 +7327,7 @@ PBY=0.10987669393230703,-0.012208521548018325
 PBM=
 [#0659]
 Length=488
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -7339,7 +7339,7 @@ PBY=0,-0.14650225857650412
 PBM=
 [#0660]
 Length=474
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7351,7 +7351,7 @@ PBY=-0.13429373702841474,-0.3174215602490449
 PBM=
 [#0661]
 Length=237
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7363,7 +7363,7 @@ PBY=-0.3296300817970632,-0.048834086192144355
 PBM=
 [#0662]
 Length=239
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7375,7 +7375,7 @@ PBY=-0.03662556464412603,-0.024417043096107705
 PBM=
 [#0663]
 Length=247
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7387,7 +7387,7 @@ PBY=-0.03662556464412603,-0.17091930167254077
 PBM=
 [#0664]
 Length=238
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -7399,7 +7399,7 @@ PBY=-0.15871078012452244,-0.1831278232205591,-1.1476010255158542,-1.135392503967
 PBM=,,
 [#0665]
 Length=474
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -7411,7 +7411,7 @@ PBY=-1.1231839824196754,-0.9888902453913317,-0.8179709437186489,-0.0122085215480
 PBM=,,,
 [#0666]
 Length=489
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -7423,7 +7423,7 @@ PBY=-0.10987669393230703,1.0621413746795838,1.0255158100353867,-0.04883408619221
 PBM=,,
 [#0667]
 Length=477
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -7435,7 +7435,7 @@ PBY=-0.061042607740233734,0.08545965083627038
 PBM=
 [#0668]
 Length=481
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7447,7 +7447,7 @@ PBY=0.07325112928825206,0.5493834696618194,-0.30521303870102656
 PBM=,
 [#0669]
 Length=476
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7459,7 +7459,7 @@ PBY=-0.29300451715300824,-0.34183860334508154
 PBM=
 [#0670]
 Length=486
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7471,7 +7471,7 @@ PBY=-0.3296300817970632,0.08545965083627038
 PBM=
 [#0671]
 Length=473
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7483,7 +7483,7 @@ PBY=0.07325112928825206,-0.7813453790745939,-0.07325112928825206
 PBM=,
 [#0672]
 Length=237
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7495,7 +7495,7 @@ PBY=-0.08545965083627038,-0.29300451715300824
 PBM=
 [#0673]
 Length=239
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -7507,7 +7507,7 @@ PBY=-0.2807959956049899,0.8790135514588826
 PBM=
 [#0674]
 Length=1879
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7524,7 +7524,7 @@ NoteNum=60
 PreUtterance=
 [#0676]
 Length=482
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7536,7 +7536,7 @@ PBY=-0.854596508362846,-0.927847637651098,0.1342937370284858
 PBM=,
 [#0677]
 Length=478
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7548,7 +7548,7 @@ PBY=0.12208521548046747,-0.18312782322063015
 PBM=
 [#0678]
 Length=479
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7560,7 +7560,7 @@ PBY=-0.19533634476871953,-0.2319619094127745,-1.0743498962276021,-1.086558417775
 PBM=,,,
 [#0679]
 Length=196
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7577,7 +7577,7 @@ NoteNum=60
 PreUtterance=
 [#0681]
 Length=483
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7589,7 +7589,7 @@ PBY=0.3174215602490449,0.02441704309603665
 PBM=
 [#0682]
 Length=479
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7601,7 +7601,7 @@ PBY=0.012208521548018325,0,0.7325112928823785,0.036625564644054975
 PBM=,,
 [#0683]
 Length=718
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7613,7 +7613,7 @@ PBY=0.02441704309603665,-0.14650225857650412
 PBM=
 [#0684]
 Length=244
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7625,7 +7625,7 @@ PBY=-0.1342937370284858,0.012208521548018325
 PBM=
 [#0685]
 Length=438
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7642,7 +7642,7 @@ NoteNum=60
 PreUtterance=
 [#0687]
 Length=966
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -7654,7 +7654,7 @@ PBY=-0.47613234037356733,0.12208521548046747
 PBM=
 [#0688]
 Length=235
-Lyric=Ç∏
+Lyric=„Åö
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7666,7 +7666,7 @@ PBY=0.1342937370284858,-0.5493834696618194
 PBM=
 [#0689]
 Length=240
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7678,7 +7678,7 @@ PBY=-0.5371749481138011,0.463923818825549
 PBM=
 [#0690]
 Length=914
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7695,7 +7695,7 @@ NoteNum=60
 PreUtterance=
 [#0692]
 Length=484
-Lyric=Çﬁ
+Lyric=„ÇÄ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7707,7 +7707,7 @@ PBY=0.6592601635941264,0.6958857282383235,-0.24417043096079283
 PBM=,
 [#0693]
 Length=481
-Lyric=ÇÀ
+Lyric=„Å≠
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7719,7 +7719,7 @@ PBY=-0.2563789525088822,-0.3174215602490449
 PBM=
 [#0694]
 Length=477
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7731,7 +7731,7 @@ PBY=-0.30521303870102656,0.21975338786475618
 PBM=
 [#0695]
 Length=479
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7743,7 +7743,7 @@ PBY=0.2319619094127745,-0.18312782322063015
 PBM=
 [#0696]
 Length=485
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -7755,7 +7755,7 @@ PBY=-0.17091930167254077,-0.2319619094127745
 PBM=
 [#0697]
 Length=474
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -7767,7 +7767,7 @@ PBY=-0.24417043096079283,-0.012208521548018325
 PBM=
 [#0698]
 Length=686
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7784,7 +7784,7 @@ NoteNum=60
 PreUtterance=
 [#0700]
 Length=482
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -7796,7 +7796,7 @@ PBY=-0.2563789525088822,-0.2563789525088822
 PBM=
 [#0701]
 Length=484
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -7808,7 +7808,7 @@ PBY=-0.26858747405690053,0.012208521548018325
 PBM=
 [#0702]
 Length=958
-Lyric=ÇØ
+Lyric=„Åë
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7820,7 +7820,7 @@ PBY=0,-0.15871078012452244
 PBM=
 [#0703]
 Length=483
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7832,7 +7832,7 @@ PBY=-0.14650225857650412,0.14650225857650412
 PBM=
 [#0704]
 Length=912
-Lyric=ÇÊ
+Lyric=„Çà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7849,7 +7849,7 @@ NoteNum=60
 PreUtterance=
 [#0706]
 Length=483
-Lyric=Çª
+Lyric=„Åù
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -7861,7 +7861,7 @@ PBY=0.964473202295224,1.1353925039677648,0.048834086192144355
 PBM=,
 [#0707]
 Length=480
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -7873,7 +7873,7 @@ PBY=0.03662556464412603,0.14650225857650412
 PBM=
 [#0708]
 Length=233
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=72
 PreUtterance=
 PBType=5
@@ -7885,7 +7885,7 @@ PBY=0.1342937370284858,0.10987669393230703,-0.500549383469604,-1.110975460871657
 PBM=,,,
 [#0709]
 Length=245
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -7897,7 +7897,7 @@ PBY=-1.0987669393236388,-0.48834086192158566
 PBM=
 [#0710]
 Length=1912
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=72
 PreUtterance=
 PBType=5
@@ -7914,7 +7914,7 @@ NoteNum=60
 PreUtterance=
 [#0712]
 Length=236
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7926,7 +7926,7 @@ PBY=0.4272982541813519,0.5371749481138011
 PBM=
 [#0713]
 Length=244
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -7938,7 +7938,7 @@ PBY=0.5249664265657827,0.12208521548046747,0.9156391161030797,0.8912220730069009
 PBM=,,
 [#0714]
 Length=473
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -7950,7 +7950,7 @@ PBY=0.8790135514588826,0.7325112928823785,-0.5493834696618194,-0.024417043096036
 PBM=,,
 [#0715]
 Length=714
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -7967,7 +7967,7 @@ NoteNum=60
 PreUtterance=
 [#0717]
 Length=475
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -7979,7 +7979,7 @@ PBY=-0.4883408619216567,-0.3296300817970632
 PBM=
 [#0718]
 Length=486
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -7991,7 +7991,7 @@ PBY=-0.3418386033451526,0.024417043096107705
 PBM=
 [#0719]
 Length=482
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8003,7 +8003,7 @@ PBY=0.012208521548018325,-0.30521303870102656
 PBM=
 [#0720]
 Length=475
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8015,7 +8015,7 @@ PBY=-0.29300451715300824,-0.036625564644054975
 PBM=
 [#0721]
 Length=484
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8027,7 +8027,7 @@ PBY=-0.02441704309603665,-0.4517152972775307,0.10987669393230703
 PBM=,
 [#0722]
 Length=477
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8039,7 +8039,7 @@ PBY=0.09766817238428871,0.12208521548046747,1.0987669393236388,1.062141374679583
 PBM=,,,
 [#0723]
 Length=243
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8051,7 +8051,7 @@ PBY=-0.25637895250881115,-0.19533634476871953,0.7691368575265756,0.7813453790745
 PBM=,,
 [#0724]
 Length=717
-Lyric=Ç—Ç„
+Lyric=„Å≥„ÇÖ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8063,7 +8063,7 @@ PBY=0.7935539006226122,0.6714686851422869,-0.15871078012452244,0.183127823220559
 PBM=,,
 [#0725]
 Length=479
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -8075,7 +8075,7 @@ PBY=0.19533634476864847,0.8668050299108643,0
 PBM=,
 [#0726]
 Length=476
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -8087,7 +8087,7 @@ PBY=-0.012208521548018325,-0.15871078012452244
 PBM=
 [#0727]
 Length=480
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8099,7 +8099,7 @@ PBY=-0.17091930167254077,-0.15871078012452244,-1.3063118056403766,-1.24526919790
 PBM=,,,
 [#0728]
 Length=486
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8111,7 +8111,7 @@ PBY=-0.29300451715300824,0.2319619094127745
 PBM=
 [#0729]
 Length=474
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8123,7 +8123,7 @@ PBY=0.24417043096079283,0.036625564644054975
 PBM=
 [#0730]
 Length=493
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8135,7 +8135,7 @@ PBY=0.02441704309603665,0.012208521548018325,0.7935539006226122,0.30521303870102
 PBM=,,
 [#0731]
 Length=234
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8147,7 +8147,7 @@ PBY=0.29300451715300824,0.30521303870102656,-1.0255158100353867
 PBM=,
 [#0732]
 Length=716
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8159,7 +8159,7 @@ PBY=-1.0133072884873684,-0.8668050299108643,0.10987669393230703,0.75692833597855
 PBM=,,,
 [#0733]
 Length=484
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -8171,7 +8171,7 @@ PBY=0.30521303870102656,0.927847637651098,-0.012208521548018325
 PBM=,
 [#0734]
 Length=483
-Lyric=ÇŸ
+Lyric=„Åª
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -8183,7 +8183,7 @@ PBY=-0.024417043096107705,-0.24417043096079283
 PBM=
 [#0735]
 Length=476
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8195,7 +8195,7 @@ PBY=-0.25637895250881115,-1.1598095470638725,-0.3784641679892786
 PBM=,
 [#0736]
 Length=477
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8207,7 +8207,7 @@ PBY=-0.3662556464412603,-0.30521303870102656
 PBM=
 [#0737]
 Length=477
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8219,7 +8219,7 @@ PBY=-0.29300451715300824,0.43950677572951236,0.08545965083627038
 PBM=,
 [#0738]
 Length=482
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8231,7 +8231,7 @@ PBY=0.07325112928825206,-0.08545965083627038,-1.2086436332559458,-1.220852154804
 PBM=,,,,
 [#0739]
 Length=241
-Lyric=ÇÀ
+Lyric=„Å≠
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8243,7 +8243,7 @@ PBY=-0.19533634476871953,-0.19533634476871953,-0.7569283359785572
 PBM=,
 [#0740]
 Length=719
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8255,7 +8255,7 @@ PBY=-0.7447198144305389,0.19533634476871953,0.25637895250881115
 PBM=,
 [#0741]
 Length=487
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8267,7 +8267,7 @@ PBY=0.2685874740568295,-0.28079599560491886,0.1831278232205591
 PBM=,
 [#0742]
 Length=479
-Lyric=Ç≤
+Lyric=„Åî
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8279,7 +8279,7 @@ PBY=0.17091930167254077,0.19533634476871953
 PBM=
 [#0743]
 Length=474
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -8291,7 +8291,7 @@ PBY=0.1831278232205591,0.19533634476871953,-0.5493834696618194,-0.40288121108531
 PBM=,,
 [#0744]
 Length=479
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -8303,7 +8303,7 @@ PBY=-0.39067268953729695,-0.3784641679892786,1.110975460871657,1.123183982419675
 PBM=,,,
 [#0745]
 Length=250
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -8315,7 +8315,7 @@ PBY=0.1831278232205591,-0.061042607740233734
 PBM=
 [#0746]
 Length=235
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8327,7 +8327,7 @@ PBY=-0.07325112928825206,-0.048834086192144355,1.0133072884873684
 PBM=,
 [#0747]
 Length=486
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8339,7 +8339,7 @@ PBY=1.00109876693935,0.9156391161030797,0.07325112928825206,0.20754486631673785
 PBM=,,
 [#0748]
 Length=714
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8351,7 +8351,7 @@ PBY=0.19533634476871953,0.12208521548046747
 PBM=
 [#0749]
 Length=238
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8363,7 +8363,7 @@ PBY=0.1342937370284858,-0.012208521548018325
 PBM=
 [#0750]
 Length=242
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8375,7 +8375,7 @@ PBY=-0.02441704309603665,-1.1598095470638725
 PBM=
 [#0751]
 Length=246
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8387,7 +8387,7 @@ PBY=-1.1720180686118908,-0.14650225857650412
 PBM=
 [#0752]
 Length=675
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8404,7 +8404,7 @@ NoteNum=60
 PreUtterance=
 [#0754]
 Length=481
-Lyric=Çø
+Lyric=„Å°
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8416,7 +8416,7 @@ PBY=-0.02441704309603665,0.35404712489324197
 PBM=
 [#0755]
 Length=485
-Lyric=Ç´Ç„
+Lyric=„Åç„ÇÖ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8428,7 +8428,7 @@ PBY=0.34183860334508154,1.037724331583405,0.9766817238433134,0.01220852154801832
 PBM=,,
 [#0756]
 Length=477
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8440,7 +8440,7 @@ PBY=0,-0.02441704309603665,-1.2086436332559458,-1.245269197900143,-1.22085215480
 PBM=,,,,
 [#0757]
 Length=248
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8452,7 +8452,7 @@ PBY=-0.14650225857650412,0.7447198144305389
 PBM=
 [#0758]
 Length=715
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8464,7 +8464,7 @@ PBY=0.7569283359785572,0.6226345989500714,-0.012208521548018325,-0.6470516420461
 PBM=,,,
 [#0759]
 Length=473
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -8476,7 +8476,7 @@ PBY=-0.14650225857650412,0
 PBM=
 [#0760]
 Length=488
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -8488,7 +8488,7 @@ PBY=-0.012208521548018325,0.03662556464412603
 PBM=
 [#0761]
 Length=479
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8500,7 +8500,7 @@ PBY=0.04883408619221541,0.061042607740233734,-0.8790135514588826,-0.329630081797
 PBM=,,
 [#0762]
 Length=485
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8512,7 +8512,7 @@ PBY=-0.3174215602490449,0.04883408619221541
 PBM=
 [#0763]
 Length=481
-Lyric=Ç⁄
+Lyric=„Åº
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8524,7 +8524,7 @@ PBY=0.036625564644054975,-0.854596508362846,-0.2685874740568295
 PBM=,
 [#0764]
 Length=481
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8536,7 +8536,7 @@ PBY=-0.2807959956049899,-0.4517152972775307
 PBM=
 [#0765]
 Length=234
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8548,7 +8548,7 @@ PBY=0.964473202295153,
 PBM=
 [#0766]
 Length=428
-Lyric=ÇÕ
+Lyric=„ÅØ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8565,7 +8565,7 @@ NoteNum=60
 PreUtterance=
 [#0768]
 Length=490
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -8577,7 +8577,7 @@ PBY=0.500549383469675,0.10987669393237809
 PBM=
 [#0769]
 Length=479
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -8589,7 +8589,7 @@ PBY=0.09766817238435976,0.15871078012452244
 PBM=
 [#0770]
 Length=476
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8601,7 +8601,7 @@ PBY=0.14650225857650412,0.15871078012452244,-1.0743498962276021,-1.0255158100353
 PBM=,,,
 [#0771]
 Length=475
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8613,7 +8613,7 @@ PBY=-0.12208521548046747,0.08545965083627038
 PBM=
 [#0772]
 Length=483
-Lyric=Çø
+Lyric=„Å°
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8625,7 +8625,7 @@ PBY=0.09766817238428871,0.1831278232205591
 PBM=
 [#0773]
 Length=483
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8637,7 +8637,7 @@ PBY=0.17091930167254077,0.15871078012452244,-1.1598095470638725,-1.1476010255158
 PBM=,,,
 [#0774]
 Length=238
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8649,7 +8649,7 @@ PBY=-0.10987669393230703,0.500549383469604
 PBM=
 [#0775]
 Length=714
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8661,7 +8661,7 @@ PBY=0.5127579050177644,-0.07325112928825206
 PBM=
 [#0776]
 Length=491
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8673,7 +8673,7 @@ PBY=-0.08545965083627038,-0.2319619094127745
 PBM=
 [#0777]
 Length=474
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8685,7 +8685,7 @@ PBY=-0.24417043096079283,-0.08545965083627038
 PBM=
 [#0778]
 Length=480
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -8697,7 +8697,7 @@ PBY=-0.07325112928825206,0.7080942497863418,-0.10987669393230703
 PBM=,
 [#0779]
 Length=478
-Lyric=ÇÕ
+Lyric=„ÅØ
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -8709,7 +8709,7 @@ PBY=-0.09766817238428871,0.012208521548018325
 PBM=
 [#0780]
 Length=249
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -8721,7 +8721,7 @@ PBY=0.02441704309603665,0.04883408619221541
 PBM=
 [#0781]
 Length=236
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8733,7 +8733,7 @@ PBY=0.036625564644054975,0.9522646807471347
 PBM=
 [#0782]
 Length=475
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8745,7 +8745,7 @@ PBY=0.9400561591991163,0.21975338786475618,-1.2330606763521246,-1.22085215480410
 PBM=,,,
 [#0783]
 Length=962
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8757,7 +8757,7 @@ PBY=-0.4272982541813519,-0.1831278232205591
 PBM=
 [#0784]
 Length=234
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -8769,7 +8769,7 @@ PBY=-0.19533634476871953,0.02441704309603665
 PBM=
 [#0785]
 Length=241
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8781,7 +8781,7 @@ PBY=0.012208521548018325,-0.048834086192144355,0.7935539006226122
 PBM=,
 [#0786]
 Length=722
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=62
 PreUtterance=
 PBType=5
@@ -8793,7 +8793,7 @@ PBY=0.7813453790745939,0.6958857282383235,-0.28079599560491886,-0.09766817238435
 PBM=,,
 [#0787]
 Length=239
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=62
 PreUtterance=
 PBType=5
@@ -8805,7 +8805,7 @@ PBY=-0.08545965083627038,-0.07325112928825206
 PBM=
 [#0788]
 Length=953
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8822,7 +8822,7 @@ NoteNum=60
 PreUtterance=
 [#0790]
 Length=246
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8834,7 +8834,7 @@ PBY=0.47613234037356733,0.6226345989500714
 PBM=
 [#0791]
 Length=237
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8846,7 +8846,7 @@ PBY=0.6348431204980898,0
 PBM=
 [#0792]
 Length=480
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8858,7 +8858,7 @@ PBY=-0.012208521548018325,-0.036625564644054975
 PBM=
 [#0793]
 Length=486
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8870,7 +8870,7 @@ PBY=-0.024417043096107705,-0.024417043096107705
 PBM=
 [#0794]
 Length=238
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8882,7 +8882,7 @@ PBY=-0.03662556464412603,0.012208521548018325
 PBM=
 [#0795]
 Length=240
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8894,7 +8894,7 @@ PBY=0,-0.2075448663166668
 PBM=
 [#0796]
 Length=239
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -8906,7 +8906,7 @@ PBY=-0.21975338786475618,-0.12208521548039641
 PBM=
 [#0797]
 Length=237
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -8918,7 +8918,7 @@ PBY=-0.10987669393230703,0.2685874740568295,-1.0987669393236388,-1.0865584177756
 PBM=,,
 [#0798]
 Length=476
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -8930,7 +8930,7 @@ PBY=-1.0743498962276021,-0.9400561591991163,0.04883408619221541,0
 PBM=,,
 [#0799]
 Length=486
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -8942,7 +8942,7 @@ PBY=-0.012208521548018325,0.07325112928825206
 PBM=
 [#0800]
 Length=481
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -8954,7 +8954,7 @@ PBY=0.061042607740233734,0.1342937370284858
 PBM=
 [#0801]
 Length=478
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8966,7 +8966,7 @@ PBY=0.14650225857650412,-1.0743498962276021,-1.0255158100353867,-0.0244170430960
 PBM=,,
 [#0802]
 Length=480
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -8978,7 +8978,7 @@ PBY=-0.012208521548018325,-0.2685874740568295
 PBM=
 [#0803]
 Length=476
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -8990,7 +8990,7 @@ PBY=-0.2807959956049899,1.1231839824196754,0.3174215602490449
 PBM=,
 [#0804]
 Length=477
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9002,7 +9002,7 @@ PBY=0.30521303870102656,0.29300451715300824,-1.1964351117079985,-1.1964351117079
 PBM=,,,
 [#0805]
 Length=247
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9014,7 +9014,7 @@ PBY=-0.02441704309603665,0.04883408619221541
 PBM=
 [#0806]
 Length=240
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9026,7 +9026,7 @@ PBY=0.061042607740233734,0.24417043096079283
 PBM=
 [#0807]
 Length=1878
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9043,7 +9043,7 @@ NoteNum=60
 PreUtterance=
 [#0809]
 Length=488
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9055,7 +9055,7 @@ PBY=-0.3540471248931709,-0.012208521548018325
 PBM=
 [#0810]
 Length=474
-Lyric=Ç±
+Lyric=„Åì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9067,7 +9067,7 @@ PBY=-0.024417043096107705,0.15871078012452244
 PBM=
 [#0811]
 Length=480
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -9079,7 +9079,7 @@ PBY=0.14650225857650412,0.17091930167254077,0.854596508362846,0.3296300817970632
 PBM=,,
 [#0812]
 Length=197
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -9096,7 +9096,7 @@ NoteNum=60
 PreUtterance=
 [#0814]
 Length=479
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9108,7 +9108,7 @@ PBY=0.15871078012452244,0.5249664265657827,-0.10987669393237809
 PBM=,
 [#0815]
 Length=483
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -9120,7 +9120,7 @@ PBY=-0.12208521548046747,0.39067268953729695,-0.3784641679892786
 PBM=,
 [#0816]
 Length=723
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -9132,7 +9132,7 @@ PBY=-0.19533634476871953,0.2807959956049899
 PBM=
 [#0817]
 Length=240
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -9144,7 +9144,7 @@ PBY=0.29300451715300824,0.012208521548018325
 PBM=
 [#0818]
 Length=437
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9161,7 +9161,7 @@ NoteNum=60
 PreUtterance=
 [#0820]
 Length=960
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9173,7 +9173,7 @@ PBY=-0.2685874740568295,0.08545965083627038
 PBM=
 [#0821]
 Length=245
-Lyric=Ç∏
+Lyric=„Åö
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9185,7 +9185,7 @@ PBY=0.09766817238428871,0.07325112928825206,1.0865584177756205,1.062141374679583
 PBM=,,
 [#0822]
 Length=242
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -9197,7 +9197,7 @@ PBY=1.0499328531314234,0.8668050299108643,-0.6104260774020531,-0.634843120498089
 PBM=,,
 [#0823]
 Length=912
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9214,7 +9214,7 @@ NoteNum=60
 PreUtterance=
 [#0825]
 Length=483
-Lyric=Çﬁ
+Lyric=„ÇÄ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9226,7 +9226,7 @@ PBY=0.2685874740568295,0.2685874740568295
 PBM=
 [#0826]
 Length=484
-Lyric=ÇÀ
+Lyric=„Å≠
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9238,7 +9238,7 @@ PBY=0.25637895250881115,0.21975338786475618
 PBM=
 [#0827]
 Length=477
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9250,7 +9250,7 @@ PBY=0.2319619094127745,-0.2319619094127745
 PBM=
 [#0828]
 Length=481
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9262,7 +9262,7 @@ PBY=-0.21975338786475618,-0.17091930167254077
 PBM=
 [#0829]
 Length=476
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9274,7 +9274,7 @@ PBY=-0.18312782322063015,-0.40288121108531527
 PBM=
 [#0830]
 Length=482
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9286,7 +9286,7 @@ PBY=-0.4150897326333336,-0.4272982541813519,0.19533634476871953,0.83017946526680
 PBM=,,,,
 [#0831]
 Length=682
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9303,7 +9303,7 @@ NoteNum=60
 PreUtterance=
 [#0833]
 Length=475
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9315,7 +9315,7 @@ PBY=0.2075448663166668,0.2319619094127745
 PBM=
 [#0834]
 Length=487
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9327,7 +9327,7 @@ PBY=0.21975338786475618,-0.03662556464412603
 PBM=
 [#0835]
 Length=955
-Lyric=ÇØ
+Lyric=„Åë
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -9339,7 +9339,7 @@ PBY=0.012208521548018325,0.036625564644054975
 PBM=
 [#0836]
 Length=484
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9351,7 +9351,7 @@ PBY=0.04883408619221541,0.15871078012452244
 PBM=
 [#0837]
 Length=922
-Lyric=ÇÊ
+Lyric=„Çà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9368,7 +9368,7 @@ NoteNum=60
 PreUtterance=
 [#0839]
 Length=483
-Lyric=Çª
+Lyric=„Åù
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9380,7 +9380,7 @@ PBY=-0.500549383469675,-0.36625564644118924
 PBM=
 [#0840]
 Length=481
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9392,7 +9392,7 @@ PBY=-0.3784641679892786,-0.29300451715300824
 PBM=
 [#0841]
 Length=243
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=72
 PreUtterance=
 PBType=5
@@ -9404,7 +9404,7 @@ PBY=-0.30521303870102656,-0.964473202295153
 PBM=
 [#0842]
 Length=243
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -9416,7 +9416,7 @@ PBY=-0.9522646807471347,0.7691368575265756
 PBM=
 [#0843]
 Length=1913
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=72
 PreUtterance=
 PBType=5
@@ -9433,7 +9433,7 @@ NoteNum=60
 PreUtterance=
 [#0845]
 Length=484
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9445,7 +9445,7 @@ PBY=0.8057624221707016,0.964473202295224,0.024417043096107705
 PBM=,
 [#0846]
 Length=479
-Lyric=Ç¬
+Lyric=„Å§
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9457,7 +9457,7 @@ PBY=0.012208521548018325,-0.3174215602490449
 PBM=
 [#0847]
 Length=480
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9469,7 +9469,7 @@ PBY=-0.02441704309603665,-0.1342937370284858
 PBM=
 [#0848]
 Length=480
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9481,7 +9481,7 @@ PBY=-0.12208521548046747,0.30521303870102656
 PBM=
 [#0849]
 Length=477
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9493,7 +9493,7 @@ PBY=0.7569283359785572,0.10987669393230703
 PBM=
 [#0850]
 Length=484
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9505,7 +9505,7 @@ PBY=0.09766817238428871,0.14650225857650412,0.8179709437186489,0.280795995604989
 PBM=,,
 [#0851]
 Length=236
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9517,7 +9517,7 @@ PBY=0.29300451715300824,0.30521303870102656
 PBM=
 [#0852]
 Length=726
-Lyric=Ç—Ç„
+Lyric=„Å≥„ÇÖ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9529,7 +9529,7 @@ PBY=0.3174215602490449,-0.02441704309603665
 PBM=
 [#0853]
 Length=476
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9541,7 +9541,7 @@ PBY=-0.03662556464412603,-0.5127579050176934,0.012208521548018325
 PBM=,
 [#0854]
 Length=479
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9553,7 +9553,7 @@ PBY=0,0.18312782322063015
 PBM=
 [#0855]
 Length=476
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9565,7 +9565,7 @@ PBY=-0.30521303870102656,-0.24417043096079283
 PBM=
 [#0856]
 Length=481
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9577,7 +9577,7 @@ PBY=-0.2319619094127745,-0.2685874740568295
 PBM=
 [#0857]
 Length=476
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9589,7 +9589,7 @@ PBY=-0.10987669393230703,0.40288121108531527,0.09766817238428871
 PBM=,
 [#0858]
 Length=481
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9601,7 +9601,7 @@ PBY=0.08545965083627038,0
 PBM=
 [#0859]
 Length=247
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9613,7 +9613,7 @@ PBY=0.7935539006226122,0.8057624221706305
 PBM=
 [#0860]
 Length=716
-Lyric=Ç›
+Lyric=„Åø
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9625,7 +9625,7 @@ PBY=0.7935539006226122,-0.08545965083627038,0.8668050299108643,0.879013551458882
 PBM=,,,,,
 [#0861]
 Length=480
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9637,7 +9637,7 @@ PBY=-0.3296300817970632,-0.10987669393237809
 PBM=
 [#0862]
 Length=482
-Lyric=Ç∑
+Lyric=„Åô
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9649,7 +9649,7 @@ PBY=-0.12208521548039641,-0.3418386033451526
 PBM=
 [#0863]
 Length=478
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9661,7 +9661,7 @@ PBY=-0.3296300817970632,0.3296300817970632,0.34183860334508154,-0.35404712489324
 PBM=,,
 [#0864]
 Length=477
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9673,7 +9673,7 @@ PBY=-0.34183860334508154,0.061042607740233734
 PBM=
 [#0865]
 Length=482
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9685,7 +9685,7 @@ PBY=0.20754486631673785,1.2208521548041062,1.1720180686118908,0.1709193016725407
 PBM=,,
 [#0866]
 Length=242
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9697,7 +9697,7 @@ PBY=0.15871078012452244,0.08545965083627038
 PBM=
 [#0867]
 Length=243
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9709,7 +9709,7 @@ PBY=0.07325112928825206,-0.07325112928825206
 PBM=
 [#0868]
 Length=237
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9721,7 +9721,7 @@ PBY=-0.061042607740233734,-0.3296300817970632
 PBM=
 [#0869]
 Length=718
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9733,7 +9733,7 @@ PBY=-0.3174215602490449,-0.09766817238428871
 PBM=
 [#0870]
 Length=476
-Lyric=Ç⁄
+Lyric=„Åº
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9745,7 +9745,7 @@ PBY=-0.10987669393237809,-0.12208521548039641
 PBM=
 [#0871]
 Length=482
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9757,7 +9757,7 @@ PBY=-0.13429373702841474,0.04883408619221541
 PBM=
 [#0872]
 Length=477
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -9769,7 +9769,7 @@ PBY=0.061042607740233734,0.09766817238428871,-0.6348431204980898,-0.244170430960
 PBM=,,
 [#0873]
 Length=489
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -9781,7 +9781,7 @@ PBY=-0.2319619094127745,-0.19533634476871953
 PBM=
 [#0874]
 Length=236
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -9793,7 +9793,7 @@ PBY=-0.20754486631673785,-0.04883408619221541
 PBM=
 [#0875]
 Length=235
-Lyric=Ç∂
+Lyric=„Åò
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -9805,7 +9805,7 @@ PBY=-0.061042607740233734,0.2685874740568295
 PBM=
 [#0876]
 Length=494
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9817,7 +9817,7 @@ PBY=0.25637895250881115,-0.07325112928825206
 PBM=
 [#0877]
 Length=959
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9829,7 +9829,7 @@ PBY=-0.061042607740233734,-0.036625564644054975,-0.8912220730069009,-0.183127823
 PBM=,,
 [#0878]
 Length=476
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9841,7 +9841,7 @@ PBY=-0.19533634476871953,-0.48834086192158566,0.17091930167254077
 PBM=,
 [#0879]
 Length=672
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9858,7 +9858,7 @@ NoteNum=60
 PreUtterance=
 [#0881]
 Length=478
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9870,7 +9870,7 @@ PBY=0.02441704309603665,0.12208521548046747
 PBM=
 [#0882]
 Length=485
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9882,7 +9882,7 @@ PBY=0.10987669393230703,0.07325112928825206,-0.7935539006226122,-0.8301794652668
 PBM=,,,
 [#0883]
 Length=478
-Lyric=Ç‚
+Lyric=„ÇÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9894,7 +9894,7 @@ PBY=0.04883408619221541,0,-0.8790135514588826,-0.30521303870102656
 PBM=,,
 [#0884]
 Length=235
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9906,7 +9906,7 @@ PBY=0.6836772066903052,0.6958857282383235
 PBM=
 [#0885]
 Length=720
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9918,7 +9918,7 @@ PBY=0.7080942497863418,0.6104260774020531,-0.19533634476871953,-0.01220852154801
 PBM=,,
 [#0886]
 Length=486
-Lyric=ÇµÇ„
+Lyric=„Åó„ÇÖ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9930,7 +9930,7 @@ PBY=-0.03662556464412603,0.061042607740233734
 PBM=
 [#0887]
 Length=477
-Lyric=ÇµÇÂ
+Lyric=„Åó„Çá
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -9942,7 +9942,7 @@ PBY=0.048834086192144355,-0.03662556464412603
 PBM=
 [#0888]
 Length=484
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9954,7 +9954,7 @@ PBY=-0.02441704309603665,-0.08545965083627038,-0.7569283359785572,-0.31742156024
 PBM=,,
 [#0889]
 Length=478
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -9966,7 +9966,7 @@ PBY=-0.30521303870102656,-0.20754486631673785
 PBM=
 [#0890]
 Length=479
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -9978,7 +9978,7 @@ PBY=-0.21975338786475618,-0.9766817238433134,-0.34183860334508154
 PBM=,
 [#0891]
 Length=475
-Lyric=ÇÍ
+Lyric=„Çå
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -9990,7 +9990,7 @@ PBY=-0.35404712489324197,0.3784641679892786,0.21975338786475618
 PBM=,
 [#0892]
 Length=247
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -10002,7 +10002,7 @@ PBY=0.2807959956049899,0.6592601635941264
 PBM=
 [#0893]
 Length=717
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10014,7 +10014,7 @@ PBY=0.6714686851422869,0.24417043096079283
 PBM=
 [#0894]
 Length=488
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10026,7 +10026,7 @@ PBY=0.2563789525088822,0.5982175558539637,-0.2075448663166668
 PBM=,
 [#0895]
 Length=536
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10038,7 +10038,7 @@ PBY=-0.21975338786475618,-0.2319619094127745
 PBM=
 [#0896]
 Length=421
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -10050,7 +10050,7 @@ PBY=-0.21975338786475618,-0.19533634476871953,-1.0133072884873684,-0.42729825418
 PBM=,,
 [#0897]
 Length=478
-Lyric=Ç§
+Lyric=„ÅÜ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -10062,7 +10062,7 @@ PBY=-0.4150897326333336,-0.12208521548046747
 PBM=
 [#0898]
 Length=478
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -10074,7 +10074,7 @@ PBY=-0.1342937370284858,-0.036625564644054975
 PBM=
 [#0899]
 Length=485
-Lyric=Ç™
+Lyric=„Åå
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10086,7 +10086,7 @@ PBY=-0.04883408619221541,-0.3174215602490449
 PBM=
 [#0900]
 Length=236
-Lyric=Ç´
+Lyric=„Åç
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -10098,7 +10098,7 @@ PBY=-0.30521303870102656,-0.29300451715300824,0.8423879868148276
 PBM=,
 [#0901]
 Length=716
-Lyric=Çµ
+Lyric=„Åó
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10110,7 +10110,7 @@ PBY=0.854596508362846,0.7813453790745939,-0.14650225857650412,-0.207544866316737
 PBM=,,
 [#0902]
 Length=485
-Lyric=ÇøÇ·
+Lyric=„Å°„ÇÉ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10122,7 +10122,7 @@ PBY=-0.21975338786475618,-0.14650225857650412
 PBM=
 [#0903]
 Length=476
-Lyric=Ç¶
+Lyric=„Åà
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10134,7 +10134,7 @@ PBY=-0.15871078012452244,0.12208521548046747
 PBM=
 [#0904]
 Length=485
-Lyric=ÇŒ
+Lyric=„Å∞
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -10146,7 +10146,7 @@ PBY=0.1342937370284858,1.1231839824196754,0.04883408619221541
 PBM=,
 [#0905]
 Length=719
-Lyric=Ç⁄
+Lyric=„Åº
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -10158,7 +10158,7 @@ PBY=0.061042607740233734,0.04883408619221541,-0.7691368575265756,-0.744719814430
 PBM=,,,,
 [#0906]
 Length=237
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10170,7 +10170,7 @@ PBY=0.19533634476871953,-0.7080942497863418
 PBM=
 [#0907]
 Length=352
-Lyric=ÇÃ
+Lyric=„ÅÆ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -10187,7 +10187,7 @@ NoteNum=60
 PreUtterance=
 [#0909]
 Length=965
-Lyric=Ç®
+Lyric=„Åä
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -10199,7 +10199,7 @@ PBY=-0.2685874740568295,-0.04883408619221541
 PBM=
 [#0910]
 Length=244
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=67
 PreUtterance=
 PBType=5
@@ -10211,7 +10211,7 @@ PBY=-0.061042607740233734,-0.08545965083627038,-0.7935539006226122,-0.8179709437
 PBM=,,
 [#0911]
 Length=233
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10223,7 +10223,7 @@ PBY=-0.8301794652667382,0.10987669393230703,-0.964473202295224,-0.97668172384324
 PBM=,,
 [#0912]
 Length=958
-Lyric=Ç«
+Lyric=„Å©
 NoteNum=62
 PreUtterance=
 PBType=5
@@ -10235,7 +10235,7 @@ PBY=-0.9888902453912607,-0.7080942497863418,-0.41508973263340465,0.3662556464411
 PBM=,,,
 [#0913]
 Length=914
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10252,7 +10252,7 @@ NoteNum=60
 PreUtterance=
 [#0915]
 Length=239
-Lyric=Ç‰
+Lyric=„ÇÜ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -10264,7 +10264,7 @@ PBY=0.2319619094127745,0.24417043096079283
 PBM=
 [#0916]
 Length=238
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -10276,7 +10276,7 @@ PBY=0.2319619094127745,0.02441704309603665
 PBM=
 [#0917]
 Length=485
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -10288,7 +10288,7 @@ PBY=0.036625564644054975,0.012208521548018325
 PBM=
 [#0918]
 Length=472
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10300,7 +10300,7 @@ PBY=0,-1.0987669393236388,-1.0865584177756205,-0.29300451715300824
 PBM=,,
 [#0919]
 Length=243
-Lyric=Ç“
+Lyric=„Å¥
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10312,7 +10312,7 @@ PBY=-0.30521303870102656,-0.048834086192144355
 PBM=
 [#0920]
 Length=245
-Lyric=Ç“
+Lyric=„Å¥
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10324,7 +10324,7 @@ PBY=-0.061042607740233734,-0.19533634476864847
 PBM=
 [#0921]
 Length=475
-Lyric=Ç“
+Lyric=„Å¥
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -10336,7 +10336,7 @@ PBY=-0.1831278232205591,0.5493834696618194,0.061042607740233734
 PBM=,
 [#0922]
 Length=479
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=73
 PreUtterance=
 PBType=5
@@ -10348,7 +10348,7 @@ PBY=0.07325112928825206,-0.04883408619221541
 PBM=
 [#0923]
 Length=479
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -10360,7 +10360,7 @@ PBY=-0.061042607740233734,-0.07325112928825206,-1.0621413746795838,-0.2930045171
 PBM=,,
 [#0924]
 Length=248
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -10372,7 +10372,7 @@ PBY=-0.30521303870102656,-0.5127579050177644
 PBM=
 [#0925]
 Length=235
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -10384,7 +10384,7 @@ PBY=-0.5249664265657827,-0.12208521548046747
 PBM=
 [#0926]
 Length=480
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10396,7 +10396,7 @@ PBY=-0.10987669393230703,-0.04883408619221541,0.5982175558540348,0.1709193016725
 PBM=,,
 [#0927]
 Length=485
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10408,7 +10408,7 @@ PBY=0.1831278232205591,0.25637895250881115
 PBM=
 [#0928]
 Length=474
-Lyric=Çﬂ
+Lyric=„ÇÅ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -10420,7 +10420,7 @@ PBY=0.24417043096079283,0.21975338786475618,1.1476010255158542,1.086558417775620
 PBM=,,,
 [#0929]
 Length=245
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10432,7 +10432,7 @@ PBY=0.30521303870102656,0.21975338786475618
 PBM=
 [#0930]
 Length=241
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10444,7 +10444,7 @@ PBY=0.20754486631673785,-0.08545965083627038
 PBM=
 [#0931]
 Length=2356
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10461,7 +10461,7 @@ NoteNum=60
 PreUtterance=
 [#0933]
 Length=488
-Lyric=Ç 
+Lyric=„Å¨
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10473,7 +10473,7 @@ PBY=0.8301794652668093,0.9522646807471347,-0.048834086192144355
 PBM=,
 [#0934]
 Length=476
-Lyric=Ç≠
+Lyric=„Åè
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10485,7 +10485,7 @@ PBY=-0.061042607740233734,0.09766817238428871
 PBM=
 [#0935]
 Length=476
-Lyric=Ç‡
+Lyric=„ÇÇ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -10497,7 +10497,7 @@ PBY=-0.7447198144305389,-0.7080942497863418,0.012208521548018325
 PBM=,
 [#0936]
 Length=480
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -10509,7 +10509,7 @@ PBY=0.02441704309603665,-0.19533634476871953
 PBM=
 [#0937]
 Length=478
-Lyric=Ç…
+Lyric=„Å´
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10521,7 +10521,7 @@ PBY=1.1231839824196754,1.0865584177756205,0.21975338786475618
 PBM=,
 [#0938]
 Length=484
-Lyric=Ç∞
+Lyric=„Åí
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -10533,7 +10533,7 @@ PBY=0.20754486631673785,0.1831278232205591,-0.5249664265657827,-0.41508973263333
 PBM=,,
 [#0939]
 Length=476
-Lyric=Ç»
+Lyric=„Å™
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -10545,7 +10545,7 @@ PBY=-0.40288121108531527,0.02441704309603665
 PBM=
 [#0940]
 Length=477
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -10557,7 +10557,7 @@ PBY=0.036625564644054975,-0.10987669393230703
 PBM=
 [#0941]
 Length=453
-Lyric=Ç≈
+Lyric=„Åß
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10574,7 +10574,7 @@ NoteNum=60
 PreUtterance=
 [#0943]
 Length=248
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10586,7 +10586,7 @@ PBY=-0.012208521548018325,0.03662556464412603
 PBM=
 [#0944]
 Length=238
-Lyric=Çæ
+Lyric=„Å†
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10598,7 +10598,7 @@ PBY=0.048834086192144355,0.10987669393237809
 PBM=
 [#0945]
 Length=487
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10610,7 +10610,7 @@ PBY=0.12208521548039641,-0.13429373702841474
 PBM=
 [#0946]
 Length=480
-Lyric=Ç≥
+Lyric=„Åï
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10622,7 +10622,7 @@ PBY=-0.14650225857650412,-0.17091930167254077,0.9400561591991163,0.3174215602490
 PBM=,,
 [#0947]
 Length=960
-Lyric=ÇÌ
+Lyric=„Çè
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10639,7 +10639,7 @@ NoteNum=60
 PreUtterance=
 [#0949]
 Length=483
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10651,7 +10651,7 @@ PBY=-0.3174215602490449,-0.21975338786475618
 PBM=
 [#0950]
 Length=480
-Lyric=Ç’
+Lyric=„Å∑
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10663,7 +10663,7 @@ PBY=-0.2319619094127745,0.14650225857650412
 PBM=
 [#0951]
 Length=482
-Lyric=ÇË
+Lyric=„Çä
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10675,7 +10675,7 @@ PBY=0.15871078012452244,0
 PBM=
 [#0952]
 Length=484
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10687,7 +10687,7 @@ PBY=0.012208521548018325,-0.2563789525088822
 PBM=
 [#0953]
 Length=478
-Lyric=ÇÈ
+Lyric=„Çã
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10699,7 +10699,7 @@ PBY=-0.26858747405690053,0.07325112928825206
 PBM=
 [#0954]
 Length=477
-Lyric=Ç©
+Lyric=„Åã
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -10711,7 +10711,7 @@ PBY=0.061042607740233734,0.04883408619221541,0.8790135514588826,0.25637895250881
 PBM=,,
 [#0955]
 Length=678
-Lyric=ÇÁ
+Lyric=„Çâ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10728,7 +10728,7 @@ NoteNum=60
 PreUtterance=
 [#0957]
 Length=485
-Lyric=Ç†
+Lyric=„ÅÇ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10740,7 +10740,7 @@ PBY=-0.13429373702841474,-0.17091930167254077
 PBM=
 [#0958]
 Length=476
-Lyric=Ç∆
+Lyric=„Å®
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10752,7 +10752,7 @@ PBY=-0.18312782322063015,-0.14650225857650412
 PBM=
 [#0959]
 Length=955
-Lyric=Ç≤
+Lyric=„Åî
 NoteNum=66
 PreUtterance=
 PBType=5
@@ -10764,7 +10764,7 @@ PBY=-0.1342937370284858,-0.8668050299108643,0.19533634476871953,0.21975338786475
 PBM=,,
 [#0960]
 Length=485
-Lyric=Ç”
+Lyric=„Åµ
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10776,7 +10776,7 @@ PBY=0.20754486631673785,-0.7325112928824495,0.12208521548046747
 PBM=,
 [#0961]
 Length=950
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=64
 PreUtterance=
 PBType=5
@@ -10793,7 +10793,7 @@ NoteNum=60
 PreUtterance=
 [#0963]
 Length=234
-Lyric=Ç¢
+Lyric=„ÅÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10805,7 +10805,7 @@ PBY=0.15871078012452244,0.21975338786475618
 PBM=
 [#0964]
 Length=240
-Lyric=Ç‚
+Lyric=„ÇÑ
 NoteNum=59
 PreUtterance=
 PBType=5
@@ -10817,7 +10817,7 @@ PBY=0.2319619094127745,-0.07325112928825206
 PBM=
 [#0965]
 Length=200
-Lyric=Ç∂Ç„
+Lyric=„Åò„ÇÖ
 NoteNum=71
 PreUtterance=
 PBType=5
@@ -10834,7 +10834,7 @@ NoteNum=60
 PreUtterance=
 [#0967]
 Length=246
-Lyric=Ç’
+Lyric=„Å∑
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -10846,7 +10846,7 @@ PBY=0,0.15871078012452244
 PBM=
 [#0968]
 Length=238
-Lyric=ÇÒ
+Lyric=„Çì
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -10858,7 +10858,7 @@ PBY=0.14650225857650412,-0.08545965083627038
 PBM=
 [#0969]
 Length=481
-Lyric=Ç‹
+Lyric=„Åæ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10870,7 +10870,7 @@ PBY=-0.09766817238428871,0.036625564644054975,-0.5615919912098377,-0.51275790501
 PBM=,,,,
 [#0970]
 Length=957
-Lyric=ÇΩ
+Lyric=„Åü
 NoteNum=69
 PreUtterance=
 PBType=5
@@ -10882,7 +10882,7 @@ PBY=0.061042607740233734,-0.1831278232205591
 PBM=
 [#0971]
 Length=483
-Lyric=Çπ
+Lyric=„Åõ
 NoteNum=68
 PreUtterance=
 PBType=5
@@ -10894,7 +10894,7 @@ PBY=-0.19533634476871953,-0.21975338786475618,0.012208521548018325,0.85459650836
 PBM=,,,
 [#0972]
 Length=952
-Lyric=Çƒ
+Lyric=„Å¶
 NoteNum=64
 PreUtterance=
 PBType=5
