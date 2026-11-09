@@ -824,6 +824,24 @@ const SONGS = [
     ust:      'songs/kiss.ust',
     color:    '#9A5FD6',
   },
+  {
+    title:    'lllトゥルティンアンテナlll',
+    romaji:   'Toluthin Antenna',
+    aka:      '',
+    producer: 'レタスP & Giga',
+    audio:    'https://file.garden/ZyUgbYyEhGi7VILo/sakiyo/wavs/toluthin%20antenna.wav',
+    ust:      'songs/toluthin.ust',
+    color:    '#2A9A7C',
+  },
+  {
+    title:    '翼をください',
+    romaji:   'Tsubasa o Kudasai',
+    aka:      'also known as “Please Give Me Wings”',
+    producer: 'ベッキー･クルーエル',
+    audio:    'https://file.garden/ZyUgbYyEhGi7VILo/sakiyo/wavs/tsubasa%20o%20kudasai.wav',
+    ust:      'songs/tsubasa.ust',
+    color:    '#3C86D6',
+  },
 ];
 
 // Karaoke line breaking.
@@ -941,15 +959,17 @@ function parseUST(text) {
   }
   if (cur) raw.push(cur);
 
-  let t = 0, tempo = baseTempo;
+  let t = 0, beat = 0, tempo = baseTempo;
+  const tempoMap = [{ ms: 0, beat: 0, tempo }];   // where the tempo changes, for the sway
   const notes = raw.map((n) => {
-    if (n.tempo) tempo = n.tempo;
+    if (n.tempo && n.tempo !== tempo) { tempo = n.tempo; tempoMap.push({ ms: t, beat, tempo }); }
     const d = n.len * 60000 / (tempo * 480);   // 480 ticks per beat
     const note = { start: t, end: t + d, lyric: n.lyric };
     t += d;
+    beat += n.len / 480;
     return note;
   });
-  return { notes, duration: t, tempo: baseTempo };
+  return { notes, duration: t, tempo: baseTempo, tempoMap };
 }
 
 /* ───── Lyric → vowel ───── */
@@ -1088,7 +1108,7 @@ async function loadSong(song) {
     song.mouth = buildMouth(parsed.notes);
     song.lines = buildLines(parsed.notes);
     song.duration = parsed.duration;
-    song.beatMs = 60000 / parsed.tempo;
+    song.tempoMap = parsed.tempoMap;
     song.loadError = null;
   } catch (err) {
     console.warn('Could not load', song.ust, err);
@@ -1237,6 +1257,12 @@ function setKaraoke(on) {
 $('#karaokeBtn').addEventListener('click', () => setKaraoke(!karaoke.on));
 setKaraoke(karaoke.on);
 
+function beatAt(map, t) {
+  let m = map[0];
+  for (const e of map) { if (e.ms <= t) m = e; else break; }
+  return m.beat + (t - m.ms) / (60000 / m.tempo);
+}
+
 let lastUi = 0;
 function frame(now) {
   requestAnimationFrame(frame);
@@ -1283,8 +1309,8 @@ function frame(now) {
 
   // gentle sway to the beat
   if (!reduceMotion) {
-    if (playing && song.beatMs) {
-      const p = (t / (song.beatMs * 4)) * Math.PI * 2;
+    if (playing && song.tempoMap) {
+      const p = (beatAt(song.tempoMap, t) / 4) * Math.PI * 2;
       body.style.transform = `translateY(${(-1.6 * Math.abs(Math.sin(p))).toFixed(2)}px) rotate(${(0.5 * Math.sin(p / 2)).toFixed(3)}deg)`;
     } else if (body.style.transform) {
       body.style.transform = '';
@@ -1402,6 +1428,13 @@ let pages = [];
 let leaves = [];
 let cur = 0;
 
+// Long titles shrink so they stay on one line instead of breaking mid-word.
+function titleSize(title) {
+  let ems = 0;
+  for (const ch of String(title)) ems += ch.charCodeAt(0) < 0x2E80 ? 0.55 : 1;
+  return Math.max(2.6, Math.min(4.4, 41 / ems)).toFixed(2);
+}
+const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 function pageHTML(p, pageNo) {
   const num = pageNo ? `<span class="pgno">${pageNo}</span>` : '';
   switch (p.type) {
@@ -1412,15 +1445,15 @@ function pageHTML(p, pageNo) {
     case 'toc':
       return `<h2>Songs</h2>
         <p class="lead">Turn to a song and tap “Sing this song.” Sakiyo will sing it for you at the mic.</p>
-        <ol>${SONGS.map((s, i) => `<li><button data-goto="${p.songPages[i]}"><span class="toc-title">${s.title}</span><span class="toc-dots"></span><span>${p.songPageNos[i]}</span></button></li>`).join('')}</ol>${num}`;
+        <ol>${SONGS.map((s, i) => `<li><button data-goto="${p.songPages[i]}"><span class="toc-title">${esc(s.title)}</span><span class="toc-dots"></span><span>${p.songPageNos[i]}</span></button></li>`).join('')}</ol>${num}`;
     case 'song': {
       const s = p.song;
       return `<div class="tape" aria-hidden="true"></div>
         <div class="song-num" aria-hidden="true">${p.n}</div>
-        <h2 lang="ja">${s.title}</h2>
-        <p class="romaji">${s.romaji}</p>
-        ${s.aka ? `<p class="aka">${s.aka}</p>` : ''}
-        <p class="by">by <span lang="ja">${s.producer}</span></p>
+        <h2 lang="ja" style="font-size:${titleSize(s.title)}cqw">${esc(s.title)}</h2>
+        <p class="romaji">${esc(s.romaji)}</p>
+        ${s.aka ? `<p class="aka">${esc(s.aka)}</p>` : ''}
+        <p class="by">by <span lang="ja">${esc(s.producer)}</span></p>
         <p class="len">${s.duration ? fmt(s.duration) : ''}</p>
         ${s.loadError ? `<p class="warn">${s.loadError}</p>` : ''}
         <button class="btn-sing" data-sing="${p.index}">
