@@ -348,6 +348,88 @@ body.is-playing .onair {
 .timing-panel input { flex: 1; accent-color: var(--accent); }
 #offsetVal { font-weight: 800; font-variant-numeric: tabular-nums; min-width: 5.5em; text-align: right; font-size: 13px; }
 
+/* ───────────── Karaoke ───────────── */
+.karaoke {
+  position: absolute;
+  left: 50%;
+  bottom: calc(var(--desk-h) + 46px);
+  transform: translateX(-50%);
+  width: min(900px, calc(100vw - 24px));
+  z-index: 6;
+  pointer-events: none;
+  display: grid;
+  gap: .25em;
+  font-family: var(--font-cute);
+  font-size: clamp(21px, 3.6vw, 44px);
+  line-height: 1.35;
+}
+.karaoke[hidden] { display: none; }
+.karaoke::before {
+  content: "";
+  position: absolute;
+  inset: -.5em -1em;
+  z-index: -1;
+  border-radius: 1em;
+  background: radial-gradient(ellipse at center, rgba(58,30,78,.42), rgba(58,30,78,0) 72%);
+  opacity: 0;
+  transition: opacity .4s;
+}
+.karaoke.has-text::before { opacity: 1; }
+.k-row {
+  position: relative;
+  white-space: nowrap;
+  min-height: 1.35em;
+  opacity: 0;
+  transform: translateY(.3em);
+  transition: opacity .3s ease, transform .3s ease;
+}
+.k-row.show { opacity: 1; transform: none; }
+.k-row.done { opacity: .55; }
+.k-row.r0 { justify-self: start; padding-left: 4%; }
+.k-row.r1 { justify-self: end; padding-right: 4%; }
+.k-dots {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  font-size: .42em;
+  letter-spacing: .25em;
+  color: #fff;
+  text-shadow: 0 0 6px var(--accent), 0 0 2px #4A2F5E;
+}
+.r0 .k-dots { left: 4%; }
+.r1 .k-dots { left: 0; }
+.syl {
+  --p: 0;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-shadow:
+    -2px -2px 0 #4A2F5E, 2px -2px 0 #4A2F5E, -2px 2px 0 #4A2F5E, 2px 2px 0 #4A2F5E,
+    0 -2px 0 #4A2F5E, 0 2px 0 #4A2F5E, -2px 0 0 #4A2F5E, 2px 0 0 #4A2F5E,
+    0 4px 0 rgba(74,47,94,.5);
+}
+.syl::after {
+  content: attr(data-k);
+  position: absolute;
+  left: 0; top: 0;
+  color: #FF5C93;
+  text-shadow:
+    -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff,
+    0 -2px 0 #fff, 0 2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff,
+    0 0 14px rgba(255,92,147,.9);
+  clip-path: inset(-20% calc((1 - var(--p)) * 100% + 1px) -20% -10px);
+}
+.syl.pop { animation: pop .32s cubic-bezier(.3,1.6,.5,1); }
+@keyframes pop { 40% { transform: translateY(-.18em) scale(1.14); } }
+.syl.gap { margin-left: .35em; }
+
+.label-narrow { display: none; }
+.btn-toggle[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 /* ───────────── Song book overlay ───────────── */
 .book-overlay {
   position: fixed; inset: 0;
@@ -567,12 +649,18 @@ body.is-playing .onair {
   .console { padding: 12px 12px 10px; top: -26px; }
   .btn-book .label-long { display: none; }
   .lamps-note { display: none; }
-  .lamps { margin-right: auto; }
+  .lamps { margin-right: auto; gap: 4px; }
+  .lamp { width: 25px; height: 25px; font-size: 12px; border-radius: 7px; }
+  .c-row .btn-ghost { padding: 6px 9px; font-size: 12px; }
+  .label-wide { display: none; }
+  .label-narrow { display: inline; }
+  .karaoke { bottom: calc(var(--desk-h) + 58px); font-size: 23px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .leaf, .book, .deskbook, .onair { transition: none; }
-  .star, .notes span { animation: none; }
+  .star, .notes span, .syl.pop { animation: none; }
+  .k-row { transition: none; }
   .book-overlay { animation: none; }
 }
 </style>
@@ -615,6 +703,11 @@ body.is-playing .onair {
     </div>
   </div>
 
+  <div class="karaoke" id="karaoke" hidden aria-hidden="true">
+    <div class="k-row r0" id="kRow0"></div>
+    <div class="k-row r1" id="kRow1"></div>
+  </div>
+
   <div class="desk">
     <button class="deskbook" id="deskBook" aria-label="Open the song book">
       <span class="deskbook-cover">Song book<small>tap to open</small></span>
@@ -643,7 +736,8 @@ body.is-playing .onair {
         <div class="lamps" aria-hidden="true">
           <span class="lamp" data-v="a">あ</span><span class="lamp" data-v="i">い</span><span class="lamp" data-v="u">う</span><span class="lamp" data-v="e">え</span><span class="lamp" data-v="o">お</span>
         </div>
-        <button class="btn-ghost" id="timingBtn" aria-expanded="false" aria-controls="timingPanel">Lip sync timing</button>
+        <button class="btn-ghost btn-toggle" id="karaokeBtn" aria-pressed="false">Karaoke</button>
+        <button class="btn-ghost" id="timingBtn" aria-expanded="false" aria-controls="timingPanel"><span class="label-wide">Lip sync timing</span><span class="label-narrow">Timing</span></button>
       </div>
 
       <div class="timing-panel" id="timingPanel" hidden>
@@ -722,6 +816,14 @@ const SONGS = [
     color:    '#EC4F86',
   },
 ];
+
+// Karaoke line breaking.
+const KARAOKE = {
+  breakAtRest: 300,   // a pause this long (ms) always starts a new line
+  maxPerLine: 14,     // most syllables on one line
+  minPerLine: 7,      // when splitting a long run, lines are at least this long
+  countdownGap: 4000, // after a pause this long, show ● ● ● before the next line
+};
 
 // Fine tuning for the mouth (milliseconds).
 const LIP = {
@@ -906,6 +1008,60 @@ function buildMouth(notes) {
   return segs;
 }
 
+/* Karaoke: turn notes into lines of syllables. */
+function displayLyric(lyric) {
+  let s = (lyric || '').trim();
+  if (s.includes(' ')) s = s.split(' ').pop();
+  return s.replace(/^-+/, '').replace(/[0-9↑↓]+$/g, '');
+}
+function buildLines(notes) {
+  // 1. syllables, with pauses remembered
+  const syls = [];
+  let pendingStart = null;   // a lone consonant (like "d") folds into the next syllable
+  let restBefore = 0;
+  for (const n of notes) {
+    const kind = vowelOf(n.lyric);
+    const text = displayLyric(n.lyric);
+    if (kind === 'rest') { restBefore += n.end - n.start; continue; }
+    if (kind === 'closed' && !/[んンっッ]/.test(text)) { if (pendingStart === null) pendingStart = n.start; continue; }
+    if (kind === 'hold' && syls.length && restBefore === 0) { syls[syls.length - 1].end = n.end; continue; }
+    syls.push({ text, start: pendingStart ?? n.start, end: n.end, rest: restBefore });
+    pendingStart = null;
+    restBefore = 0;
+  }
+  // 2. split into phrases at real pauses
+  const phrases = [];
+  let cur = [];
+  for (const sy of syls) {
+    if (cur.length && sy.rest >= KARAOKE.breakAtRest) { phrases.push(cur); cur = []; }
+    cur.push(sy);
+  }
+  if (cur.length) phrases.push(cur);
+  // 3. break long phrases at the most "breath-like" spot
+  const lines = [];
+  for (const ph of phrases) {
+    let i = 0;
+    while (ph.length - i > KARAOKE.maxPerLine) {
+      let best = i + KARAOKE.minPerLine - 1, bestScore = -1;
+      for (let j = i + KARAOKE.minPerLine - 1; j < Math.min(i + KARAOKE.maxPerLine, ph.length - 1); j++) {
+        const score = (ph[j].end - ph[j].start) + ph[j + 1].rest * 3;
+        if (score > bestScore) { bestScore = score; best = j; }
+      }
+      lines.push(ph.slice(i, best + 1));
+      i = best + 1;
+    }
+    lines.push(ph.slice(i));
+  }
+  // 4. tidy: tiny lines join their neighbour when it fits
+  for (let k = lines.length - 1; k > 0; k--) {
+    const a = lines[k - 1], b = lines[k];
+    if ((b.length < 3 || a.length < 3) && a.length + b.length <= KARAOKE.maxPerLine && b[0].rest < 900) {
+      lines.splice(k - 1, 2, a.concat(b));
+    }
+  }
+  return lines.map((ls) => ({ syls: ls, start: ls[0].start, end: ls[ls.length - 1].end }));
+}
+
 function segIndexAt(segs, t) {
   let lo = 0, hi = segs.length - 1, ans = -1;
   while (lo <= hi) {
@@ -921,12 +1077,14 @@ async function loadSong(song) {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const parsed = parseUST(decodeUST(await res.arrayBuffer()));
     song.mouth = buildMouth(parsed.notes);
+    song.lines = buildLines(parsed.notes);
     song.duration = parsed.duration;
     song.beatMs = 60000 / parsed.tempo;
     song.loadError = null;
   } catch (err) {
     console.warn('Could not load', song.ust, err);
     song.mouth = [];
+    song.lines = [];
     song.loadError = (location.protocol === 'file:')
       ? 'Lip sync data can’t load when the page is opened straight from your computer. Open it from your GitHub Pages link instead.'
       : `Lip sync data didn’t load. Check that “${song.ust}” exists in your repository.`;
@@ -978,6 +1136,98 @@ function setLamp(v) {
   litLamp = v;
 }
 
+/* ───── Karaoke renderer ───── */
+const karaoke = { on: false, rows: [{ el: $('#kRow0'), line: -1, spans: [] }, { el: $('#kRow1'), line: -1, spans: [] }], songIndex: -1 };
+try { karaoke.on = localStorage.getItem('sakiyo-karaoke') === '1'; } catch (_) {}
+
+function lineIndexAt(lines, t) {
+  // first line that hasn't finished yet
+  let lo = 0, hi = lines.length - 1, ans = lines.length;
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1;
+    if (lines[mid].end > t) { ans = mid; hi = mid - 1; } else lo = mid + 1;
+  }
+  return ans;
+}
+function fillRow(row, line, idx) {
+  row.line = idx;
+  row.el.innerHTML = '';
+  row.spans = [];
+  if (!line) { row.el.classList.remove('show', 'done'); return; }
+  const dots = document.createElement('span');
+  dots.className = 'k-dots';
+  row.el.appendChild(dots);
+  row.dots = dots;
+  line.syls.forEach((sy, i) => {
+    const sp = document.createElement('span');
+    sp.className = 'syl' + (i > 0 && sy.rest >= 120 ? ' gap' : '');
+    sp.textContent = sy.text;
+    sp.dataset.k = sy.text;
+    row.el.appendChild(sp);
+    row.spans.push({ el: sp, p: 0, sy });
+  });
+  row.el.classList.remove('show', 'done');
+  void row.el.offsetWidth;          // restart the entrance animation
+  row.el.classList.add('show');
+}
+function updateKaraoke(t) {
+  const box = $('#karaoke');
+  const song = state.song;
+  const visible = karaoke.on && song && song.lines && song.lines.length && !audio.ended;
+  box.hidden = !visible;
+  if (!visible) return;
+  if (karaoke.songIndex !== state.songIndex) {
+    karaoke.songIndex = state.songIndex;
+    karaoke.rows.forEach((r) => fillRow(r, null, -1));
+  }
+  const lines = song.lines;
+  const a = lineIndexAt(lines, t);
+  let want = [-1, -1];
+  if (a < lines.length) {
+    const line = lines[a];
+    const prevEnd = a > 0 ? lines[a - 1].end : 0;
+    const longWait = line.start - prevEnd >= KARAOKE.countdownGap;
+    if (!longWait || line.start - t <= 3000 || t >= line.start) {
+      want[a % 2] = a;
+      const other = (a > 0 && t - prevEnd < 450 && !longWait) ? a - 1 : a + 1;
+      if (other < lines.length && !(other > a && lines[other].start - lines[a].end >= KARAOKE.countdownGap)) want[(a + 1) % 2] = other;
+    }
+  }
+  karaoke.rows.forEach((row, r) => {
+    const idx = want[r];
+    if (row.line !== idx) fillRow(row, idx >= 0 ? lines[idx] : null, idx);
+    if (idx < 0) return;
+    const line = lines[idx];
+    row.el.classList.toggle('done', t >= line.end);
+    for (const s of row.spans) {
+      const d = Math.max(1, s.sy.end - s.sy.start);
+      const p = Math.min(1, Math.max(0, (t - s.sy.start) / d));
+      if (Math.abs(p - s.p) > 0.004 || (p === 1 && s.p !== 1) || (p === 0 && s.p !== 0)) {
+        if (s.p === 0 && p > 0) { s.el.classList.remove('pop'); void s.el.offsetWidth; s.el.classList.add('pop'); }
+        s.p = p;
+        s.el.style.setProperty('--p', p.toFixed(3));
+      }
+    }
+    // countdown dots before a line that comes after a long break
+    const prevEnd = idx > 0 ? lines[idx - 1].end : 0;
+    let dotsText = '';
+    if (line.start - prevEnd >= KARAOKE.countdownGap && t < line.start) {
+      dotsText = '●'.repeat(Math.min(3, Math.ceil((line.start - t) / 1000)));
+    }
+    if (row.dots.textContent !== dotsText) row.dots.textContent = dotsText;
+  });
+  box.classList.toggle('has-text', want[0] >= 0 || want[1] >= 0);
+}
+
+function setKaraoke(on) {
+  karaoke.on = on;
+  $('#karaokeBtn').setAttribute('aria-pressed', String(on));
+  $('#karaokeBtn').textContent = on ? 'Karaoke on' : 'Karaoke';
+  try { localStorage.setItem('sakiyo-karaoke', on ? '1' : '0'); } catch (_) {}
+}
+$('#karaokeBtn').addEventListener('click', () => setKaraoke(!karaoke.on));
+setKaraoke(karaoke.on);
+
 let lastUi = 0;
 function frame(now) {
   requestAnimationFrame(frame);
@@ -1020,6 +1270,7 @@ function frame(now) {
   }
   setSprite(key);
   setLamp(mouth);
+  updateKaraoke(song ? (playing ? t : audio.currentTime * 1000 - state.offset) : 0);
 
   // gentle sway to the beat
   if (!reduceMotion) {
@@ -1325,6 +1576,7 @@ document.addEventListener('keydown', (e) => {
   }
   if (e.target.closest('input, button')) return;
   if (e.key === ' ') { e.preventDefault(); togglePlay(); }
+  else if (e.key.toLowerCase() === 'k') setKaraoke(!karaoke.on);
   else if (e.key.toLowerCase() === 'b') openBook();
 });
 
