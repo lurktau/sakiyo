@@ -1,1 +1,1337 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SakiyoSong</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎙️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+
+<!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  SAKIYOSONG                                                  ║
+  ║  Everything you'd normally want to change is in the          ║
+  ║  "SETTINGS YOU CAN EDIT" block inside the <script> near the  ║
+  ║  bottom of this file. Look for: const SONGS = [ ... ]        ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
+
+<style>
+:root {
+  color-scheme: light;
+  --wall: #EBDDF6;
+  --wall-deep: #D6C1EE;
+  --stripe: rgba(255,255,255,.35);
+  --trim: #FFFFFF;
+  --foam: #F7AFC9;
+  --foam-shade: #E48BAF;
+  --desk-top: #F6CFC2;
+  --desk-edge: #E9AF9E;
+  --desk-front: #D99383;
+  --ink: #4A2F5E;
+  --ink-soft: #7A5E8C;
+  --accent: #FF5C93;
+  --accent-deep: #E23C77;
+  --mint: #7FE0CB;
+  --console: #FFF7FB;
+  --console-shadow: #E7C6D8;
+  --paper: #FFFBF3;
+  --paper-line: #DCE6F7;
+  --glow: rgba(255,240,250,.85);
+  --font-cute: "Mochiy Pop One", "Hiragino Maru Gothic ProN", "Arial Rounded MT Bold", system-ui, sans-serif;
+  --font-body: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Arial Rounded MT Bold", system-ui, sans-serif;
+  --desk-h: clamp(175px, 25dvh, 240px);
+
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --wall: #2E2547;
+    --wall-deep: #251D3B;
+    --stripe: rgba(255,255,255,.04);
+    --trim: #4A3D6B;
+    --foam: #7C4C7E;
+    --foam-shade: #643A67;
+    --desk-top: #6B4A5E;
+    --desk-edge: #573A4C;
+    --desk-front: #48303F;
+    --ink: #F6EAFF;
+    --ink-soft: #CDB8DE;
+    --console: #3A2F52;
+    --console-shadow: #211A33;
+    --paper: #FBF4E8;
+    --glow: rgba(255,170,215,.22);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --wall: #2E2547; --wall-deep: #251D3B; --stripe: rgba(255,255,255,.04); --trim: #4A3D6B;
+  --foam: #7C4C7E; --foam-shade: #643A67; --desk-top: #6B4A5E; --desk-edge: #573A4C; --desk-front: #48303F;
+  --ink: #F6EAFF; --ink-soft: #CDB8DE; --console: #3A2F52; --console-shadow: #211A33; --paper: #FBF4E8;
+  --glow: rgba(255,170,215,.22);
+}
+
+*, *::before, *::after { box-sizing: inherit; }
+html, body { height: 100%; margin: 0; }
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--wall);
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 10px; }
+
+/* ───────────── The room ───────────── */
+.room {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 45% 55% at 50% 42%, var(--glow), transparent 70%),
+    repeating-linear-gradient(90deg, transparent 0 46px, var(--stripe) 46px 50px),
+    linear-gradient(var(--wall), var(--wall-deep));
+}
+
+.window {
+  position: absolute;
+  left: 4.5%;
+  top: 7%;
+  width: clamp(110px, 15vw, 220px);
+  aspect-ratio: 3 / 4;
+  border-radius: 999px 999px 16px 16px;
+  border: 10px solid var(--trim);
+  background: linear-gradient(#2F2563, #6E4F9E 62%, #E8A0C4);
+  box-shadow: 0 8px 0 rgba(74,47,94,.12);
+  overflow: hidden;
+}
+.window::before, .window::after { content: ""; position: absolute; background: var(--trim); }
+.window::before { left: 50%; top: 0; bottom: 0; width: 6px; transform: translateX(-50%); }
+.window::after { top: 55%; left: 0; right: 0; height: 6px; }
+.moon {
+  position: absolute; top: 16%; left: 18%;
+  width: 24%; aspect-ratio: 1; border-radius: 50%;
+  box-shadow: 9px 5px 0 0 #FFF1BE;
+}
+.star { position: absolute; width: 5px; height: 5px; border-radius: 50%; background: #FFF6D8; box-shadow: 0 0 6px #FFF6D8; animation: twinkle 3s ease-in-out infinite; }
+.star.s1 { top: 22%; left: 70%; }
+.star.s2 { top: 40%; left: 30%; animation-delay: -1s; }
+.star.s3 { top: 34%; left: 82%; width: 3px; height: 3px; animation-delay: -2s; }
+.star.s4 { top: 12%; left: 56%; width: 3px; height: 3px; animation-delay: -.5s; }
+@keyframes twinkle { 50% { opacity: .35; } }
+
+.foam {
+  position: absolute;
+  top: 15%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: clamp(120px, 17vw, 260px);
+}
+.foam-l { right: calc(50% + 9vw); }
+.foam-r { left: calc(50% + 9vw); }
+.foam span {
+  aspect-ratio: 1;
+  border-radius: 5px;
+  background: repeating-linear-gradient(90deg, var(--foam) 0 7px, var(--foam-shade) 7px 10px);
+  box-shadow: inset 0 -4px 0 rgba(0,0,0,.07);
+}
+.foam span:nth-child(even) { background: repeating-linear-gradient(0deg, var(--foam) 0 7px, var(--foam-shade) 7px 10px); }
+
+.onair {
+  position: absolute;
+  right: 4.5%;
+  top: 8%;
+  padding: .35em .9em .45em;
+  border-radius: 14px;
+  border: 4px solid var(--trim);
+  background: #5B4868;
+  color: #A897B3;
+  font-family: var(--font-cute);
+  font-size: clamp(14px, 1.6vw, 22px);
+  letter-spacing: .04em;
+  transition: background .3s, color .3s, box-shadow .3s;
+}
+body.is-playing .onair {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 0 0 4px rgba(255,92,147,.25), 0 0 34px var(--accent);
+}
+
+/* ───────────── Sakiyo ───────────── */
+.stage {
+  position: absolute;
+  left: 0; right: 0;
+  bottom: calc(var(--desk-h) * .42);
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 2;
+}
+.sakiyo {
+  --aspect: .8;
+  position: relative;
+  height: min(76dvh, calc(92vw / var(--aspect)));
+  aspect-ratio: var(--aspect);
+  pointer-events: auto;
+  cursor: pointer;
+}
+.sakiyo-body { position: absolute; inset: 0; will-change: transform; transform-origin: 50% 100%; }
+.sprite {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+  opacity: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.sprite.on { opacity: 1; }
+.sprite-missing {
+  position: absolute; inset: 8% 12% 0;
+  border-radius: 45% 45% 18% 18%;
+  background: rgba(255,255,255,.35);
+  border: 3px dashed var(--ink-soft);
+  display: grid; place-items: center;
+  text-align: center; padding: 1.5em;
+  font-size: 14px; color: var(--ink-soft);
+}
+
+.mic {
+  position: absolute;
+  right: -30%;
+  top: 22%;
+  width: 34%;
+  pointer-events: none;
+}
+.mic svg { width: 100%; height: auto; display: block; overflow: visible; }
+
+/* ───────────── Desk & console ───────────── */
+.desk {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: var(--desk-h);
+  z-index: 5;
+  background:
+    linear-gradient(var(--desk-top) 0 20px, var(--desk-edge) 20px 28px, var(--desk-front) 28px);
+  box-shadow: 0 -6px 18px rgba(74,47,94,.12);
+}
+
+.deskbook {
+  display: none;
+  position: absolute;
+  left: 3.5%;
+  top: -46px;
+  width: 170px;
+  height: 120px;
+  border: 0;
+  padding: 0;
+  background: none;
+  transform: rotate(-7deg);
+  transition: transform .25s ease;
+}
+.deskbook:hover { transform: rotate(-4deg) translateY(-6px); }
+.deskbook-cover {
+  position: absolute; inset: 0 0 10px 0;
+  border-radius: 6px 14px 14px 6px;
+  background: linear-gradient(135deg, #FF9EC0, #FF7AA8);
+  box-shadow: inset 12px 0 0 rgba(0,0,0,.1), 0 10px 0 #FFFBF3, 0 12px 0 #E7C9B9, 0 16px 16px rgba(74,47,94,.2);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  color: #fff;
+  font-family: var(--font-cute);
+  font-size: 17px;
+  line-height: 1.15;
+  text-shadow: 0 2px 0 rgba(180,40,90,.35);
+}
+.deskbook-cover small { display: block; font-family: var(--font-body); font-weight: 800; font-size: 11px; opacity: .9; margin-top: 4px; }
+@media (min-width: 1180px) { .deskbook { display: block; } }
+
+.console {
+  position: absolute;
+  left: 50%;
+  top: -34px;
+  transform: translateX(-50%);
+  width: min(660px, calc(100vw - 20px));
+  padding: 14px 16px 12px;
+  border-radius: 24px;
+  background: var(--console);
+  border: 3px solid var(--ink-soft);
+  box-shadow: 0 7px 0 var(--console-shadow), 0 14px 24px rgba(40,20,50,.18);
+  display: grid;
+  gap: 10px;
+}
+.c-row { display: flex; align-items: center; gap: 12px; min-width: 0; }
+
+.btn-book {
+  flex: none;
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 14px 9px 11px;
+  border-radius: 14px;
+  border: 0;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 800;
+  box-shadow: 0 4px 0 var(--accent-deep);
+  transition: transform .12s, box-shadow .12s;
+}
+.btn-book:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--accent-deep); }
+.btn-book svg { width: 20px; height: 20px; }
+
+.nowplaying { min-width: 0; flex: 1; }
+.nowplaying p { margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#npTitle { font-family: var(--font-cute); font-size: 17px; line-height: 1.3; }
+#npSub { font-size: 13px; color: var(--ink-soft); font-weight: 700; }
+
+.btn-play {
+  flex: none;
+  width: 52px; height: 52px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--ink);
+  color: var(--console);
+  display: grid; place-items: center;
+  box-shadow: 0 4px 0 rgba(0,0,0,.25);
+  transition: transform .12s, box-shadow .12s, opacity .2s;
+}
+.btn-play:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 rgba(0,0,0,.25); }
+.btn-play:disabled { opacity: .35; cursor: default; }
+.btn-play svg { width: 22px; height: 22px; }
+
+.seek { flex: 1; min-width: 0; accent-color: var(--accent); height: 22px; }
+.time { flex: none; font-variant-numeric: tabular-nums; font-weight: 700; font-size: 13px; color: var(--ink-soft); }
+
+.lamps { display: flex; gap: 7px; }
+.lamp {
+  width: 30px; height: 30px;
+  border-radius: 9px;
+  display: grid; place-items: center;
+  font-family: var(--font-cute);
+  font-size: 14px;
+  background: rgba(122,94,140,.13);
+  color: var(--ink-soft);
+  transition: background .06s, color .06s, box-shadow .06s;
+}
+.lamp.lit { background: var(--mint); color: #1F4E45; box-shadow: 0 0 14px var(--mint); }
+.lamps-note { font-size: 12px; color: var(--ink-soft); font-weight: 700; margin-right: auto; }
+
+.btn-ghost {
+  flex: none;
+  padding: 7px 12px;
+  border-radius: 12px;
+  border: 2px solid var(--ink-soft);
+  background: transparent;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.timing-panel {
+  position: absolute;
+  right: 10px;
+  bottom: calc(100% + 12px);
+  width: min(340px, calc(100vw - 40px));
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: var(--console);
+  border: 3px solid var(--ink-soft);
+  box-shadow: 0 7px 0 var(--console-shadow);
+}
+.timing-panel[hidden] { display: none; }
+.timing-panel h3 { margin: 0 0 4px; font-family: var(--font-cute); font-size: 15px; font-weight: 400; }
+.timing-panel p { margin: 0 0 10px; font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
+.timing-panel .c-row { gap: 10px; }
+.timing-panel input { flex: 1; accent-color: var(--accent); }
+#offsetVal { font-weight: 800; font-variant-numeric: tabular-nums; min-width: 5.5em; text-align: right; font-size: 13px; }
+
+/* ───────────── Song book overlay ───────────── */
+.book-overlay {
+  position: fixed; inset: 0;
+  z-index: 50;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 18px;
+  padding: 16px;
+  background: rgba(46,26,58,.55);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  animation: fadeIn .25s ease;
+}
+.book-overlay[hidden] { display: none; }
+@keyframes fadeIn { from { opacity: 0; } }
+
+.book-stage {
+  container-type: inline-size;
+  width: min(980px, 96vw, calc((100dvh - 130px) * 1.45));
+  perspective: 2600px;
+}
+.book {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.45 / 1;
+  transform-style: preserve-3d;
+  transition: transform .7s cubic-bezier(.45,.05,.25,1);
+}
+.leaf {
+  position: absolute;
+  top: 0; left: 50%;
+  width: 50%; height: 100%;
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  transition: transform .9s cubic-bezier(.45,.05,.25,1);
+}
+.face {
+  position: absolute; inset: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 0 12px 12px 0;
+}
+.face.back { transform: rotateY(180deg); border-radius: 12px 0 0 12px; }
+
+.page {
+  background:
+    repeating-linear-gradient(transparent 0 calc(5.4cqw - 1px), var(--paper-line) calc(5.4cqw - 1px) 5.4cqw) 0 9cqw / 100% 100% no-repeat,
+    var(--paper);
+  color: #4A2F5E;
+  padding: 6cqw 5cqw 4cqw 6cqw;
+  cursor: pointer;
+}
+.face.front.page { box-shadow: inset 4cqw 0 4cqw -3cqw rgba(74,47,94,.18); }
+.face.back.page { box-shadow: inset -4cqw 0 4cqw -3cqw rgba(74,47,94,.18); padding: 6cqw 6cqw 4cqw 5cqw; }
+.pgno {
+  position: absolute; bottom: 2.4cqw;
+  font-size: 1.5cqw; font-weight: 800; color: #A891B8;
+}
+.face.front .pgno { right: 3cqw; }
+.face.back .pgno { left: 3cqw; }
+
+/* cover */
+.cover {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(255,255,255,.35) 0 1.2cqw, transparent 1.3cqw),
+    radial-gradient(circle at 80% 78%, rgba(255,255,255,.3) 0 .9cqw, transparent 1cqw),
+    linear-gradient(140deg, #FFA6C6, #FF6F9F);
+  box-shadow: inset 2.2cqw 0 0 rgba(150,20,70,.18), inset 0 0 0 .6cqw rgba(255,255,255,.25);
+  color: #fff;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.cover-label {
+  background: #FFFBF3;
+  color: #E23C77;
+  border-radius: 1.6cqw;
+  padding: 2.2cqw 3cqw 2.6cqw;
+  box-shadow: 0 .6cqw 0 rgba(150,20,70,.25);
+  transform: rotate(-2deg);
+}
+.cover-label h1 { margin: 0; font-family: var(--font-cute); font-weight: 400; font-size: 3.9cqw; line-height: 1.15; }
+.cover-label p { margin: 1cqw 0 0; font-weight: 800; font-size: 1.6cqw; color: #B5648B; }
+.cover-hint { margin-top: 3cqw; font-weight: 800; font-size: 1.6cqw; opacity: .95; }
+.heart { width: 7cqw; margin-bottom: 2.5cqw; filter: drop-shadow(0 .5cqw 0 rgba(150,20,70,.25)); }
+
+.backcover {
+  background: linear-gradient(220deg, #FFA6C6, #FF6F9F);
+  box-shadow: inset -2.2cqw 0 0 rgba(150,20,70,.18);
+  cursor: pointer;
+}
+.endpaper {
+  background:
+    radial-gradient(circle, #FFC2D7 0 .7cqw, transparent .8cqw) 0 0 / 4cqw 4cqw,
+    #FFE3EC;
+}
+
+/* contents page */
+.toc h2 { margin: 0 0 1cqw; font-family: var(--font-cute); font-weight: 400; font-size: 3.2cqw; color: #E23C77; }
+.toc .lead { margin: 0 0 3cqw; font-size: 1.7cqw; line-height: 1.6; font-weight: 700; color: #7A5E8C; max-width: 34ch; }
+.toc ol { list-style: none; margin: 0; padding: 0; }
+.toc li button {
+  width: 100%;
+  display: flex; align-items: baseline; gap: 1cqw;
+  background: none; border: 0; padding: 1.1cqw 0;
+  font-size: 1.9cqw; font-weight: 800; color: #4A2F5E;
+  text-align: left;
+}
+.toc li button:hover .toc-title { color: #E23C77; }
+.toc-dots { flex: 1; border-bottom: .3cqw dotted #C9B3D8; transform: translateY(-.5cqw); }
+
+/* song page */
+.songpage { display: flex; flex-direction: column; }
+.tape {
+  position: absolute; top: 1.6cqw; left: 50%;
+  width: 12cqw; height: 3.4cqw;
+  transform: translateX(-50%) rotate(-3deg);
+  background: repeating-linear-gradient(45deg, rgba(255,140,180,.55) 0 1cqw, rgba(255,190,210,.55) 1cqw 2cqw);
+}
+.song-num {
+  width: 6cqw; aspect-ratio: 1; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--song, #FF8FB1); color: #fff;
+  font-family: var(--font-cute); font-size: 2.6cqw;
+  box-shadow: 0 .5cqw 0 rgba(0,0,0,.12);
+  margin: 1cqw 0 2.4cqw;
+  transform: rotate(-6deg);
+}
+.songpage h2 { margin: 0; font-family: var(--font-cute); font-weight: 400; font-size: 4.4cqw; line-height: 1.2; }
+.songpage .romaji { margin: .6cqw 0 0; font-size: 2.2cqw; font-weight: 800; color: #E23C77; }
+.songpage .aka { margin: .4cqw 0 0; font-size: 1.7cqw; font-weight: 700; color: #7A5E8C; }
+.songpage .by { margin: 2.6cqw 0 0; font-size: 1.8cqw; font-weight: 700; }
+.songpage .len { margin: .4cqw 0 0; font-size: 1.6cqw; font-weight: 700; color: #7A5E8C; }
+.songpage .warn { margin: 1.6cqw 0 0; font-size: 1.4cqw; font-weight: 700; color: #C0392B; line-height: 1.5; }
+.btn-sing {
+  margin-top: auto;
+  align-self: flex-start;
+  display: inline-flex; align-items: center; gap: 1.2cqw;
+  padding: 1.5cqw 3cqw 1.5cqw 2.2cqw;
+  border-radius: 999px;
+  border: 0;
+  background: var(--song, #FF8FB1);
+  color: #fff;
+  font-family: var(--font-cute);
+  font-size: 2.2cqw;
+  box-shadow: 0 .7cqw 0 rgba(120,30,70,.3);
+  transition: transform .12s, box-shadow .12s;
+}
+.btn-sing:hover { transform: translateY(-.3cqw) rotate(-1deg); }
+.btn-sing:active { transform: translateY(.5cqw); box-shadow: 0 .2cqw 0 rgba(120,30,70,.3); }
+.btn-sing svg { width: 2.6cqw; height: 2.6cqw; }
+.soon { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.soon p { margin: 0; font-family: var(--font-cute); font-size: 2.4cqw; color: #B5648B; line-height: 1.5; }
+.soon .small { font-family: var(--font-body); font-weight: 700; font-size: 1.6cqw; color: #A891B8; margin-top: 1.2cqw; }
+
+.book-nav { display: flex; align-items: center; gap: 10px; }
+.book-nav button { white-space: nowrap; }
+@media (max-width: 640px) {
+  .book-overlay { overflow: hidden; }
+  .book-stage { width: min(184vw, calc((100dvh - 120px) * 1.45)); flex: none; }
+  .book-nav { gap: 6px; }
+  .book-nav button { padding: 10px 12px; }
+  .book-nav .where { min-width: 5.5em; font-size: 13px; }
+}
+.book-nav button {
+  border: 0;
+  border-radius: 14px;
+  padding: 10px 16px;
+  font-weight: 800;
+  background: #FFF7FB;
+  color: #4A2F5E;
+  box-shadow: 0 4px 0 #D8B7CA;
+}
+.book-nav button:disabled { opacity: .4; cursor: default; }
+.book-nav .close { background: #4A2F5E; color: #FFF7FB; box-shadow: 0 4px 0 #2B1A38; }
+.book-nav .where { color: #FFF7FB; font-weight: 800; font-size: 14px; min-width: 7.5em; text-align: center; }
+
+/* ───────────── Loader & toast ───────────── */
+.loader {
+  position: fixed; inset: 0; z-index: 80;
+  display: grid; place-items: center;
+  background: var(--wall);
+  transition: opacity .5s ease;
+}
+.loader.gone { opacity: 0; pointer-events: none; }
+.loader-inner { text-align: center; }
+.loader-inner p { margin: 14px 0 0; font-family: var(--font-cute); font-size: 18px; }
+.loader-inner small { display: block; margin-top: 6px; color: var(--ink-soft); font-weight: 700; }
+.notes { display: flex; gap: 10px; justify-content: center; font-size: 30px; color: var(--accent); }
+.notes span { animation: hop 1s ease-in-out infinite; }
+.notes span:nth-child(2) { animation-delay: .15s; }
+.notes span:nth-child(3) { animation-delay: .3s; }
+@keyframes hop { 50% { transform: translateY(-10px); } }
+
+.toast {
+  position: fixed; left: 50%; top: calc(14px + env(safe-area-inset-top, 0px));
+  transform: translateX(-50%);
+  z-index: 90;
+  max-width: min(560px, calc(100vw - 24px));
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: #4A2F5E; color: #FFF7FB;
+  font-size: 14px; font-weight: 700; line-height: 1.5;
+  box-shadow: 0 6px 20px rgba(0,0,0,.25);
+}
+.toast[hidden] { display: none; }
+
+/* ───────────── Small screens ───────────── */
+@media (max-width: 700px) {
+  .window { display: none; }
+  .onair { right: 12px; top: 12px; }
+  .foam { width: 26vw; top: 18%; }
+  .foam-l { right: calc(50% + 18vw); }
+  .foam-r { left: calc(50% + 18vw); }
+  .mic { right: -18%; width: 28%; }
+  .console { padding: 12px 12px 10px; top: -26px; }
+  .btn-book .label-long { display: none; }
+  .lamps-note { display: none; }
+  .lamps { margin-right: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .leaf, .book, .deskbook, .onair { transition: none; }
+  .star, .notes span { animation: none; }
+  .book-overlay { animation: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="room">
+  <div class="window" aria-hidden="true">
+    <div class="moon"></div>
+    <i class="star s1"></i><i class="star s2"></i><i class="star s3"></i><i class="star s4"></i>
+  </div>
+  <div class="foam foam-l" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="foam foam-r" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="onair" aria-hidden="true">on air</div>
+
+  <div class="stage">
+    <div class="sakiyo" id="sakiyo" role="img" aria-label="Sakiyo, standing at the microphone">
+      <div class="sakiyo-body" id="sakiyoBody"></div>
+      <div class="mic" aria-hidden="true">
+        <svg viewBox="0 0 200 640">
+          <!-- stand -->
+          <rect x="150" y="250" width="12" height="400" rx="6" fill="#6B5578"/>
+          <path d="M156 256 L96 168" stroke="#6B5578" stroke-width="11" stroke-linecap="round"/>
+          <circle cx="156" cy="256" r="11" fill="#FF7AA8"/>
+          <!-- pop filter gooseneck -->
+          <path d="M150 300 C 90 300, 40 260, 34 196" fill="none" stroke="#8A7396" stroke-width="5" stroke-linecap="round"/>
+          <!-- shock mount -->
+          <ellipse cx="96" cy="128" rx="34" ry="44" fill="none" stroke="#8A7396" stroke-width="5"/>
+          <!-- mic body -->
+          <rect x="72" y="52" width="48" height="128" rx="24" fill="#F3EEF6" stroke="#6B5578" stroke-width="4"/>
+          <rect x="72" y="52" width="48" height="66" rx="24" fill="#E3DAEA" stroke="#6B5578" stroke-width="4"/>
+          <path d="M80 70 H112 M78 84 H114 M78 98 H114 M80 110 H112" stroke="#B9A9C6" stroke-width="3"/>
+          <rect x="72" y="122" width="48" height="8" fill="#FF7AA8"/>
+          <circle cx="96" cy="150" r="5" fill="#FF7AA8"/>
+          <!-- pop filter -->
+          <circle cx="30" cy="130" r="44" fill="rgba(60,40,70,.18)" stroke="#6B5578" stroke-width="5"/>
+          <path d="M-10 110 H70 M-12 125 H72 M-12 140 H72 M-8 155 H68 M10 88 V172 M25 86 V174 M40 86 V174 M55 92 V168" stroke="rgba(60,40,70,.22)" stroke-width="2"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="desk">
+    <button class="deskbook" id="deskBook" aria-label="Open the song book">
+      <span class="deskbook-cover">Song book<small>tap to open</small></span>
+    </button>
+
+    <section class="console" aria-label="Player">
+      <div class="c-row">
+        <button class="btn-book" id="openBook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v16H5.5c-.8 0-1.5-.7-1.5-1.5z"/><path d="M20 5.5c0-.8-.7-1.5-1.5-1.5H13v16h5.5c.8 0 1.5-.7 1.5-1.5z"/></svg>
+          <span>Song book</span>
+        </button>
+        <div class="nowplaying" aria-live="polite">
+          <p id="npTitle">Pick a song from the song book</p>
+          <p id="npSub">Sakiyo is warming up her voice.</p>
+        </div>
+      </div>
+      <div class="c-row">
+        <button class="btn-play" id="playBtn" aria-label="Play" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path id="playIcon" fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>
+        </button>
+        <input class="seek" id="seek" type="range" min="0" max="1000" step="1" value="0" disabled aria-label="Song position">
+        <span class="time" id="time">0:00 / 0:00</span>
+      </div>
+      <div class="c-row">
+        <span class="lamps-note">Her mouth</span>
+        <div class="lamps" aria-hidden="true">
+          <span class="lamp" data-v="a">あ</span><span class="lamp" data-v="i">い</span><span class="lamp" data-v="u">う</span><span class="lamp" data-v="e">え</span><span class="lamp" data-v="o">お</span>
+        </div>
+        <button class="btn-ghost" id="timingBtn" aria-expanded="false" aria-controls="timingPanel">Lip sync timing</button>
+      </div>
+
+      <div class="timing-panel" id="timingPanel" hidden>
+        <h3>Lip sync timing</h3>
+        <p>If her mouth moves before you hear the voice, slide right. If it moves after, slide left.</p>
+        <div class="c-row">
+          <input type="range" id="offset" min="-400" max="400" step="10" value="0" aria-label="Lip sync offset in milliseconds">
+          <span id="offsetVal">0 ms</span>
+        </div>
+        <div class="c-row" style="margin-top:10px">
+          <button class="btn-ghost" id="offsetReset">Reset to 0</button>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="book-overlay" id="bookOverlay" hidden role="dialog" aria-modal="true" aria-label="Song book">
+  <div class="book-stage"><div class="book" id="book"></div></div>
+  <div class="book-nav">
+    <button id="prevPage" aria-label="Previous page">‹ Back</button>
+    <span class="where" id="where"></span>
+    <button id="nextPage" aria-label="Next page">Next ›</button>
+    <button class="close" id="closeBook">Close</button>
+  </div>
+</div>
+
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <div class="notes" aria-hidden="true"><span>♪</span><span>♫</span><span>♪</span></div>
+    <p>Sakiyo is getting ready</p>
+    <small id="loaderInfo">Loading sprites</small>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<audio id="audio" preload="none"></audio>
+
+<script>
+(() => {
+'use strict';
+
+/* ════════════════════════════════════════════════════════════════
+   SETTINGS YOU CAN EDIT
+   ════════════════════════════════════════════════════════════════ */
+
+// Where the sprite PNGs live. File name = sprite name + ".png"
+const SPRITE_BASE = 'https://file.garden/ZyUgbYyEhGi7VILo/sakiyo/';
+
+// Which sprite to use for each job. Change the text on the right
+// if you rename a sprite file.
+const SPRITES = {
+  idle:   'default eyes open mouth closed',
+  blink1: 'blink 1 eyes open mouth closed',   // eyes starting to close
+  blink2: 'blink 2 eyes open mouth closed',   // eyes almost closed
+  blink3: 'blink eyes closed mouth closed',   // eyes fully closed
+  a: 'singing a eyes open mouth open',
+  i: 'singing i eyes open mouth open',
+  u: 'singing u eyes open mouth open',
+  e: 'singing e eyes open mouth open',
+  o: 'singing o eyes open mouth open',
+};
+
+// The song book. Add a new song by copying one { ... } block,
+// putting a comma between blocks, and dropping the .ust file
+// into the "songs" folder next to this page.
+const SONGS = [
+  {
+    title:    'おちゃめ機能',
+    romaji:   'Ochame Kinou',
+    aka:      'also known as “Fukkireta”',
+    producer: 'ゴジマジP',
+    audio:    'https://file.garden/ZyUgbYyEhGi7VILo/sakiyo/wavs/fukkireta.wav',
+    ust:      'songs/fukkireta.ust',
+    color:    '#EC4F86',
+  },
+];
+
+// Fine tuning for the mouth (milliseconds).
+const LIP = {
+  closeBeforeLips: 70,      // close the mouth before ま/ば/ぱ-row notes
+  closeBeforeSameVowel: 55, // tiny close between two notes with the same vowel
+  restForBlink: 600,        // a gap at least this long counts as a breath, so she blinks
+};
+
+/* ════════════════════════════════════════════════════════════════
+   Everything below here is the machinery.
+   ════════════════════════════════════════════════════════════════ */
+
+const $ = (s) => document.querySelector(s);
+const audio = $('#audio');
+const sakiyo = $('#sakiyo');
+const body = $('#sakiyoBody');
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const rand = (a, b) => a + Math.random() * (b - a);
+
+/* ───── Toast ───── */
+let toastTimer = 0;
+function toast(msg, ms = 6000) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.hidden = true; }, ms);
+}
+
+/* ───── Sprites ───── */
+const spriteEls = {};
+const spriteOk = {};
+let shown = null;
+
+function spriteUrl(name) { return SPRITE_BASE + encodeURIComponent(name) + '.png'; }
+
+function loadSprites() {
+  const keys = Object.keys(SPRITES);
+  let settled = 0;
+  return new Promise((resolve) => {
+    keys.forEach((key) => {
+      const img = new Image();
+      img.className = 'sprite';
+      img.alt = '';
+      img.decoding = 'async';
+      img.draggable = false;
+      img.onload = () => {
+        spriteOk[key] = true;
+        if (key === 'idle') sakiyo.style.setProperty('--aspect', (img.naturalWidth / img.naturalHeight).toFixed(4));
+        done();
+      };
+      img.onerror = () => {
+        spriteOk[key] = false;
+        console.warn('Sprite failed to load:', SPRITES[key], spriteUrl(SPRITES[key]));
+        done();
+      };
+      img.src = spriteUrl(SPRITES[key]);
+      body.appendChild(img);
+      spriteEls[key] = img;
+    });
+    function done() {
+      settled++;
+      $('#loaderInfo').textContent = `Loading sprites ${settled} of ${keys.length}`;
+      if (settled === keys.length) resolve();
+    }
+  });
+}
+
+function setSprite(key) {
+  if (!spriteOk[key]) key = spriteOk.idle ? 'idle' : null;
+  if (!key || key === shown) return;
+  if (shown) spriteEls[shown].classList.remove('on');
+  spriteEls[key].classList.add('on');
+  shown = key;
+}
+
+/* ───── UST parsing ───── */
+function decodeUST(buf) {
+  try { return new TextDecoder('utf-8', { fatal: true }).decode(buf); }
+  catch (_) { return new TextDecoder('shift_jis').decode(buf); }
+}
+
+function parseUST(text) {
+  let section = null, baseTempo = 120, cur = null;
+  const raw = [];
+  for (const line0 of text.split(/\r?\n/)) {
+    const line = line0.trim();
+    if (!line) continue;
+    const head = line.match(/^\[#(.+)\]$/);
+    if (head) {
+      if (cur) raw.push(cur);
+      cur = null;
+      section = head[1];
+      if (/^\d+$/.test(section)) cur = { len: 0, lyric: '', tempo: null };
+      continue;
+    }
+    const eq = line.indexOf('=');
+    if (eq < 0) continue;
+    const k = line.slice(0, eq).trim(), v = line.slice(eq + 1).trim();
+    if (section === 'SETTING' && k === 'Tempo') baseTempo = parseFloat(v.replace(',', '.')) || baseTempo;
+    if (cur) {
+      if (k === 'Length') cur.len = parseInt(v, 10) || 0;
+      else if (k === 'Lyric') cur.lyric = v;
+      else if (k === 'Tempo') cur.tempo = parseFloat(v.replace(',', '.')) || null;
+    }
+  }
+  if (cur) raw.push(cur);
+
+  let t = 0, tempo = baseTempo;
+  const notes = raw.map((n) => {
+    if (n.tempo) tempo = n.tempo;
+    const d = n.len * 60000 / (tempo * 480);   // 480 ticks per beat
+    const note = { start: t, end: t + d, lyric: n.lyric };
+    t += d;
+    return note;
+  });
+  return { notes, duration: t, tempo: baseTempo };
+}
+
+/* ───── Lyric → vowel ───── */
+const KANA_VOWEL = {};
+[
+  ['a', 'あかがさざただなはばぱまやらわぁゃゎ'],
+  ['i', 'いきぎしじちぢにひびぴみりぃゐ'],
+  ['u', 'うくぐすずつづぬふぶぷむゆるぅゅゔ'],
+  ['e', 'えけげせぜてでねへべぺめれぇゑ'],
+  ['o', 'おこごそぞとどのほぼぽもよろをぉょ'],
+].forEach(([v, chars]) => { for (const c of chars) KANA_VOWEL[c] = v; });
+const LIP_CLOSERS = 'まみむめもばびぶべぼぱぴぷぺぽ';
+
+function toHiragana(s) {
+  return s.replace(/[\u30A1-\u30F6]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
+}
+function cleanLyric(lyric) {
+  let s = (lyric || '').trim();
+  if (s.includes(' ')) s = s.split(' ').pop();          // VCV like "a ka"
+  s = s.replace(/^-+/, '').replace(/[0-9↑↓]+$/g, '');    // "- ka", pitch suffixes
+  return toHiragana(s);
+}
+function vowelOf(lyric) {
+  const s = cleanLyric(lyric);
+  if (!s || /^(r|rest|br|息|吸)$/i.test(s)) return 'rest';
+  const last = s[s.length - 1];
+  if (last === 'ん') return 'closed';
+  if (last === 'っ') return 'closed';
+  if (last === 'ー' || last === '～' || last === '~') return 'hold';
+  if (KANA_VOWEL[last]) return KANA_VOWEL[last];
+  const low = s.toLowerCase();
+  if (low === 'n') return 'closed';
+  const m = low.match(/[aiueo]/);
+  return m ? m[0] : 'closed';
+}
+function startsWithLips(lyric) {
+  const s = cleanLyric(lyric);
+  if (!s) return false;
+  return LIP_CLOSERS.includes(s[0]) || /^[mbp]/i.test(s);
+}
+
+/* Build the list of "mouth open" moments for a song. */
+function buildMouth(notes) {
+  const kinds = notes.map((n) => vowelOf(n.lyric));
+  for (let i = 0; i < kinds.length; i++) {
+    if (kinds[i] === 'hold') kinds[i] = (i > 0 && kinds[i - 1].length === 1) ? kinds[i - 1] : 'closed';
+  }
+  const segs = [];
+  for (let i = 0; i < notes.length; i++) {
+    const v = kinds[i];
+    if (v.length !== 1) continue;                 // rest / closed
+    let { start, end } = notes[i];
+    const dur = end - start;
+    const nx = notes[i + 1];
+    if (nx && kinds[i + 1] !== 'rest') {
+      let cut = 0;
+      if (startsWithLips(nx.lyric)) cut = Math.min(LIP.closeBeforeLips, dur * 0.3);
+      else if (kinds[i + 1] === v) cut = Math.min(LIP.closeBeforeSameVowel, dur * 0.25);
+      end -= cut;
+    }
+    const last = segs[segs.length - 1];
+    if (last && last.v === v && start - last.end < 1) last.end = end;
+    else segs.push({ start, end, v });
+  }
+  return segs;
+}
+
+function segIndexAt(segs, t) {
+  let lo = 0, hi = segs.length - 1, ans = -1;
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1;
+    if (segs[mid].start <= t) { ans = mid; lo = mid + 1; } else hi = mid - 1;
+  }
+  return ans;
+}
+
+async function loadSong(song) {
+  try {
+    const res = await fetch(song.ust);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const parsed = parseUST(decodeUST(await res.arrayBuffer()));
+    song.mouth = buildMouth(parsed.notes);
+    song.duration = parsed.duration;
+    song.beatMs = 60000 / parsed.tempo;
+    song.loadError = null;
+  } catch (err) {
+    console.warn('Could not load', song.ust, err);
+    song.mouth = [];
+    song.loadError = (location.protocol === 'file:')
+      ? 'Lip sync data can’t load when the page is opened straight from your computer. Open it from your GitHub Pages link instead.'
+      : `Lip sync data didn’t load. Check that “${song.ust}” exists in your repository.`;
+  }
+}
+
+/* ───── Blinking ───── */
+const BLINK = [['blink1', 40], ['blink2', 40], ['blink3', 90], ['blink2', 40], ['blink1', 45]];
+let blink = null;           // { start, frames }
+let nextBlink = performance.now() + 1500;
+
+function startBlink(now, allowDouble) {
+  let frames = BLINK.slice();
+  if (allowDouble && Math.random() < 0.14) frames = frames.concat([['idle', 110]], BLINK);
+  blink = { start: now, frames };
+}
+function blinkKey(now) {
+  let t = now - blink.start;
+  for (const [k, d] of blink.frames) { if (t < d) return k; t -= d; }
+  return null;
+}
+
+/* ───── Player ───── */
+const state = { song: null, songIndex: -1, offset: 0, restIdx: -2, seeking: false };
+const clock = { ct: -1, perf: 0 };
+
+try { state.offset = parseInt(localStorage.getItem('sakiyo-offset') || '0', 10) || 0; } catch (_) {}
+
+function songTime(now) {
+  const ct = audio.currentTime;
+  if (ct !== clock.ct) { clock.ct = ct; clock.perf = now; }
+  if (audio.paused) return ct * 1000;
+  return Math.min(ct * 1000 + (now - clock.perf) * audio.playbackRate, ct * 1000 + 300);
+}
+
+function fmt(ms) {
+  if (!isFinite(ms) || ms < 0) ms = 0;
+  const s = Math.floor(ms / 1000);
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+}
+
+const lamps = {};
+document.querySelectorAll('.lamp').forEach((l) => { lamps[l.dataset.v] = l; });
+let litLamp = null;
+function setLamp(v) {
+  if (v === litLamp) return;
+  if (litLamp) lamps[litLamp].classList.remove('lit');
+  if (v) lamps[v].classList.add('lit');
+  litLamp = v;
+}
+
+let lastUi = 0;
+function frame(now) {
+  requestAnimationFrame(frame);
+  const song = state.song;
+  const playing = !!song && !audio.paused && !audio.ended && audio.readyState > 2;
+  let mouth = null;
+  let untilVowel = Infinity;
+  let t = 0;
+
+  if (playing && song.mouth.length) {
+    t = songTime(now) - state.offset;
+    const segs = song.mouth;
+    const idx = segIndexAt(segs, t);
+    if (idx >= 0 && t < segs[idx].end) {
+      mouth = segs[idx].v;
+    } else {
+      const next = segs[idx + 1];
+      untilVowel = next ? next.start - t : Infinity;
+      if (idx !== state.restIdx) {
+        state.restIdx = idx;
+        const gapStart = idx >= 0 ? segs[idx].end : 0;
+        const gap = (next ? next.start : Infinity) - gapStart;
+        if (gap >= LIP.restForBlink && untilVowel > 350) nextBlink = Math.min(nextBlink, now + rand(90, 240));
+      }
+    }
+  }
+
+  let key = null;
+  if (mouth) {
+    if (blink) { blink = null; nextBlink = now + rand(1500, 3500); }
+    key = mouth;
+  } else {
+    const canBlink = !playing || untilVowel >= 320;
+    if (!blink && now >= nextBlink && canBlink) startBlink(now, !playing || untilVowel > 720);
+    if (blink) {
+      key = blinkKey(now);
+      if (!key) { blink = null; nextBlink = now + rand(2200, 5200); }
+    }
+    key = key || 'idle';
+  }
+  setSprite(key);
+  setLamp(mouth);
+
+  // gentle sway to the beat
+  if (!reduceMotion) {
+    if (playing && song.beatMs) {
+      const p = (t / (song.beatMs * 4)) * Math.PI * 2;
+      body.style.transform = `translateY(${(-1.6 * Math.abs(Math.sin(p))).toFixed(2)}px) rotate(${(0.5 * Math.sin(p / 2)).toFixed(3)}deg)`;
+    } else if (body.style.transform) {
+      body.style.transform = '';
+    }
+  }
+
+  if (now - lastUi > 200 && song) {
+    lastUi = now;
+    const dur = (isFinite(audio.duration) && audio.duration > 0) ? audio.duration * 1000 : song.duration;
+    const pos = audio.currentTime * 1000;
+    if (!state.seeking) $('#seek').value = dur ? Math.round((pos / dur) * 1000) : 0;
+    $('#time').textContent = `${fmt(pos)} / ${fmt(dur)}`;
+  }
+}
+
+function setPlayIcon(isPlaying) {
+  $('#playIcon').setAttribute('d', isPlaying
+    ? 'M7 5h3.5v14H7zM13.5 5H17v14h-3.5z'
+    : 'M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z');
+  $('#playBtn').setAttribute('aria-label', isPlaying ? 'Pause' : 'Play');
+  document.body.classList.toggle('is-playing', isPlaying);
+}
+
+function sing(index) {
+  const song = SONGS[index];
+  closeBook();
+  if (state.songIndex !== index) {
+    state.song = song;
+    state.songIndex = index;
+    audio.src = song.audio;
+    audio.preload = 'auto';
+    $('#npTitle').textContent = song.title;
+    $('#seek').disabled = false;
+    $('#playBtn').disabled = false;
+  } else {
+    audio.currentTime = 0;
+  }
+  state.restIdx = -2;
+  $('#npSub').textContent = 'Loading her voice…';
+  audio.play().catch((err) => {
+    if (err && err.name === 'NotAllowedError') $('#npSub').textContent = 'Press play to start.';
+  });
+  if (song.loadError) toast(song.loadError, 9000);
+}
+
+function subline() {
+  const s = state.song;
+  return s ? `${s.romaji} by ${s.producer}` : '';
+}
+
+audio.addEventListener('playing', () => { $('#npSub').textContent = 'Singing ' + subline(); setPlayIcon(true); });
+audio.addEventListener('waiting', () => { $('#npSub').textContent = 'Loading her voice…'; });
+audio.addEventListener('pause', () => { if (!audio.ended) $('#npSub').textContent = 'Paused'; setPlayIcon(false); });
+audio.addEventListener('ended', () => {
+  setPlayIcon(false);
+  $('#npSub').textContent = 'All done. Play it again or pick another song.';
+});
+audio.addEventListener('seeked', () => { state.restIdx = -2; clock.ct = -1; });
+audio.addEventListener('error', () => {
+  if (!audio.getAttribute('src')) return;
+  setPlayIcon(false);
+  $('#npSub').textContent = 'The song file didn’t load.';
+  toast('The song’s audio file couldn’t be loaded. Check that its link in SONGS opens in your browser.', 9000);
+});
+
+$('#playBtn').addEventListener('click', togglePlay);
+function togglePlay() {
+  if (!state.song) { openBook(); return; }
+  if (audio.paused || audio.ended) audio.play().catch(() => {});
+  else audio.pause();
+}
+
+const seek = $('#seek');
+seek.addEventListener('pointerdown', () => { state.seeking = true; });
+seek.addEventListener('input', () => {
+  state.seeking = true;
+  const dur = isFinite(audio.duration) ? audio.duration : (state.song ? state.song.duration / 1000 : 0);
+  $('#time').textContent = `${fmt(seek.value / 1000 * dur * 1000)} / ${fmt(dur * 1000)}`;
+});
+seek.addEventListener('change', () => {
+  const dur = isFinite(audio.duration) ? audio.duration : (state.song ? state.song.duration / 1000 : 0);
+  if (dur) audio.currentTime = (seek.value / 1000) * dur;
+  state.seeking = false;
+});
+
+/* Timing panel */
+const offsetInput = $('#offset');
+function showOffset() {
+  offsetInput.value = state.offset;
+  $('#offsetVal').textContent = (state.offset > 0 ? '+' : '') + state.offset + ' ms';
+}
+offsetInput.addEventListener('input', () => {
+  state.offset = parseInt(offsetInput.value, 10) || 0;
+  showOffset();
+  try { localStorage.setItem('sakiyo-offset', String(state.offset)); } catch (_) {}
+});
+$('#offsetReset').addEventListener('click', () => {
+  state.offset = 0; showOffset();
+  try { localStorage.setItem('sakiyo-offset', '0'); } catch (_) {}
+});
+$('#timingBtn').addEventListener('click', () => {
+  const p = $('#timingPanel');
+  p.hidden = !p.hidden;
+  $('#timingBtn').setAttribute('aria-expanded', String(!p.hidden));
+});
+showOffset();
+
+sakiyo.addEventListener('click', () => {
+  if (!blink && (!state.song || audio.paused)) startBlink(performance.now(), false);
+});
+
+/* ───── The song book ───── */
+const bookEl = $('#book');
+let pages = [];
+let leaves = [];
+let cur = 0;
+
+function pageHTML(p, pageNo) {
+  const num = pageNo ? `<span class="pgno">${pageNo}</span>` : '';
+  switch (p.type) {
+    case 'cover':
+      return `<svg class="heart" viewBox="0 0 32 29" aria-hidden="true"><path fill="#FFFBF3" d="M16 28.5S0 19 0 8.6A8.3 8.3 0 0 1 16 5a8.3 8.3 0 0 1 16 3.6C32 19 16 28.5 16 28.5z"/></svg>
+        <div class="cover-label"><h1>Sakiyo’s<br>song book</h1><p>重音さきよ</p></div>
+        <p class="cover-hint">Tap to open</p>`;
+    case 'toc':
+      return `<h2>Songs</h2>
+        <p class="lead">Turn to a song and tap “Sing this song.” Sakiyo will sing it for you at the mic.</p>
+        <ol>${SONGS.map((s, i) => `<li><button data-goto="${p.songPages[i]}"><span class="toc-title">${s.title}</span><span class="toc-dots"></span><span>${p.songPageNos[i]}</span></button></li>`).join('')}</ol>${num}`;
+    case 'song': {
+      const s = p.song;
+      return `<div class="tape" aria-hidden="true"></div>
+        <div class="song-num" aria-hidden="true">${p.n}</div>
+        <h2 lang="ja">${s.title}</h2>
+        <p class="romaji">${s.romaji}</p>
+        ${s.aka ? `<p class="aka">${s.aka}</p>` : ''}
+        <p class="by">by <span lang="ja">${s.producer}</span></p>
+        <p class="len">${s.duration ? fmt(s.duration) : ''}</p>
+        ${s.loadError ? `<p class="warn">${s.loadError}</p>` : ''}
+        <button class="btn-sing" data-sing="${p.index}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>
+          Sing this song
+        </button>${num}`;
+    }
+    case 'soon':
+      return `<p>More songs<br>coming soon ♪</p><p class="small">Sakiyo is practicing.</p>${num}`;
+    default:
+      return '';
+  }
+}
+function pageClass(p) {
+  return {
+    cover: 'cover', back: 'backcover', endpaper: 'endpaper',
+    toc: 'page toc', song: 'page songpage', soon: 'page soon',
+  }[p.type];
+}
+
+function buildBook() {
+  pages = [{ type: 'cover' }, { type: 'toc', songPages: [], songPageNos: [] }];
+  SONGS.forEach((song, i) => {
+    pages[1].songPages.push(pages.length);
+    pages[1].songPageNos.push(pages.length);   // printed page number (toc is page 1)
+    pages.push({ type: 'song', song, index: i, n: i + 1 });
+  });
+  pages.push({ type: 'soon' });
+  if ((pages.length + 1) % 2) pages.push({ type: 'endpaper' });
+  pages.push({ type: 'back' });
+
+  bookEl.innerHTML = '';
+  leaves = [];
+  for (let i = 0; i < pages.length; i += 2) {
+    const leaf = document.createElement('div');
+    leaf.className = 'leaf';
+    const li = i / 2;
+    [[pages[i], 'front', i], [pages[i + 1], 'back', i + 1]].forEach(([p, side, k]) => {
+      const face = document.createElement('div');
+      face.className = `face ${side} ${pageClass(p)}`;
+      const pageNo = (k >= 1 && k < pages.length - 1 && p.type !== 'endpaper') ? k : 0;
+      face.innerHTML = pageHTML(p, pageNo);
+      face.addEventListener('click', (e) => {
+        if (e.target.closest('button')) return;
+        if (side === 'front' && cur === li) go(li + 1);
+        if (side === 'back' && cur === li + 1) go(li);
+      });
+      leaf.appendChild(face);
+    });
+    bookEl.appendChild(leaf);
+    leaves.push(leaf);
+  }
+  bookEl.querySelectorAll('[data-sing]').forEach((b) => b.addEventListener('click', () => sing(+b.dataset.sing)));
+  bookEl.querySelectorAll('[data-goto]').forEach((b) => b.addEventListener('click', () => go(Math.ceil(+b.dataset.goto / 2))));
+  layoutBook(true);
+}
+
+const narrowBook = window.matchMedia('(max-width: 640px)');
+function bookShift() {
+  const L = leaves.length;
+  if (cur === L) return 'translateX(25%)';
+  if (cur === 0 || narrowBook.matches) return 'translateX(-25%)';
+  return 'translateX(0)';
+}
+function whereText() {
+  const L = leaves.length;
+  if (cur === 0) return 'Cover';
+  if (cur === L) return 'Back cover';
+  return narrowBook.matches ? `Page ${2 * cur}` : `Pages ${2 * cur - 1}–${2 * cur}`;
+}
+narrowBook.addEventListener && narrowBook.addEventListener('change', () => { if (leaves.length) layoutBook(); });
+function leafTransform(i, flipped) {
+  const L = leaves.length;
+  const z = flipped ? -(i + 1) * 0.7 : (L - i) * 0.7;
+  return `rotateY(${flipped ? -180 : 0}deg) translateZ(${z}px)`;
+}
+function layoutBook() {
+  const L = leaves.length;
+  leaves.forEach((leaf, i) => {
+    const flipped = i < cur;
+    leaf.style.transform = leafTransform(i, flipped);
+    leaf.style.zIndex = flipped ? i + 1 : L - i;
+  });
+  bookEl.style.transform = bookShift();
+  $('#prevPage').disabled = cur === 0;
+  $('#nextPage').disabled = cur === L;
+  $('#where').textContent = whereText();
+}
+
+let flipTimers = [];
+function go(target) {
+  const L = leaves.length;
+  target = Math.max(0, Math.min(L, target));
+  if (target === cur) return;
+  flipTimers.forEach(clearTimeout);
+  flipTimers = [];
+  const step = reduceMotion ? 0 : 140;
+  const from = cur;
+  cur = target;
+  $('#prevPage').disabled = cur === 0;
+  $('#nextPage').disabled = cur === L;
+  bookEl.style.transform = bookShift();
+  $('#where').textContent = whereText();
+  const order = [];
+  if (target > from) for (let i = from; i < target; i++) order.push(i);
+  else for (let i = from - 1; i >= target; i--) order.push(i);
+  order.forEach((i, n) => {
+    flipTimers.push(setTimeout(() => {
+      leaves[i].style.zIndex = 100 + n;
+      leaves[i].style.transform = leafTransform(i, i < cur);
+    }, n * step));
+  });
+  flipTimers.push(setTimeout(layoutBook, order.length * step + 950));
+}
+
+let lastFocus = null;
+function openBook() {
+  lastFocus = document.activeElement;
+  const ov = $('#bookOverlay');
+  ov.hidden = false;
+  cur = 0;
+  layoutBook();
+  const target = state.songIndex >= 0 ? Math.ceil(pages[1].songPages[state.songIndex] / 2) : 1;  // first song sits on page 2, right side of spread 1
+  setTimeout(() => go(target), reduceMotion ? 0 : 320);
+  $('#closeBook').focus();
+}
+function closeBook() {
+  $('#bookOverlay').hidden = true;
+  if (lastFocus && lastFocus.focus) lastFocus.focus();
+}
+
+$('#openBook').addEventListener('click', openBook);
+$('#deskBook').addEventListener('click', openBook);
+$('#closeBook').addEventListener('click', closeBook);
+$('#prevPage').addEventListener('click', () => go(cur - 1));
+$('#nextPage').addEventListener('click', () => go(cur + 1));
+$('#bookOverlay').addEventListener('click', (e) => { if (e.target.id === 'bookOverlay') closeBook(); });
+
+document.addEventListener('keydown', (e) => {
+  const bookOpen = !$('#bookOverlay').hidden;
+  if (bookOpen) {
+    if (e.key === 'Escape') closeBook();
+    else if (e.key === 'ArrowRight') go(cur + 1);
+    else if (e.key === 'ArrowLeft') go(cur - 1);
+    return;
+  }
+  if (e.target.closest('input, button')) return;
+  if (e.key === ' ') { e.preventDefault(); togglePlay(); }
+  else if (e.key.toLowerCase() === 'b') openBook();
+});
+
+/* ───── Start ───── */
+(async function start() {
+  await Promise.all([loadSprites(), Promise.all(SONGS.map(loadSong))]);
+  if (!spriteOk.idle) {
+    const miss = document.createElement('div');
+    miss.className = 'sprite-missing';
+    miss.textContent = 'Sakiyo’s sprites didn’t load. Check SPRITE_BASE and the names in SPRITES.';
+    body.appendChild(miss);
+  }
+  const missing = Object.keys(SPRITES).filter((k) => !spriteOk[k]);
+  if (missing.length && spriteOk.idle) toast('Some sprites didn’t load: ' + missing.map((k) => `“${SPRITES[k]}”`).join(', '), 9000);
+  buildBook();
+  $('#npSub').textContent = 'Sakiyo is ready to sing.';
+  $('#playBtn').disabled = false;
+  setSprite('idle');
+  $('#loader').classList.add('gone');
+  requestAnimationFrame(frame);
+})();
+
+})();
+</script>
+</body>
+</html>
