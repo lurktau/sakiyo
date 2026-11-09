@@ -815,6 +815,15 @@ const SONGS = [
     ust:      'songs/fukkireta.ust',
     color:    '#EC4F86',
   },
+  {
+    title:    'Kiss me 愛してる',
+    romaji:   'Kiss Me Aishiteru',
+    aka:      'also known as “Kiss Me I Love You”',
+    producer: '°C-ute',
+    audio:    'https://file.garden/ZyUgbYyEhGi7VILo/sakiyo/wavs/kiss%20me%20aishiteru.wav',
+    ust:      'songs/kiss.ust',
+    color:    '#9A5FD6',
+  },
 ];
 
 // Karaoke line breaking.
@@ -1454,8 +1463,9 @@ function buildBook() {
       face.className = `face ${side} ${pageClass(p)}`;
       const pageNo = (k >= 1 && k < pages.length - 1 && p.type !== 'endpaper') ? k : 0;
       face.innerHTML = pageHTML(p, pageNo);
+      if (p.type === 'song' && p.song.color) face.style.setProperty('--song', p.song.color);
       face.addEventListener('click', (e) => {
-        const visible = (side === 'front' && cur === li) || (side === 'back' && cur === li + 1);
+        const visible = faceVisible(side, li);
         if (!visible) return;
         // The 3D book can confuse the browser about what was clicked,
         // so check what's really under the pointer before turning the page.
@@ -1467,7 +1477,8 @@ function buildBook() {
           if (under !== e.target.closest('button')) pressBookButton(under);
           return;
         }
-        go(side === 'front' ? li + 1 : li);
+        if (narrowBook.matches) step(1);
+        else go(side === 'front' ? li + 1 : li);
       });
       leaf.appendChild(face);
     });
@@ -1481,23 +1492,63 @@ function buildBook() {
   layoutBook(true);
 }
 
+// On phones the book shows one page at a time; showLeft says which half of the spread.
 const narrowBook = window.matchMedia('(max-width: 640px)');
+let showLeft = false;
 function bookShift() {
   const L = leaves.length;
   if (cur === L) return 'translateX(25%)';
-  if (cur === 0 || narrowBook.matches) return 'translateX(-25%)';
+  if (cur === 0) return 'translateX(-25%)';
+  if (narrowBook.matches) return showLeft ? 'translateX(25%)' : 'translateX(-25%)';
   return 'translateX(0)';
+}
+function currentPos() {
+  const L = leaves.length;
+  if (cur === 0) return 0;
+  if (cur === L) return 2 * L - 1;
+  return showLeft ? 2 * cur - 1 : 2 * cur;
 }
 function whereText() {
   const L = leaves.length;
   if (cur === 0) return 'Cover';
   if (cur === L) return 'Back cover';
-  return narrowBook.matches ? `Page ${2 * cur}` : `Pages ${2 * cur - 1}–${2 * cur}`;
+  return narrowBook.matches ? `Page ${currentPos()}` : `Pages ${2 * cur - 1}–${2 * cur}`;
 }
-narrowBook.addEventListener && narrowBook.addEventListener('change', () => { if (leaves.length) layoutBook(); });
+function faceVisible(side, li) {
+  const L = leaves.length;
+  if (!narrowBook.matches) return (side === 'front' && cur === li) || (side === 'back' && cur === li + 1);
+  if (side === 'front') return cur === li && (cur === 0 || !showLeft);
+  return cur === li + 1 && (showLeft || cur === L);
+}
+function updateNav() {
+  const L = leaves.length;
+  if (narrowBook.matches) {
+    $('#prevPage').disabled = currentPos() === 0;
+    $('#nextPage').disabled = currentPos() === 2 * L - 1;
+  } else {
+    $('#prevPage').disabled = cur === 0;
+    $('#nextPage').disabled = cur === L;
+  }
+  bookEl.style.transform = bookShift();
+  $('#where').textContent = whereText();
+}
+// Go to a page by its number in the book (0 = cover, 1 = contents, ...).
+function goPage(k) {
+  const L = leaves.length;
+  k = Math.max(0, Math.min(2 * L - 1, k));
+  if (!narrowBook.matches) { go(Math.ceil(k / 2)); return; }
+  const target = Math.ceil(k / 2);
+  showLeft = k % 2 === 1;
+  if (target === cur) updateNav(); else go(target);
+}
+function step(dir) {
+  if (narrowBook.matches) goPage(currentPos() + dir);
+  else go(cur + dir);
+}
+narrowBook.addEventListener && narrowBook.addEventListener('change', () => { showLeft = false; if (leaves.length) layoutBook(); });
 function pressBookButton(b) {
   if (b.dataset.sing !== undefined) sing(+b.dataset.sing);
-  else if (b.dataset.goto !== undefined) go(Math.ceil(+b.dataset.goto / 2));
+  else if (b.dataset.goto !== undefined) goPage(+b.dataset.goto);
 }
 function leafTransform(i, flipped) {
   const L = leaves.length;
@@ -1511,10 +1562,7 @@ function layoutBook() {
     leaf.style.transform = leafTransform(i, flipped);
     leaf.style.zIndex = flipped ? i + 1 : L - i;
   });
-  bookEl.style.transform = bookShift();
-  $('#prevPage').disabled = cur === 0;
-  $('#nextPage').disabled = cur === L;
-  $('#where').textContent = whereText();
+  updateNav();
 }
 
 let flipTimers = [];
@@ -1527,10 +1575,7 @@ function go(target) {
   const step = reduceMotion ? 0 : 140;
   const from = cur;
   cur = target;
-  $('#prevPage').disabled = cur === 0;
-  $('#nextPage').disabled = cur === L;
-  bookEl.style.transform = bookShift();
-  $('#where').textContent = whereText();
+  updateNav();
   const order = [];
   if (target > from) for (let i = from; i < target; i++) order.push(i);
   else for (let i = from - 1; i >= target; i--) order.push(i);
@@ -1549,9 +1594,11 @@ function openBook() {
   const ov = $('#bookOverlay');
   ov.hidden = false;
   cur = 0;
+  showLeft = false;
   layoutBook();
-  const target = state.songIndex >= 0 ? Math.ceil(pages[1].songPages[state.songIndex] / 2) : 1;  // first song sits on page 2, right side of spread 1
-  setTimeout(() => go(target), reduceMotion ? 0 : 320);
+  // reopen at the current song, or at the contents page the first time
+  const page = state.songIndex >= 0 ? pages[1].songPages[state.songIndex] : 1;
+  setTimeout(() => goPage(page), reduceMotion ? 0 : 320);
   $('#closeBook').focus();
 }
 function closeBook() {
@@ -1562,16 +1609,16 @@ function closeBook() {
 $('#openBook').addEventListener('click', openBook);
 $('#deskBook').addEventListener('click', openBook);
 $('#closeBook').addEventListener('click', closeBook);
-$('#prevPage').addEventListener('click', () => go(cur - 1));
-$('#nextPage').addEventListener('click', () => go(cur + 1));
+$('#prevPage').addEventListener('click', () => step(-1));
+$('#nextPage').addEventListener('click', () => step(1));
 $('#bookOverlay').addEventListener('click', (e) => { if (e.target.id === 'bookOverlay') closeBook(); });
 
 document.addEventListener('keydown', (e) => {
   const bookOpen = !$('#bookOverlay').hidden;
   if (bookOpen) {
     if (e.key === 'Escape') closeBook();
-    else if (e.key === 'ArrowRight') go(cur + 1);
-    else if (e.key === 'ArrowLeft') go(cur - 1);
+    else if (e.key === 'ArrowRight') step(1);
+    else if (e.key === 'ArrowLeft') step(-1);
     return;
   }
   if (e.target.closest('input, button')) return;
